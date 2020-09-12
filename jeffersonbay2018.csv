@@ -1,0 +1,1684 @@
+NAME,male_popE,female_popE,poverty_100E,poverty_149E,poverty_150E,pub_assistE,cash_assistE,no_assistE,majority_hs_grads,region,county
+"Census Tract 1, Modoc County, California",1856,1651,783,398,2228,1528,251,1511,TRUE,Jefferson,Modoc
+"Census Tract 2, Modoc County, California",775,745,171,263,1077,627,55,623,TRUE,Jefferson,Modoc
+"Census Tract 4, Modoc County, California",528,553,133,183,750,480,16,476,TRUE,Jefferson,Modoc
+"Census Tract 3, Modoc County, California",1454,1376,348,458,1864,1025,49,1003,TRUE,Jefferson,Modoc
+"Census Tract 405, Lassen County, California",1661,1622,240,265,2774,1363,125,1289,TRUE,Jefferson,Lassen
+"Census Tract 406, Lassen County, California",2238,909,330,191,1399,957,135,902,TRUE,Jefferson,Lassen
+"Census Tract 403.02, Lassen County, California",2274,1839,220,455,3398,1691,103,1660,TRUE,Jefferson,Lassen
+"Census Tract 404, Lassen County, California",8829,524,235,44,804,463,46,433,TRUE,Jefferson,Lassen
+"Census Tract 402, Lassen County, California",1307,1369,280,161,2212,1242,111,1216,TRUE,Jefferson,Lassen
+"Census Tract 401, Lassen County, California",818,684,175,172,1063,697,56,693,TRUE,Jefferson,Lassen
+"Census Tract 403.03, Lassen County, California",1422,1115,538,293,1499,1125,137,1084,TRUE,Jefferson,Lassen
+"Census Tract 403.04, Lassen County, California",732,766,475,114,820,663,96,591,TRUE,Jefferson,Lassen
+"Census Tract 403.05, Lassen County, California",1390,1686,440,229,2404,1292,91,1253,TRUE,Jefferson,Lassen
+"Census Tract 1, Plumas County, California",3004,2799,744,336,4503,2186,302,2113,TRUE,Jefferson,Plumas
+"Census Tract 4, Plumas County, California",1448,1334,390,183,2209,1166,109,1122,TRUE,Jefferson,Plumas
+"Census Tract 2.01, Plumas County, California",671,670,40,121,1180,671,38,665,TRUE,Jefferson,Plumas
+"Census Tract 2.02, Plumas County, California",453,541,30,75,858,495,27,488,TRUE,Jefferson,Plumas
+"Census Tract 3, Plumas County, California",1896,2048,551,307,3055,1753,147,1735,TRUE,Jefferson,Plumas
+"Census Tract 5.01, Plumas County, California",1107,1009,189,300,1595,955,64,932,TRUE,Jefferson,Plumas
+"Census Tract 5.02, Plumas County, California",844,875,202,177,1340,821,39,821,TRUE,Jefferson,Plumas
+"Census Tract 104, Shasta County, California",2071,2134,748,730,2698,1610,144,1592,TRUE,Jefferson,Shasta
+"Census Tract 111, Shasta County, California",1523,1603,252,237,2610,1210,84,1165,TRUE,Jefferson,Shasta
+"Census Tract 122, Shasta County, California",2838,3099,1901,523,3508,2156,280,2032,TRUE,Jefferson,Shasta
+"Census Tract 126.01, Shasta County, California",2476,2494,799,532,3481,1990,172,1934,TRUE,Jefferson,Shasta
+"Census Tract 127.02, Shasta County, California",1354,1377,413,173,2104,1107,143,1107,TRUE,Jefferson,Shasta
+"Census Tract 105, Shasta County, California",2703,2904,1190,816,3366,2145,146,2105,TRUE,Jefferson,Shasta
+"Census Tract 116, Shasta County, California",2208,1625,673,570,2583,1455,174,1394,TRUE,Jefferson,Shasta
+"Census Tract 119, Shasta County, California",2209,2172,353,417,3586,1683,61,1670,TRUE,Jefferson,Shasta
+"Census Tract 123.01, Shasta County, California",1392,1257,639,389,1621,1122,195,1052,TRUE,Jefferson,Shasta
+"Census Tract 123.02, Shasta County, California",2842,2519,468,347,4546,2063,165,2022,TRUE,Jefferson,Shasta
+"Census Tract 109, Shasta County, California",1894,2342,1202,549,2328,1706,217,1666,TRUE,Jefferson,Shasta
+"Census Tract 123.03, Shasta County, California",1892,2023,413,187,3287,1513,134,1505,TRUE,Jefferson,Shasta
+"Census Tract 124, Shasta County, California",2048,1762,529,332,2939,1545,115,1524,TRUE,Jefferson,Shasta
+"Census Tract 113, Shasta County, California",2130,2743,875,768,3197,1863,241,1772,TRUE,Jefferson,Shasta
+"Census Tract 125, Shasta County, California",818,805,397,150,1031,717,78,702,TRUE,Jefferson,Shasta
+"Census Tract 120, Shasta County, California",2347,2324,961,932,2772,1776,451,1681,TRUE,Jefferson,Shasta
+"Census Tract 127.01, Shasta County, California",2386,2543,1212,450,3196,1809,306,1664,TRUE,Jefferson,Shasta
+"Census Tract 107.02, Shasta County, California",1744,1874,624,273,2683,1573,226,1517,TRUE,Jefferson,Shasta
+"Census Tract 102, Shasta County, California",1167,1297,786,190,1482,1125,177,1093,TRUE,Jefferson,Shasta
+"Census Tract 115, Shasta County, California",2349,3260,698,381,4513,2176,329,2100,TRUE,Jefferson,Shasta
+"Census Tract 101, Shasta County, California",901,593,350,223,556,733,133,727,TRUE,Jefferson,Shasta
+"Census Tract 103, Shasta County, California",2043,2143,803,444,2912,1532,201,1471,TRUE,Jefferson,Shasta
+"Census Tract 106.01, Shasta County, California",1285,1169,107,43,2304,948,54,937,FALSE,Jefferson,Shasta
+"Census Tract 106.02, Shasta County, California",2568,3011,642,421,4495,2423,143,2347,TRUE,Jefferson,Shasta
+"Census Tract 106.03, Shasta County, California",827,789,201,58,1357,566,59,553,TRUE,Jefferson,Shasta
+"Census Tract 107.03, Shasta County, California",1422,1861,606,423,2247,1671,169,1634,TRUE,Jefferson,Shasta
+"Census Tract 107.04, Shasta County, California",1701,2203,1242,440,2222,1839,342,1734,TRUE,Jefferson,Shasta
+"Census Tract 108.03, Shasta County, California",2895,3037,1278,785,3838,2315,386,2264,TRUE,Jefferson,Shasta
+"Census Tract 108.04, Shasta County, California",1361,1299,305,174,1638,876,38,853,FALSE,Jefferson,Shasta
+"Census Tract 108.05, Shasta County, California",2255,2618,720,261,3872,1883,105,1841,TRUE,Jefferson,Shasta
+"Census Tract 108.06, Shasta County, California",1457,1449,473,324,2109,1401,194,1336,TRUE,Jefferson,Shasta
+"Census Tract 108.07, Shasta County, California",2174,2421,406,310,3717,1703,89,1691,TRUE,Jefferson,Shasta
+"Census Tract 110.01, Shasta County, California",819,890,192,61,1449,631,42,616,FALSE,Jefferson,Shasta
+"Census Tract 110.02, Shasta County, California",2524,2570,630,458,3974,2060,313,1897,TRUE,Jefferson,Shasta
+"Census Tract 112.09, Shasta County, California",3160,3217,1784,980,3261,2178,600,2063,TRUE,Jefferson,Shasta
+"Census Tract 114.01, Shasta County, California",1879,2005,448,179,3241,1501,123,1455,TRUE,Jefferson,Shasta
+"Census Tract 114.02, Shasta County, California",1697,1596,191,176,2926,1151,47,1151,TRUE,Jefferson,Shasta
+"Census Tract 114.03, Shasta County, California",1347,1558,194,145,2547,1057,25,1032,TRUE,Jefferson,Shasta
+"Census Tract 117.01, Shasta County, California",1323,1127,295,164,1909,853,100,820,TRUE,Jefferson,Shasta
+"Census Tract 117.02, Shasta County, California",1690,1786,731,315,2416,1300,365,1218,TRUE,Jefferson,Shasta
+"Census Tract 117.03, Shasta County, California",1713,1652,591,485,2289,1219,149,1137,TRUE,Jefferson,Shasta
+"Census Tract 118.01, Shasta County, California",1152,1203,329,140,1875,914,85,889,TRUE,Jefferson,Shasta
+"Census Tract 121.02, Shasta County, California",895,1068,342,342,1279,893,139,837,TRUE,Jefferson,Shasta
+"Census Tract 118.02, Shasta County, California",1450,1359,311,120,2364,961,62,943,TRUE,Jefferson,Shasta
+"Census Tract 118.03, Shasta County, California",1350,1159,297,383,1816,1067,150,1006,TRUE,Jefferson,Shasta
+"Census Tract 121.01, Shasta County, California",2258,2387,781,314,3438,1756,222,1676,TRUE,Jefferson,Shasta
+"Census Tract 126.03, Shasta County, California",2157,1923,493,279,3226,1749,133,1712,TRUE,Jefferson,Shasta
+"Census Tract 126.04, Shasta County, California",1165,976,311,120,1691,949,20,939,TRUE,Jefferson,Shasta
+"Census Tract 4, Trinity County, California",442,404,221,173,452,385,3,385,TRUE,Jefferson,Trinity
+"Census Tract 2, Trinity County, California",1004,1020,335,139,1515,995,108,934,TRUE,Jefferson,Trinity
+"Census Tract 3, Trinity County, California",1404,1620,539,549,1936,1353,231,1228,TRUE,Jefferson,Trinity
+"Census Tract 1.01, Trinity County, California",1444,1141,616,272,1669,1115,142,1057,TRUE,Jefferson,Trinity
+"Census Tract 1.02, Trinity County, California",2288,2095,780,653,2779,1948,234,1838,TRUE,Jefferson,Trinity
+"Census Tract 12, Siskiyou County, California",691,626,213,153,937,634,64,612,TRUE,Jefferson,Siskiyou
+"Census Tract 6, Siskiyou County, California",998,817,383,167,1265,781,67,767,TRUE,Jefferson,Siskiyou
+"Census Tract 7.02, Siskiyou County, California",2100,2338,1239,588,2520,1980,437,1768,TRUE,Jefferson,Siskiyou
+"Census Tract 8, Siskiyou County, California",1824,1734,598,538,2422,1529,197,1498,TRUE,Jefferson,Siskiyou
+"Census Tract 11, Siskiyou County, California",894,995,441,232,1214,912,151,867,TRUE,Jefferson,Siskiyou
+"Census Tract 9, Siskiyou County, California",3668,3613,1201,696,5239,3133,447,2970,TRUE,Jefferson,Siskiyou
+"Census Tract 7.01, Siskiyou County, California",1928,1858,404,355,2991,1595,139,1560,TRUE,Jefferson,Siskiyou
+"Census Tract 2, Siskiyou County, California",963,819,411,364,1007,711,85,665,TRUE,Jefferson,Siskiyou
+"Census Tract 4, Siskiyou County, California",318,266,135,55,385,284,41,272,FALSE,Jefferson,Siskiyou
+"Census Tract 5, Siskiyou County, California",969,940,562,230,1081,856,154,792,TRUE,Jefferson,Siskiyou
+"Census Tract 3, Siskiyou County, California",2165,2020,604,520,3046,1719,248,1642,TRUE,Jefferson,Siskiyou
+"Census Tract 10, Siskiyou County, California",3073,3458,1189,457,4885,3223,206,3192,TRUE,Jefferson,Siskiyou
+"Census Tract 1, Siskiyou County, California",594,533,424,139,561,409,61,402,FALSE,Jefferson,Siskiyou
+"Census Tract 7.03, Siskiyou County, California",1521,1817,570,221,2524,1491,257,1331,TRUE,Jefferson,Siskiyou
+"Census Tract 2.03, Del Norte County, California",606,618,371,168,575,425,126,381,TRUE,Jefferson,Del Norte
+"Census Tract 2.02, Del Norte County, California",1897,1769,556,283,2806,1463,159,1425,TRUE,Jefferson,Del Norte
+"Census Tract 1.02, Del Norte County, California",1665,1753,1226,299,1881,1399,259,1320,TRUE,Jefferson,Del Norte
+"Census Tract 1.01, Del Norte County, California",2004,1957,1482,461,1862,1751,580,1570,TRUE,Jefferson,Del Norte
+"Census Tract 2.01, Del Norte County, California",4254,1891,519,347,2493,1411,213,1295,TRUE,Jefferson,Del Norte
+"Census Tract 1.04, Del Norte County, California",944,1390,693,363,1268,815,136,799,TRUE,Jefferson,Del Norte
+"Census Tract 1.05, Del Norte County, California",3205,3471,611,323,5632,2535,301,2479,TRUE,Jefferson,Del Norte
+"Census Tract 9900, Del Norte County, California",0,0,0,0,0,0,0,0,NA,Jefferson,Del Norte
+"Census Tract 4415.01, Alameda County, California",3367,3203,271,91,6184,1796,50,1777,TRUE,Bay,Alameda
+"Census Tract 4047, Alameda County, California",948,1131,58,12,2009,790,15,775,FALSE,Bay,Alameda
+"Census Tract 4425, Alameda County, California",3683,4065,462,401,6624,2264,168,2096,TRUE,Bay,Alameda
+"Census Tract 4503, Alameda County, California",2587,2714,282,83,4936,1814,83,1787,TRUE,Bay,Alameda
+"Census Tract 4506.07, Alameda County, California",2922,3049,710,246,5015,2445,79,2408,TRUE,Bay,Alameda
+"Census Tract 4049, Alameda County, California",1849,2124,186,194,3593,1874,0,1874,FALSE,Bay,Alameda
+"Census Tract 4052, Alameda County, California",2485,2703,334,594,4260,2427,179,2338,TRUE,Bay,Alameda
+"Census Tract 4063, Alameda County, California",2115,2310,1190,635,2600,1239,183,1208,TRUE,Bay,Alameda
+"Census Tract 4001, Alameda County, California",1539,1576,111,32,2962,1297,11,1286,FALSE,Bay,Alameda
+"Census Tract 4008, Alameda County, California",1818,1974,462,407,2923,1626,122,1615,TRUE,Bay,Alameda
+"Census Tract 4010, Alameda County, California",2934,3090,1208,418,4390,2439,427,2204,TRUE,Bay,Alameda
+"Census Tract 4007, Alameda County, California",2590,2526,659,749,3698,1947,217,1839,TRUE,Bay,Alameda
+"Census Tract 4027, Alameda County, California",966,876,427,143,1257,682,114,627,FALSE,Bay,Alameda
+"Census Tract 4029, Alameda County, California",721,706,331,253,750,899,72,894,FALSE,Bay,Alameda
+"Census Tract 4034, Alameda County, California",2219,2398,506,307,3783,2857,141,2842,TRUE,Bay,Alameda
+"Census Tract 4046, Alameda County, California",2184,2504,154,118,4414,1784,20,1784,FALSE,Bay,Alameda
+"Census Tract 4062.01, Alameda County, California",2439,2419,1279,561,2897,1493,398,1426,TRUE,Bay,Alameda
+"Census Tract 4068, Alameda County, California",1573,1937,248,269,2987,1351,71,1333,FALSE,Bay,Alameda
+"Census Tract 4078, Alameda County, California",908,1826,196,136,1563,757,36,743,FALSE,Bay,Alameda
+"Census Tract 4080, Alameda County, California",1317,1401,88,65,2127,1010,27,1000,FALSE,Bay,Alameda
+"Census Tract 4205, Alameda County, California",1132,1405,198,133,2167,977,30,970,FALSE,Bay,Alameda
+"Census Tract 4082, Alameda County, California",2153,2302,807,353,3268,1855,251,1786,TRUE,Bay,Alameda
+"Census Tract 4099, Alameda County, California",1762,1918,352,121,3159,1420,87,1403,TRUE,Bay,Alameda
+"Census Tract 4202, Alameda County, California",1630,1670,212,188,2844,1251,48,1228,FALSE,Bay,Alameda
+"Census Tract 4216, Alameda County, California",1826,1872,281,79,3338,1572,6,1566,FALSE,Bay,Alameda
+"Census Tract 4219, Alameda County, California",1939,2081,275,98,3633,1665,63,1610,FALSE,Bay,Alameda
+"Census Tract 4222, Alameda County, California",1641,1706,306,88,2953,1530,61,1504,TRUE,Bay,Alameda
+"Census Tract 4357, Alameda County, California",2363,2560,767,207,3949,1432,108,1391,TRUE,Bay,Alameda
+"Census Tract 4361, Alameda County, California",3112,3034,584,240,5322,1807,144,1715,TRUE,Bay,Alameda
+"Census Tract 4402, Alameda County, California",3302,2959,509,254,5492,1516,306,1277,TRUE,Bay,Alameda
+"Census Tract 4403.08, Alameda County, California",3165,2691,215,297,5334,1974,55,1927,TRUE,Bay,Alameda
+"Census Tract 4431.03, Alameda County, California",1921,2016,140,114,3654,1211,2,1209,FALSE,Bay,Alameda
+"Census Tract 4504, Alameda County, California",3561,3318,168,456,6228,2386,47,2348,TRUE,Bay,Alameda
+"Census Tract 4506.03, Alameda County, California",2713,2595,93,107,5103,1704,37,1686,TRUE,Bay,Alameda
+"Census Tract 4506.06, Alameda County, California",3128,3175,136,28,6128,2110,20,2096,TRUE,Bay,Alameda
+"Census Tract 4511.02, Alameda County, California",2061,1975,145,29,3840,1371,0,1371,FALSE,Bay,Alameda
+"Census Tract 4512.02, Alameda County, California",2515,2457,85,176,4711,1786,25,1761,TRUE,Bay,Alameda
+"Census Tract 4227, Alameda County, California",2506,2547,1367,216,1067,1000,7,993,FALSE,Bay,Alameda
+"Census Tract 4231, Alameda County, California",2015,2257,675,160,3395,1927,114,1919,FALSE,Bay,Alameda
+"Census Tract 4224, Alameda County, California",2258,2128,1215,217,2954,2077,96,2077,FALSE,Bay,Alameda
+"Census Tract 4225, Alameda County, California",2033,2014,929,211,2001,1373,64,1348,FALSE,Bay,Alameda
+"Census Tract 4226, Alameda County, California",574,690,0,0,67,21,0,21,FALSE,Bay,Alameda
+"Census Tract 4261, Alameda County, California",3094,3310,132,30,6231,2229,61,2206,FALSE,Bay,Alameda
+"Census Tract 4273, Alameda County, California",2509,2575,464,350,4270,1869,148,1844,TRUE,Bay,Alameda
+"Census Tract 4276, Alameda County, California",2950,2609,1042,872,3615,1848,299,1782,TRUE,Bay,Alameda
+"Census Tract 4279, Alameda County, California",2473,2558,169,213,4639,2030,51,1997,TRUE,Bay,Alameda
+"Census Tract 4283.02, Alameda County, California",3668,3833,173,13,7254,2540,0,2540,FALSE,Bay,Alameda
+"Census Tract 4286, Alameda County, California",1615,1856,289,57,3004,1610,80,1551,TRUE,Bay,Alameda
+"Census Tract 4308, Alameda County, California",2542,2690,511,82,4563,2108,56,2052,TRUE,Bay,Alameda
+"Census Tract 4336, Alameda County, California",2820,2902,1099,503,4120,2153,360,2093,TRUE,Bay,Alameda
+"Census Tract 4374, Alameda County, California",1764,1664,124,333,2959,959,86,907,TRUE,Bay,Alameda
+"Census Tract 4382.01, Alameda County, California",2534,2392,107,378,4434,1182,195,1101,TRUE,Bay,Alameda
+"Census Tract 4201, Alameda County, California",1146,1308,46,21,2387,862,6,859,FALSE,Bay,Alameda
+"Census Tract 4229, Alameda County, California",2985,2478,2570,505,2293,2044,141,1972,TRUE,Bay,Alameda
+"Census Tract 4368, Alameda County, California",2329,2006,290,374,3671,1329,237,1241,TRUE,Bay,Alameda
+"Census Tract 4364.01, Alameda County, California",3895,3881,696,575,6496,2945,256,2814,TRUE,Bay,Alameda
+"Census Tract 4104, Alameda County, California",2127,2058,651,455,3076,1363,140,1299,TRUE,Bay,Alameda
+"Census Tract 4240.01, Alameda County, California",1964,2187,795,408,2930,1473,195,1456,TRUE,Bay,Alameda
+"Census Tract 4327, Alameda County, California",1322,1530,174,259,2391,1037,21,1037,TRUE,Bay,Alameda
+"Census Tract 4415.03, Alameda County, California",3610,3224,190,87,6557,2076,23,2065,FALSE,Bay,Alameda
+"Census Tract 4506.05, Alameda County, California",1923,2087,182,229,3599,1512,34,1478,TRUE,Bay,Alameda
+"Census Tract 4334, Alameda County, California",2948,3296,276,346,5622,2249,124,2221,TRUE,Bay,Alameda
+"Census Tract 4412, Alameda County, California",3502,3971,261,98,7114,2492,88,2425,TRUE,Bay,Alameda
+"Census Tract 4444, Alameda County, California",2836,2406,365,351,4526,1493,213,1331,TRUE,Bay,Alameda
+"Census Tract 4362, Alameda County, California",2334,2026,519,529,3160,1263,325,1121,TRUE,Bay,Alameda
+"Census Tract 4379, Alameda County, California",1182,1202,218,202,1959,659,88,600,TRUE,Bay,Alameda
+"Census Tract 4417, Alameda County, California",4231,3889,865,251,7004,2801,129,2686,TRUE,Bay,Alameda
+"Census Tract 4239.02, Alameda County, California",787,806,121,27,1419,726,15,717,FALSE,Bay,Alameda
+"Census Tract 4272, Alameda County, California",2182,2013,619,475,3018,1598,151,1544,TRUE,Bay,Alameda
+"Census Tract 4285, Alameda County, California",1423,1729,298,197,2585,1422,115,1342,TRUE,Bay,Alameda
+"Census Tract 4304, Alameda County, California",1040,1127,77,35,2055,728,6,722,TRUE,Bay,Alameda
+"Census Tract 4311, Alameda County, California",1707,1880,472,96,3019,1410,173,1348,TRUE,Bay,Alameda
+"Census Tract 4335, Alameda County, California",2254,2469,118,238,4367,1410,84,1388,TRUE,Bay,Alameda
+"Census Tract 4339, Alameda County, California",3268,4172,1901,1144,4395,2419,510,2299,TRUE,Bay,Alameda
+"Census Tract 4091, Alameda County, California",1178,1149,460,172,1674,671,160,604,TRUE,Bay,Alameda
+"Census Tract 4094, Alameda County, California",2596,2426,1260,1018,2688,1252,296,1141,TRUE,Bay,Alameda
+"Census Tract 4103, Alameda County, California",1969,1882,731,500,2620,998,240,902,TRUE,Bay,Alameda
+"Census Tract 4203, Alameda County, California",2403,2461,354,251,4241,1955,39,1933,FALSE,Bay,Alameda
+"Census Tract 4232, Alameda County, California",1583,1421,625,278,2078,1112,201,1041,TRUE,Bay,Alameda
+"Census Tract 4233, Alameda County, California",1911,1853,522,158,3084,1644,87,1610,FALSE,Bay,Alameda
+"Census Tract 4236.01, Alameda County, California",1380,1424,371,174,2223,1177,26,1158,FALSE,Bay,Alameda
+"Census Tract 4277, Alameda County, California",2421,2769,306,220,4651,2236,113,2212,TRUE,Bay,Alameda
+"Census Tract 4506.02, Alameda County, California",4724,5372,317,17,9756,3465,35,3444,TRUE,Bay,Alameda
+"Census Tract 4430.01, Alameda County, California",1614,1432,111,199,2731,839,49,812,TRUE,Bay,Alameda
+"Census Tract 4502, Alameda County, California",3057,3043,215,188,5697,2542,110,2471,TRUE,Bay,Alameda
+"Census Tract 4278, Alameda County, California",2455,2597,214,180,4658,2045,174,2003,TRUE,Bay,Alameda
+"Census Tract 4283.01, Alameda County, California",3533,3585,170,149,6784,2478,53,2465,TRUE,Bay,Alameda
+"Census Tract 4330, Alameda County, California",1699,1962,515,285,2834,1361,45,1333,TRUE,Bay,Alameda
+"Census Tract 4332, Alameda County, California",3649,3976,1183,743,5563,2754,361,2629,TRUE,Bay,Alameda
+"Census Tract 4352, Alameda County, California",2187,2342,322,26,4087,1472,52,1446,TRUE,Bay,Alameda
+"Census Tract 4364.02, Alameda County, California",1414,1251,126,72,2459,1050,21,1042,TRUE,Bay,Alameda
+"Census Tract 4376, Alameda County, California",1865,1890,343,230,2979,914,161,850,TRUE,Bay,Alameda
+"Census Tract 4403.01, Alameda County, California",3769,3810,988,424,6155,2253,297,2079,TRUE,Bay,Alameda
+"Census Tract 4077, Alameda County, California",1903,2385,140,360,3709,1691,131,1673,TRUE,Bay,Alameda
+"Census Tract 4204, Alameda County, California",1633,1531,862,190,2094,1146,118,1115,FALSE,Bay,Alameda
+"Census Tract 4282, Alameda County, California",2942,3701,486,297,5818,2641,77,2624,TRUE,Bay,Alameda
+"Census Tract 4411, Alameda County, California",2191,2136,234,161,3863,1657,67,1599,TRUE,Bay,Alameda
+"Census Tract 4416.02, Alameda County, California",4090,3979,312,334,7420,2316,205,2175,TRUE,Bay,Alameda
+"Census Tract 4004, Alameda County, California",1635,2208,434,130,3266,1750,129,1729,FALSE,Bay,Alameda
+"Census Tract 4515.01, Alameda County, California",2230,2521,118,158,4475,1781,79,1736,TRUE,Bay,Alameda
+"Census Tract 4036, Alameda County, California",2361,2891,283,534,4340,2578,132,2563,TRUE,Bay,Alameda
+"Census Tract 4050, Alameda County, California",1510,1759,171,57,3029,1457,66,1438,FALSE,Bay,Alameda
+"Census Tract 4033, Alameda County, California",1996,2244,1236,89,2915,2141,202,2102,TRUE,Bay,Alameda
+"Census Tract 4013, Alameda County, California",2236,1619,912,383,2268,1804,278,1736,TRUE,Bay,Alameda
+"Census Tract 4088, Alameda County, California",3256,3798,2515,1487,2993,2081,711,1768,TRUE,Bay,Alameda
+"Census Tract 4030, Alameda County, California",1205,1764,891,702,1376,1463,218,1386,TRUE,Bay,Alameda
+"Census Tract 4305, Alameda County, California",3072,2977,563,573,4525,2073,200,1948,TRUE,Bay,Alameda
+"Census Tract 4306, Alameda County, California",3300,3324,305,500,5809,2191,99,2161,TRUE,Bay,Alameda
+"Census Tract 4307, Alameda County, California",1995,2145,220,136,3749,1415,62,1366,TRUE,Bay,Alameda
+"Census Tract 4002, Alameda County, California",987,1038,131,70,1817,855,0,855,FALSE,Bay,Alameda
+"Census Tract 4011, Alameda County, California",2087,2279,568,401,3397,2043,61,2032,TRUE,Bay,Alameda
+"Census Tract 4014, Alameda County, California",2247,2084,1237,533,2561,1576,239,1483,TRUE,Bay,Alameda
+"Census Tract 4015, Alameda County, California",1355,1308,489,415,1759,1080,145,1027,TRUE,Bay,Alameda
+"Census Tract 4017, Alameda County, California",1758,1244,478,232,2275,1289,89,1209,TRUE,Bay,Alameda
+"Census Tract 4022, Alameda County, California",1415,1112,681,310,1524,855,166,781,TRUE,Bay,Alameda
+"Census Tract 4515.03, Alameda County, California",2779,3379,431,182,5519,2200,142,2180,TRUE,Bay,Alameda
+"Census Tract 4093, Alameda County, California",2520,2913,1494,631,3299,1647,390,1523,TRUE,Bay,Alameda
+"Census Tract 4097, Alameda County, California",2502,2681,954,887,3308,1534,237,1415,TRUE,Bay,Alameda
+"Census Tract 4513, Alameda County, California",3701,3425,506,357,6254,2335,82,2286,TRUE,Bay,Alameda
+"Census Tract 4024, Alameda County, California",1193,1594,326,455,1987,1209,115,1178,TRUE,Bay,Alameda
+"Census Tract 4043, Alameda County, California",1752,1685,53,0,3384,1283,18,1265,FALSE,Bay,Alameda
+"Census Tract 4048, Alameda County, California",1424,1283,216,231,2260,1203,93,1157,FALSE,Bay,Alameda
+"Census Tract 4062.02, Alameda County, California",2486,2265,1690,686,2183,1326,389,1194,TRUE,Bay,Alameda
+"Census Tract 4064, Alameda County, California",1121,1345,458,157,1679,746,120,676,TRUE,Bay,Alameda
+"Census Tract 4070, Alameda County, California",2667,3257,1219,865,3711,1946,393,1795,TRUE,Bay,Alameda
+"Census Tract 4072, Alameda County, California",3350,3544,2131,735,3980,1895,427,1777,TRUE,Bay,Alameda
+"Census Tract 4074, Alameda County, California",2196,2203,1053,429,2917,1152,291,1046,TRUE,Bay,Alameda
+"Census Tract 4083, Alameda County, California",2474,2849,529,143,4624,1789,244,1684,TRUE,Bay,Alameda
+"Census Tract 4101, Alameda County, California",1246,1428,500,124,2050,1053,181,1000,TRUE,Bay,Alameda
+"Census Tract 4206, Alameda County, California",1700,1739,182,17,3240,1200,35,1192,FALSE,Bay,Alameda
+"Census Tract 4211, Alameda County, California",1008,1092,46,18,2036,831,4,827,FALSE,Bay,Alameda
+"Census Tract 4214, Alameda County, California",812,830,96,41,1505,631,9,631,FALSE,Bay,Alameda
+"Census Tract 4221, Alameda County, California",1318,1436,143,327,2266,1126,57,1105,TRUE,Bay,Alameda
+"Census Tract 4028, Alameda County, California",2819,1820,1359,504,2776,2607,369,2440,TRUE,Bay,Alameda
+"Census Tract 4044, Alameda County, California",2712,2763,336,50,5074,2321,27,2294,FALSE,Bay,Alameda
+"Census Tract 4009, Alameda County, California",1207,1264,277,295,1838,1044,84,1009,TRUE,Bay,Alameda
+"Census Tract 4026, Alameda County, California",508,688,514,188,494,618,83,600,TRUE,Bay,Alameda
+"Census Tract 4042, Alameda County, California",1781,2068,118,27,3521,1328,8,1328,FALSE,Bay,Alameda
+"Census Tract 4237, Alameda County, California",1589,2810,1132,196,1982,1308,30,1299,FALSE,Bay,Alameda
+"Census Tract 4303, Alameda County, California",1762,2050,109,31,3672,1317,11,1311,TRUE,Bay,Alameda
+"Census Tract 4238, Alameda County, California",1533,1483,204,53,2759,1297,2,1297,FALSE,Bay,Alameda
+"Census Tract 4262, Alameda County, California",2322,2582,172,33,4699,1719,35,1704,FALSE,Bay,Alameda
+"Census Tract 4280, Alameda County, California",1202,1391,530,186,1877,1292,136,1237,FALSE,Bay,Alameda
+"Census Tract 4312, Alameda County, California",3017,2810,477,104,5145,2571,47,2554,TRUE,Bay,Alameda
+"Census Tract 4321, Alameda County, California",1766,1973,168,223,3348,1512,148,1512,TRUE,Bay,Alameda
+"Census Tract 4323, Alameda County, California",2405,2314,325,100,4285,1655,145,1569,TRUE,Bay,Alameda
+"Census Tract 4326, Alameda County, California",3238,4076,945,270,5972,3040,287,2909,TRUE,Bay,Alameda
+"Census Tract 4005, Alameda County, California",1633,2153,447,212,3109,1622,112,1554,TRUE,Bay,Alameda
+"Census Tract 4016, Alameda County, California",1193,1076,573,177,1519,868,195,804,TRUE,Bay,Alameda
+"Census Tract 4025, Alameda County, California",751,1035,718,354,714,708,303,580,TRUE,Bay,Alameda
+"Census Tract 4039, Alameda County, California",1983,2037,394,40,3586,2143,45,2112,TRUE,Bay,Alameda
+"Census Tract 4076, Alameda County, California",3059,3547,1387,511,4703,2200,288,2069,TRUE,Bay,Alameda
+"Census Tract 4084, Alameda County, California",1485,1604,656,833,1595,1169,205,1126,TRUE,Bay,Alameda
+"Census Tract 4089, Alameda County, California",1448,1667,942,338,1835,948,175,896,TRUE,Bay,Alameda
+"Census Tract 4061, Alameda County, California",2484,2175,1198,806,2617,1455,250,1435,TRUE,Bay,Alameda
+"Census Tract 4055, Alameda County, California",1903,2160,636,261,3166,1557,165,1507,TRUE,Bay,Alameda
+"Census Tract 4056, Alameda County, California",1831,1461,312,572,2408,1409,103,1392,TRUE,Bay,Alameda
+"Census Tract 4060, Alameda County, California",1518,1826,1096,522,1726,1465,170,1425,TRUE,Bay,Alameda
+"Census Tract 4065, Alameda County, California",2883,3172,1597,768,3573,1905,382,1825,TRUE,Bay,Alameda
+"Census Tract 4075, Alameda County, California",2367,2193,1717,780,2002,1327,266,1252,TRUE,Bay,Alameda
+"Census Tract 4079, Alameda County, California",1464,1610,199,150,2719,1136,45,1125,FALSE,Bay,Alameda
+"Census Tract 4081, Alameda County, California",2991,3117,216,141,5751,2697,27,2670,TRUE,Bay,Alameda
+"Census Tract 4085, Alameda County, California",3032,2965,1005,788,4150,1573,333,1496,TRUE,Bay,Alameda
+"Census Tract 4087, Alameda County, California",3768,3860,1735,629,5230,2365,314,2226,TRUE,Bay,Alameda
+"Census Tract 4092, Alameda County, California",1747,1830,589,467,2508,949,235,835,TRUE,Bay,Alameda
+"Census Tract 4095, Alameda County, California",2145,2127,1376,623,2265,1147,326,1071,TRUE,Bay,Alameda
+"Census Tract 4096, Alameda County, California",2485,2703,1129,602,3452,1446,319,1407,TRUE,Bay,Alameda
+"Census Tract 4102, Alameda County, California",1323,2076,753,449,2197,1151,160,1090,TRUE,Bay,Alameda
+"Census Tract 4213, Alameda County, California",1990,1866,126,109,3587,1562,21,1549,FALSE,Bay,Alameda
+"Census Tract 4217, Alameda County, California",1641,1923,533,99,2932,1563,90,1563,FALSE,Bay,Alameda
+"Census Tract 4220, Alameda County, California",1055,1016,415,152,1485,859,98,800,FALSE,Bay,Alameda
+"Census Tract 4223, Alameda County, California",1952,1804,624,290,2833,1729,55,1689,FALSE,Bay,Alameda
+"Census Tract 4228, Alameda County, California",4253,4902,2014,291,915,1303,72,1295,FALSE,Bay,Alameda
+"Census Tract 4236.02, Alameda County, California",3269,2953,3303,513,2306,2167,162,2141,FALSE,Bay,Alameda
+"Census Tract 4271, Alameda County, California",1893,1875,167,69,3383,1420,80,1371,TRUE,Bay,Alameda
+"Census Tract 4427, Alameda County, California",1571,1547,86,103,2929,1046,16,1030,TRUE,Bay,Alameda
+"Census Tract 4512.01, Alameda County, California",3702,3855,618,541,6398,2757,176,2639,TRUE,Bay,Alameda
+"Census Tract 4514.01, Alameda County, California",3074,2992,326,214,5515,2438,132,2355,TRUE,Bay,Alameda
+"Census Tract 4045.02, Alameda County, California",2762,3308,20,44,6006,2483,29,2454,FALSE,Bay,Alameda
+"Census Tract 4516.02, Alameda County, California",3343,3443,199,215,6198,2772,109,2740,TRUE,Bay,Alameda
+"Census Tract 4003, Alameda County, California",2364,2636,264,196,4502,2441,38,2426,TRUE,Bay,Alameda
+"Census Tract 4018, Alameda County, California",888,906,380,259,1155,712,171,687,TRUE,Bay,Alameda
+"Census Tract 4067, Alameda County, California",2577,2415,387,313,4270,2173,9,2173,TRUE,Bay,Alameda
+"Census Tract 4086, Alameda County, California",3237,3710,1766,1336,3817,1851,494,1648,TRUE,Bay,Alameda
+"Census Tract 4090, Alameda County, California",1895,2009,795,385,2714,1086,130,1049,TRUE,Bay,Alameda
+"Census Tract 4098, Alameda County, California",1551,1968,548,143,2810,1308,103,1250,TRUE,Bay,Alameda
+"Census Tract 4100, Alameda County, California",1592,1775,135,98,3134,1219,101,1118,TRUE,Bay,Alameda
+"Census Tract 4212, Alameda County, California",1651,1924,89,25,3461,1486,0,1486,FALSE,Bay,Alameda
+"Census Tract 4235, Alameda County, California",1726,1775,642,426,2313,1456,114,1421,FALSE,Bay,Alameda
+"Census Tract 4240.02, Alameda County, California",1218,1289,295,132,2056,947,156,899,TRUE,Bay,Alameda
+"Census Tract 4309, Alameda County, California",2491,2868,921,372,3875,1870,314,1753,TRUE,Bay,Alameda
+"Census Tract 4310, Alameda County, California",1401,1511,254,255,2403,1084,65,1044,TRUE,Bay,Alameda
+"Census Tract 4328, Alameda County, California",1826,2009,126,169,3527,1388,57,1352,TRUE,Bay,Alameda
+"Census Tract 4331.02, Alameda County, California",1957,2340,267,89,3927,1384,56,1373,TRUE,Bay,Alameda
+"Census Tract 4337, Alameda County, California",1700,1839,318,257,2957,1056,145,1012,TRUE,Bay,Alameda
+"Census Tract 4073, Alameda County, California",1295,1145,516,495,1409,774,135,733,TRUE,Bay,Alameda
+"Census Tract 4215, Alameda County, California",1888,1901,158,33,3568,1589,11,1589,FALSE,Bay,Alameda
+"Census Tract 4234, Alameda County, California",2494,2575,792,257,4020,1978,224,1955,TRUE,Bay,Alameda
+"Census Tract 4239.01, Alameda County, California",921,1033,250,133,1571,853,53,834,FALSE,Bay,Alameda
+"Census Tract 4401, Alameda County, California",1329,1331,79,167,2359,1119,30,1103,TRUE,Bay,Alameda
+"Census Tract 4413.01, Alameda County, California",1695,1628,124,207,2992,1170,43,1134,FALSE,Bay,Alameda
+"Census Tract 4218, Alameda County, California",1062,1077,116,40,1973,890,7,883,FALSE,Bay,Alameda
+"Census Tract 4230, Alameda County, California",2738,2253,726,101,4164,2062,85,1994,FALSE,Bay,Alameda
+"Census Tract 4281, Alameda County, California",2392,2576,193,191,4584,2030,81,2003,TRUE,Bay,Alameda
+"Census Tract 4284, Alameda County, California",2025,2628,391,91,3870,1898,24,1890,TRUE,Bay,Alameda
+"Census Tract 4302, Alameda County, California",3077,3600,39,61,6458,2411,57,2368,TRUE,Bay,Alameda
+"Census Tract 4322, Alameda County, California",1897,2546,354,488,3577,1761,172,1755,TRUE,Bay,Alameda
+"Census Tract 4324, Alameda County, California",3398,3185,985,535,4894,1822,290,1687,TRUE,Bay,Alameda
+"Census Tract 4338, Alameda County, California",3824,4025,598,797,6315,2600,256,2559,TRUE,Bay,Alameda
+"Census Tract 4380, Alameda County, California",1981,2138,439,76,3604,1144,125,1055,TRUE,Bay,Alameda
+"Census Tract 4340, Alameda County, California",2495,2661,1287,294,3575,1774,345,1585,TRUE,Bay,Alameda
+"Census Tract 4351.02, Alameda County, California",2914,3331,396,346,4086,1618,85,1581,FALSE,Bay,Alameda
+"Census Tract 4355, Alameda County, California",2006,2096,617,341,3111,1506,234,1397,TRUE,Bay,Alameda
+"Census Tract 4403.07, Alameda County, California",2057,2431,280,342,3853,1590,144,1491,TRUE,Bay,Alameda
+"Census Tract 4414.01, Alameda County, California",4392,4310,529,110,8015,2522,234,2354,TRUE,Bay,Alameda
+"Census Tract 4416.01, Alameda County, California",2580,2513,120,221,4746,1491,26,1465,TRUE,Bay,Alameda
+"Census Tract 4428, Alameda County, California",1335,1501,108,103,2625,904,51,872,TRUE,Bay,Alameda
+"Census Tract 4431.02, Alameda County, California",2304,2577,118,41,4722,1492,9,1483,FALSE,Bay,Alameda
+"Census Tract 4432, Alameda County, California",1867,2019,118,89,3679,1217,0,1217,FALSE,Bay,Alameda
+"Census Tract 4441, Alameda County, California",3746,3950,314,488,6894,2518,117,2432,TRUE,Bay,Alameda
+"Census Tract 4445, Alameda County, California",3694,3658,466,555,6304,2052,339,1760,TRUE,Bay,Alameda
+"Census Tract 4506.01, Alameda County, California",1715,1918,193,32,3408,1343,2,1343,FALSE,Bay,Alameda
+"Census Tract 4507.41, Alameda County, California",2971,2604,175,206,4955,2032,35,2008,TRUE,Bay,Alameda
+"Census Tract 4511.01, Alameda County, California",4117,3687,327,160,7199,2394,84,2324,TRUE,Bay,Alameda
+"Census Tract 4419.23, Alameda County, California",3374,3091,575,280,5269,2386,153,2287,TRUE,Bay,Alameda
+"Census Tract 4424, Alameda County, California",3412,3235,465,196,5986,2016,62,1979,TRUE,Bay,Alameda
+"Census Tract 4442, Alameda County, California",3482,3546,343,349,6331,1887,254,1695,TRUE,Bay,Alameda
+"Census Tract 4506.04, Alameda County, California",2623,2954,285,117,5175,1887,68,1866,FALSE,Bay,Alameda
+"Census Tract 4507.01, Alameda County, California",4541,4122,279,30,8351,2844,36,2826,FALSE,Bay,Alameda
+"Census Tract 4358, Alameda County, California",2835,2675,340,212,4958,1658,39,1658,TRUE,Bay,Alameda
+"Census Tract 4359, Alameda County, California",2758,2767,480,148,4876,1644,58,1625,TRUE,Bay,Alameda
+"Census Tract 4365, Alameda County, California",2486,2720,1096,275,3835,1734,175,1625,TRUE,Bay,Alameda
+"Census Tract 4367, Alameda County, California",1493,1797,302,337,2645,1056,121,1007,TRUE,Bay,Alameda
+"Census Tract 4369, Alameda County, California",3373,3140,655,801,5049,1865,395,1722,TRUE,Bay,Alameda
+"Census Tract 4370, Alameda County, California",1886,1611,304,132,3040,1259,145,1138,TRUE,Bay,Alameda
+"Census Tract 4383, Alameda County, California",1770,2117,246,97,3544,862,105,789,TRUE,Bay,Alameda
+"Census Tract 4403.04, Alameda County, California",2651,2512,329,202,4617,1333,270,1125,TRUE,Bay,Alameda
+"Census Tract 4414.02, Alameda County, California",2726,2710,59,37,5340,1675,47,1665,FALSE,Bay,Alameda
+"Census Tract 4415.22, Alameda County, California",2510,2863,603,226,4544,1473,102,1391,TRUE,Bay,Alameda
+"Census Tract 4418, Alameda County, California",3831,3528,714,327,6318,2314,182,2215,TRUE,Bay,Alameda
+"Census Tract 4419.21, Alameda County, California",2024,2060,48,106,3930,1260,42,1218,TRUE,Bay,Alameda
+"Census Tract 4420, Alameda County, California",1497,1735,45,33,3154,1003,31,972,FALSE,Bay,Alameda
+"Census Tract 4421, Alameda County, California",2565,2738,116,91,5096,1622,46,1585,FALSE,Bay,Alameda
+"Census Tract 4433.01, Alameda County, California",1964,2379,95,16,4232,1272,50,1229,FALSE,Bay,Alameda
+"Census Tract 4422, Alameda County, California",3338,3858,77,260,6839,2175,59,2116,TRUE,Bay,Alameda
+"Census Tract 4403.31, Alameda County, California",1640,1635,247,91,2933,894,122,808,TRUE,Bay,Alameda
+"Census Tract 4413.02, Alameda County, California",2877,3025,681,101,5120,1880,122,1791,TRUE,Bay,Alameda
+"Census Tract 4507.42, Alameda County, California",2675,2551,177,174,4862,1944,17,1936,TRUE,Bay,Alameda
+"Census Tract 4516.01, Alameda County, California",2649,3157,319,252,5235,2057,47,2057,TRUE,Bay,Alameda
+"Census Tract 4517.01, Alameda County, California",1641,1540,97,82,3002,1102,32,1093,TRUE,Bay,Alameda
+"Census Tract 4006, Alameda County, California",755,883,151,102,1385,657,54,625,FALSE,Bay,Alameda
+"Census Tract 4012, Alameda County, California",1301,1276,234,50,2276,1230,48,1210,FALSE,Bay,Alameda
+"Census Tract 4031, Alameda County, California",1095,573,492,62,733,638,68,613,TRUE,Bay,Alameda
+"Census Tract 4038, Alameda County, California",1441,1902,169,50,3124,1826,60,1776,FALSE,Bay,Alameda
+"Census Tract 4040, Alameda County, California",1387,1611,212,103,2683,1691,61,1670,FALSE,Bay,Alameda
+"Census Tract 4045.01, Alameda County, California",864,931,35,26,1734,679,10,672,FALSE,Bay,Alameda
+"Census Tract 4051, Alameda County, California",2010,2314,107,13,4204,1602,0,1602,FALSE,Bay,Alameda
+"Census Tract 4057, Alameda County, California",1750,1684,917,132,2385,1340,176,1303,TRUE,Bay,Alameda
+"Census Tract 4058, Alameda County, California",2219,2426,1158,892,2548,1351,352,1232,TRUE,Bay,Alameda
+"Census Tract 4069, Alameda County, California",1788,1920,326,271,3087,1538,65,1497,TRUE,Bay,Alameda
+"Census Tract 4366.02, Alameda County, California",2776,2480,688,600,3962,1705,368,1518,TRUE,Bay,Alameda
+"Census Tract 4333, Alameda County, California",3938,3805,857,81,6805,2249,249,2228,TRUE,Bay,Alameda
+"Census Tract 4353, Alameda County, California",2372,2385,479,485,3563,1676,131,1605,TRUE,Bay,Alameda
+"Census Tract 4363, Alameda County, California",4530,4749,1455,385,7337,2884,352,2654,TRUE,Bay,Alameda
+"Census Tract 4373, Alameda County, California",1519,1739,348,417,2462,953,180,866,TRUE,Bay,Alameda
+"Census Tract 4375, Alameda County, California",2265,2321,824,283,3395,1189,317,999,TRUE,Bay,Alameda
+"Census Tract 4378, Alameda County, California",2290,2440,221,126,4329,1371,103,1292,TRUE,Bay,Alameda
+"Census Tract 4381, Alameda County, California",4048,4032,512,394,7174,2158,267,1959,TRUE,Bay,Alameda
+"Census Tract 4354, Alameda County, California",2038,2282,422,555,3253,1748,183,1700,TRUE,Bay,Alameda
+"Census Tract 4360, Alameda County, California",2248,2497,227,221,4297,1434,81,1391,TRUE,Bay,Alameda
+"Census Tract 4366.01, Alameda County, California",3332,3353,554,711,5402,1856,450,1679,TRUE,Bay,Alameda
+"Census Tract 4372, Alameda County, California",3790,3705,558,630,6191,2247,177,2141,TRUE,Bay,Alameda
+"Census Tract 4403.05, Alameda County, California",2107,2179,260,247,3779,1043,52,1017,TRUE,Bay,Alameda
+"Census Tract 4384, Alameda County, California",1349,1219,87,65,2416,732,66,678,TRUE,Bay,Alameda
+"Census Tract 4403.06, Alameda County, California",2146,2195,582,175,3584,1037,227,827,TRUE,Bay,Alameda
+"Census Tract 4403.32, Alameda County, California",1763,1630,91,55,3247,895,29,866,FALSE,Bay,Alameda
+"Census Tract 4415.21, Alameda County, California",3135,3035,173,262,5729,1822,75,1761,TRUE,Bay,Alameda
+"Census Tract 4429, Alameda County, California",4019,3795,97,131,7581,2277,117,2160,TRUE,Bay,Alameda
+"Census Tract 4430.02, Alameda County, California",3268,3477,273,291,6181,1957,261,1729,TRUE,Bay,Alameda
+"Census Tract 4287, Alameda County, California",2302,2182,778,365,2999,1408,244,1287,TRUE,Bay,Alameda
+"Census Tract 4301.01, Alameda County, California",3566,3389,173,351,6414,2237,36,2217,TRUE,Bay,Alameda
+"Census Tract 4301.02, Alameda County, California",1186,1207,59,57,2277,884,5,879,FALSE,Bay,Alameda
+"Census Tract 4325.01, Alameda County, California",2251,2600,513,567,3771,1427,220,1273,TRUE,Bay,Alameda
+"Census Tract 4325.02, Alameda County, California",2710,2562,184,828,4247,1537,163,1503,TRUE,Bay,Alameda
+"Census Tract 4331.03, Alameda County, California",1811,2182,295,374,3324,1522,141,1418,TRUE,Bay,Alameda
+"Census Tract 4331.04, Alameda County, California",1783,1825,527,310,2771,1818,149,1776,TRUE,Bay,Alameda
+"Census Tract 4351.03, Alameda County, California",3626,3774,281,103,6988,2360,104,2277,TRUE,Bay,Alameda
+"Census Tract 4351.04, Alameda County, California",2947,2879,937,466,4411,2104,395,1968,TRUE,Bay,Alameda
+"Census Tract 4356.01, Alameda County, California",2955,2763,757,308,4540,1650,304,1560,TRUE,Bay,Alameda
+"Census Tract 4356.02, Alameda County, California",2994,2596,1182,253,4009,1669,275,1603,TRUE,Bay,Alameda
+"Census Tract 4371.01, Alameda County, California",3707,3636,320,853,6126,1939,191,1863,TRUE,Bay,Alameda
+"Census Tract 4371.02, Alameda County, California",2320,2565,464,227,4194,1486,232,1360,TRUE,Bay,Alameda
+"Census Tract 4377.01, Alameda County, California",1753,1844,322,365,2856,1031,299,863,TRUE,Bay,Alameda
+"Census Tract 4377.02, Alameda County, California",2243,2226,771,491,3207,1126,360,1025,TRUE,Bay,Alameda
+"Census Tract 4382.03, Alameda County, California",1917,2201,211,103,3804,1211,143,1100,TRUE,Bay,Alameda
+"Census Tract 4382.04, Alameda County, California",2771,2712,143,424,4891,1810,172,1711,TRUE,Bay,Alameda
+"Census Tract 4403.33, Alameda County, California",1607,1579,123,25,3038,839,24,822,TRUE,Bay,Alameda
+"Census Tract 4403.34, Alameda County, California",2309,2441,347,44,4359,1102,132,1015,TRUE,Bay,Alameda
+"Census Tract 4403.35, Alameda County, California",3758,3014,130,156,6471,2269,82,2224,TRUE,Bay,Alameda
+"Census Tract 4403.36, Alameda County, California",2488,2041,276,99,4129,1391,62,1386,TRUE,Bay,Alameda
+"Census Tract 4415.23, Alameda County, California",2058,2209,57,24,4186,1415,60,1395,FALSE,Bay,Alameda
+"Census Tract 4415.24, Alameda County, California",2161,2267,72,162,4194,1424,51,1416,FALSE,Bay,Alameda
+"Census Tract 4419.27, Alameda County, California",2207,2305,288,113,4111,1760,62,1722,TRUE,Bay,Alameda
+"Census Tract 4419.24, Alameda County, California",3670,3955,173,160,7292,2647,163,2498,TRUE,Bay,Alameda
+"Census Tract 4419.25, Alameda County, California",3831,3334,465,250,6450,3000,59,2965,TRUE,Bay,Alameda
+"Census Tract 4419.26, Alameda County, California",2378,2192,331,188,4043,1483,157,1368,TRUE,Bay,Alameda
+"Census Tract 4423.01, Alameda County, California",2736,2412,296,230,4622,1561,217,1415,TRUE,Bay,Alameda
+"Census Tract 4423.02, Alameda County, California",2755,3257,496,372,5144,2238,246,2052,TRUE,Bay,Alameda
+"Census Tract 4426.01, Alameda County, California",2128,2047,175,0,3993,1306,56,1259,TRUE,Bay,Alameda
+"Census Tract 4426.02, Alameda County, California",2509,2374,320,138,4425,1625,219,1452,TRUE,Bay,Alameda
+"Census Tract 4431.04, Alameda County, California",2769,2851,244,97,5279,1782,50,1737,FALSE,Bay,Alameda
+"Census Tract 4431.05, Alameda County, California",2348,2240,99,55,4434,1505,31,1474,FALSE,Bay,Alameda
+"Census Tract 4433.21, Alameda County, California",1556,1759,200,46,3069,1107,9,1107,TRUE,Bay,Alameda
+"Census Tract 4433.22, Alameda County, California",1574,1739,119,7,3187,962,37,931,FALSE,Bay,Alameda
+"Census Tract 4443.01, Alameda County, California",1963,1826,230,131,3428,1140,36,1120,TRUE,Bay,Alameda
+"Census Tract 4035.01, Alameda County, California",2232,2412,768,668,3163,2723,112,2678,TRUE,Bay,Alameda
+"Census Tract 4035.02, Alameda County, California",920,1115,202,96,1737,1152,29,1152,TRUE,Bay,Alameda
+"Census Tract 4037.01, Alameda County, California",1166,1629,307,100,2350,1767,37,1739,TRUE,Bay,Alameda
+"Census Tract 4037.02, Alameda County, California",837,1061,145,235,1518,1091,81,1070,FALSE,Bay,Alameda
+"Census Tract 4041.01, Alameda County, California",1509,1579,213,33,2840,1710,40,1701,FALSE,Bay,Alameda
+"Census Tract 4041.02, Alameda County, California",1159,1446,224,149,2101,1591,31,1580,TRUE,Bay,Alameda
+"Census Tract 4053.01, Alameda County, California",1376,1579,362,97,2496,1584,68,1564,TRUE,Bay,Alameda
+"Census Tract 4053.02, Alameda County, California",1352,1102,392,325,1737,1401,150,1362,FALSE,Bay,Alameda
+"Census Tract 4054.01, Alameda County, California",1833,2057,709,491,2666,1730,268,1622,TRUE,Bay,Alameda
+"Census Tract 4054.02, Alameda County, California",1646,1629,703,502,1995,1167,240,1085,TRUE,Bay,Alameda
+"Census Tract 4059.01, Alameda County, California",1820,2528,1634,653,2061,1089,274,1011,TRUE,Bay,Alameda
+"Census Tract 4059.02, Alameda County, California",1453,1526,860,392,1727,923,177,862,TRUE,Bay,Alameda
+"Census Tract 4066.01, Alameda County, California",2623,2419,646,1055,3341,1694,139,1675,TRUE,Bay,Alameda
+"Census Tract 4066.02, Alameda County, California",1545,1250,425,215,2155,944,69,926,TRUE,Bay,Alameda
+"Census Tract 4071.01, Alameda County, California",2199,1538,1310,280,2147,1035,244,951,TRUE,Bay,Alameda
+"Census Tract 4071.02, Alameda County, California",2131,2285,1084,198,3026,1300,267,1208,TRUE,Bay,Alameda
+"Census Tract 4105, Alameda County, California",1054,1319,979,415,979,936,377,787,TRUE,Bay,Alameda
+"Census Tract 4251.01, Alameda County, California",817,771,152,46,1390,1135,46,1116,FALSE,Bay,Alameda
+"Census Tract 4251.02, Alameda County, California",1790,1899,520,9,3160,1965,36,1938,FALSE,Bay,Alameda
+"Census Tract 4251.03, Alameda County, California",1362,1427,198,36,2555,1372,33,1354,FALSE,Bay,Alameda
+"Census Tract 4251.04, Alameda County, California",1639,2019,730,281,2646,1984,144,1928,TRUE,Bay,Alameda
+"Census Tract 4443.02, Alameda County, California",2385,2307,283,472,3937,1322,211,1159,TRUE,Bay,Alameda
+"Census Tract 4446.01, Alameda County, California",2935,2806,151,191,5374,1710,83,1646,TRUE,Bay,Alameda
+"Census Tract 4446.02, Alameda County, California",2386,2350,97,113,4526,1555,37,1518,TRUE,Bay,Alameda
+"Census Tract 4501.01, Alameda County, California",2589,2984,366,97,5087,2094,75,2047,FALSE,Bay,Alameda
+"Census Tract 4501.02, Alameda County, California",3058,2983,119,23,4129,1331,24,1331,TRUE,Bay,Alameda
+"Census Tract 4505.01, Alameda County, California",1641,1489,176,11,2943,1227,27,1200,FALSE,Bay,Alameda
+"Census Tract 4505.02, Alameda County, California",3034,2846,187,9,5684,1913,9,1904,TRUE,Bay,Alameda
+"Census Tract 4507.43, Alameda County, California",3501,3191,381,57,6254,2380,38,2380,FALSE,Bay,Alameda
+"Census Tract 4507.44, Alameda County, California",2701,3354,208,73,5764,1971,6,1965,TRUE,Bay,Alameda
+"Census Tract 4507.45, Alameda County, California",2879,3407,118,72,6096,2223,45,2211,TRUE,Bay,Alameda
+"Census Tract 4507.46, Alameda County, California",1720,1876,89,102,3405,1385,18,1377,FALSE,Bay,Alameda
+"Census Tract 4507.50, Alameda County, California",2260,2582,158,153,4531,2027,60,1997,TRUE,Bay,Alameda
+"Census Tract 4507.51, Alameda County, California",4707,5080,244,87,9456,2736,19,2717,FALSE,Bay,Alameda
+"Census Tract 4507.52, Alameda County, California",3439,3203,104,379,6120,1880,54,1863,FALSE,Bay,Alameda
+"Census Tract 4514.03, Alameda County, California",1157,1124,101,102,2078,805,18,799,TRUE,Bay,Alameda
+"Census Tract 4514.04, Alameda County, California",3137,3625,406,742,5614,2156,256,2060,TRUE,Bay,Alameda
+"Census Tract 4515.04, Alameda County, California",837,887,52,32,1626,644,25,638,TRUE,Bay,Alameda
+"Census Tract 4515.05, Alameda County, California",1643,1708,0,29,3322,1190,50,1182,TRUE,Bay,Alameda
+"Census Tract 4515.06, Alameda County, California",1650,1807,251,163,3039,1115,116,1035,TRUE,Bay,Alameda
+"Census Tract 4517.03, Alameda County, California",2120,2211,135,65,4131,1384,67,1365,TRUE,Bay,Alameda
+"Census Tract 4517.04, Alameda County, California",2110,2336,148,111,4187,1670,15,1655,TRUE,Bay,Alameda
+"Census Tract 9819, Alameda County, California",24,36,0,0,60,31,0,31,NA,Bay,Alameda
+"Census Tract 9820, Alameda County, California",30,33,12,0,51,32,0,32,FALSE,Bay,Alameda
+"Census Tract 9832, Alameda County, California",314,308,63,7,552,349,9,340,FALSE,Bay,Alameda
+"Census Tract 9900, Alameda County, California",0,0,0,0,0,0,0,0,NA,Bay,Alameda
+"Census Tract 3400.02, Contra Costa County, California",3770,3825,202,111,7255,3004,15,3004,TRUE,Bay,ContraCosta
+"Census Tract 3430.01, Contra Costa County, California",2112,2387,361,249,3889,1970,94,1942,TRUE,Bay,ContraCosta
+"Census Tract 3461.02, Contra Costa County, California",3054,2520,204,13,5293,1899,0,1899,FALSE,Bay,ContraCosta
+"Census Tract 3470, Contra Costa County, California",2977,3229,191,199,5776,2293,15,2293,FALSE,Bay,ContraCosta
+"Census Tract 3530.01, Contra Costa County, California",1962,1918,159,65,3656,1352,8,1344,FALSE,Bay,ContraCosta
+"Census Tract 3560.01, Contra Costa County, California",2253,2227,302,130,4030,1235,122,1183,TRUE,Bay,ContraCosta
+"Census Tract 3660.01, Contra Costa County, California",2355,2185,494,433,3613,1259,238,1219,TRUE,Bay,ContraCosta
+"Census Tract 3750, Contra Costa County, California",2355,2262,797,648,3167,1204,245,1118,TRUE,Bay,ContraCosta
+"Census Tract 3010, Contra Costa County, California",2551,2231,359,340,4059,1756,143,1697,TRUE,Bay,ContraCosta
+"Census Tract 3072.01, Contra Costa County, California",1858,1927,893,906,1986,1075,157,1055,TRUE,Bay,ContraCosta
+"Census Tract 3100, Contra Costa County, California",3197,2881,1257,1027,3704,1719,407,1615,TRUE,Bay,ContraCosta
+"Census Tract 3131.02, Contra Costa County, California",1983,2327,608,307,3305,1491,285,1414,TRUE,Bay,ContraCosta
+"Census Tract 3212, Contra Costa County, California",2866,2628,685,149,4632,2263,83,2240,TRUE,Bay,ContraCosta
+"Census Tract 3300, Contra Costa County, California",2735,2920,780,292,4571,1947,153,1862,TRUE,Bay,ContraCosta
+"Census Tract 3361.01, Contra Costa County, California",3087,2473,963,520,4035,1559,215,1472,TRUE,Bay,ContraCosta
+"Census Tract 3372, Contra Costa County, California",4073,4334,982,490,6679,3218,307,3086,TRUE,Bay,ContraCosta
+"Census Tract 3373, Contra Costa County, California",3068,2872,163,187,5558,2315,44,2286,TRUE,Bay,ContraCosta
+"Census Tract 3592.03, Contra Costa County, California",3423,3881,164,604,6509,2261,137,2221,TRUE,Bay,ContraCosta
+"Census Tract 3700, Contra Costa County, California",1305,1509,301,17,2496,1091,50,1074,TRUE,Bay,ContraCosta
+"Census Tract 3860, Contra Costa County, California",1438,2228,502,484,2680,1475,56,1459,TRUE,Bay,ContraCosta
+"Census Tract 3891, Contra Costa County, California",1028,1168,128,74,1994,895,23,886,FALSE,Bay,ContraCosta
+"Census Tract 3892, Contra Costa County, California",988,880,260,138,1400,691,79,663,FALSE,Bay,ContraCosta
+"Census Tract 3050, Contra Costa County, California",3238,2868,1152,1112,3702,2213,518,1974,TRUE,Bay,ContraCosta
+"Census Tract 3120, Contra Costa County, California",1071,1281,626,298,1335,775,211,702,TRUE,Bay,ContraCosta
+"Census Tract 3072.05, Contra Costa County, California",3026,4250,1886,908,4363,2592,500,2434,TRUE,Bay,ContraCosta
+"Census Tract 3141.04, Contra Costa County, California",4901,4146,1667,1998,5327,2552,300,2518,TRUE,Bay,ContraCosta
+"Census Tract 3150, Contra Costa County, California",1871,1891,267,151,3325,1265,105,1216,TRUE,Bay,ContraCosta
+"Census Tract 3200.01, Contra Costa County, California",2010,1833,351,317,3152,1215,58,1178,TRUE,Bay,ContraCosta
+"Census Tract 3080.01, Contra Costa County, California",3819,3715,2035,169,5267,2467,357,2258,TRUE,Bay,ContraCosta
+"Census Tract 3142, Contra Costa County, California",3913,3410,1604,1183,4381,1759,178,1733,TRUE,Bay,ContraCosta
+"Census Tract 3383.02, Contra Costa County, California",2929,3165,167,270,5614,2122,61,2075,TRUE,Bay,ContraCosta
+"Census Tract 3490, Contra Costa County, California",2547,3051,452,465,4631,2103,35,2068,TRUE,Bay,ContraCosta
+"Census Tract 3570, Contra Costa County, California",1523,1647,231,210,2707,1424,154,1350,TRUE,Bay,ContraCosta
+"Census Tract 3071.01, Contra Costa County, California",2111,2229,735,334,3235,1449,198,1327,TRUE,Bay,ContraCosta
+"Census Tract 3072.02, Contra Costa County, California",2000,2305,1155,927,2223,1555,616,1273,TRUE,Bay,ContraCosta
+"Census Tract 3072.04, Contra Costa County, California",2218,2020,571,162,3483,1291,160,1266,TRUE,Bay,ContraCosta
+"Census Tract 3170, Contra Costa County, California",1026,1035,208,146,1707,1006,129,909,TRUE,Bay,ContraCosta
+"Census Tract 3211.01, Contra Costa County, California",3083,3400,167,351,5582,2340,58,2301,TRUE,Bay,ContraCosta
+"Census Tract 3211.02, Contra Costa County, California",3473,3465,158,89,6668,2631,23,2631,TRUE,Bay,ContraCosta
+"Census Tract 3211.03, Contra Costa County, California",2210,2406,140,75,4401,1798,30,1782,TRUE,Bay,ContraCosta
+"Census Tract 3270, Contra Costa County, California",3676,3959,601,553,6481,2867,296,2770,TRUE,Bay,ContraCosta
+"Census Tract 3280, Contra Costa County, California",1118,1196,404,263,1560,1387,115,1331,TRUE,Bay,ContraCosta
+"Census Tract 3290, Contra Costa County, California",2929,3238,134,298,5735,2176,57,2162,TRUE,Bay,ContraCosta
+"Census Tract 3320, Contra Costa County, California",4353,4602,731,595,7560,2948,144,2882,TRUE,Bay,ContraCosta
+"Census Tract 3400.01, Contra Costa County, California",2887,3050,750,153,4970,2403,227,2285,TRUE,Bay,ContraCosta
+"Census Tract 3430.03, Contra Costa County, California",1821,2015,50,30,3755,1438,21,1417,FALSE,Bay,ContraCosta
+"Census Tract 3451.03, Contra Costa County, California",2457,2457,240,93,4563,1728,27,1718,FALSE,Bay,ContraCosta
+"Census Tract 3451.05, Contra Costa County, California",3103,3513,344,77,6190,2164,39,2146,TRUE,Bay,ContraCosta
+"Census Tract 3451.08, Contra Costa County, California",3663,3843,318,161,7027,3169,31,3153,FALSE,Bay,ContraCosta
+"Census Tract 3462.01, Contra Costa County, California",3614,3832,273,138,7035,2854,81,2792,FALSE,Bay,ContraCosta
+"Census Tract 3480, Contra Costa County, California",2492,2608,153,84,4851,1658,6,1658,FALSE,Bay,ContraCosta
+"Census Tract 3553.04, Contra Costa County, California",4097,4488,270,229,8070,3103,49,3085,TRUE,Bay,ContraCosta
+"Census Tract 3560.02, Contra Costa County, California",2836,2602,169,154,5102,1969,25,1962,TRUE,Bay,ContraCosta
+"Census Tract 3592.04, Contra Costa County, California",2423,2484,249,157,4455,1475,62,1460,TRUE,Bay,ContraCosta
+"Census Tract 3650.02, Contra Costa County, California",2896,2843,1376,716,3647,1444,308,1428,TRUE,Bay,ContraCosta
+"Census Tract 3660.02, Contra Costa County, California",3210,3132,741,1128,4473,1689,299,1618,TRUE,Bay,ContraCosta
+"Census Tract 3672, Contra Costa County, California",2709,3018,962,864,3888,1692,262,1625,TRUE,Bay,ContraCosta
+"Census Tract 3690.01, Contra Costa County, California",3651,3685,1743,709,4508,2389,319,2337,TRUE,Bay,ContraCosta
+"Census Tract 3730, Contra Costa County, California",2088,2160,645,617,2927,1128,196,1077,TRUE,Bay,ContraCosta
+"Census Tract 3770, Contra Costa County, California",3702,3338,1335,1426,4195,2254,433,2121,TRUE,Bay,ContraCosta
+"Census Tract 3852, Contra Costa County, California",640,614,77,13,1164,505,10,495,FALSE,Bay,ContraCosta
+"Census Tract 3880, Contra Costa County, California",1212,1320,102,116,2314,1092,45,1054,TRUE,Bay,ContraCosta
+"Census Tract 3910, Contra Costa County, California",1302,1447,160,67,2522,1148,8,1140,FALSE,Bay,ContraCosta
+"Census Tract 3920, Contra Costa County, California",1252,1414,189,65,2401,1185,21,1164,FALSE,Bay,ContraCosta
+"Census Tract 3740, Contra Costa County, California",2352,2541,1212,753,2928,1783,134,1691,TRUE,Bay,ContraCosta
+"Census Tract 3790, Contra Costa County, California",3126,3705,1450,1500,3784,1874,406,1766,TRUE,Bay,ContraCosta
+"Census Tract 3810, Contra Costa County, California",3344,3288,1778,438,4392,1944,461,1831,TRUE,Bay,ContraCosta
+"Census Tract 3820, Contra Costa County, California",3732,4077,1655,1004,5121,2795,717,2585,TRUE,Bay,ContraCosta
+"Census Tract 3830, Contra Costa County, California",2517,2238,598,238,3911,2015,121,1986,TRUE,Bay,ContraCosta
+"Census Tract 3840, Contra Costa County, California",1830,2042,254,123,3475,1631,32,1617,FALSE,Bay,ContraCosta
+"Census Tract 3131.01, Contra Costa County, California",3143,3912,1508,370,5043,2538,444,2308,TRUE,Bay,ContraCosta
+"Census Tract 3350, Contra Costa County, California",1853,1576,282,77,3070,1205,11,1205,TRUE,Bay,ContraCosta
+"Census Tract 3361.02, Contra Costa County, California",3868,3352,1794,1211,4215,2778,719,2497,TRUE,Bay,ContraCosta
+"Census Tract 3371, Contra Costa County, California",1742,1829,263,141,3140,1235,10,1235,TRUE,Bay,ContraCosta
+"Census Tract 3383.01, Contra Costa County, California",1728,1854,69,305,3169,1113,0,1113,FALSE,Bay,ContraCosta
+"Census Tract 3382.01, Contra Costa County, California",1727,2131,150,107,3494,1416,80,1379,TRUE,Bay,ContraCosta
+"Census Tract 3591.02, Contra Costa County, California",2951,3038,222,277,5484,1914,131,1844,TRUE,Bay,ContraCosta
+"Census Tract 3671, Contra Costa County, California",2469,2724,909,560,3687,1979,295,1896,TRUE,Bay,ContraCosta
+"Census Tract 3720, Contra Costa County, California",3699,4004,932,1076,5695,2270,198,2215,TRUE,Bay,ContraCosta
+"Census Tract 3901, Contra Costa County, California",1285,1180,55,29,2381,914,17,901,FALSE,Bay,ContraCosta
+"Census Tract 3060.02, Contra Costa County, California",1882,1705,342,410,2835,1059,139,1008,TRUE,Bay,ContraCosta
+"Census Tract 3110, Contra Costa County, California",2375,2973,766,716,3851,1483,388,1457,TRUE,Bay,ContraCosta
+"Census Tract 3141.02, Contra Costa County, California",3066,3313,542,945,4878,1828,347,1791,TRUE,Bay,ContraCosta
+"Census Tract 3141.03, Contra Costa County, California",2931,2786,1333,810,3574,1586,376,1523,TRUE,Bay,ContraCosta
+"Census Tract 3310, Contra Costa County, California",3615,3529,1424,586,5047,2796,235,2718,TRUE,Bay,ContraCosta
+"Census Tract 3451.02, Contra Costa County, California",2042,1701,129,36,3578,1176,6,1176,FALSE,Bay,ContraCosta
+"Census Tract 3461.01, Contra Costa County, California",1671,1596,51,34,3171,1304,0,1304,FALSE,Bay,ContraCosta
+"Census Tract 3512, Contra Costa County, California",3034,3157,14,146,5987,2103,0,2103,FALSE,Bay,ContraCosta
+"Census Tract 3521.02, Contra Costa County, California",2721,3152,156,121,4927,1901,0,1901,FALSE,Bay,ContraCosta
+"Census Tract 3522.02, Contra Costa County, California",1371,1466,81,83,2613,1108,9,1099,FALSE,Bay,ContraCosta
+"Census Tract 3552, Contra Costa County, California",5589,5724,526,692,9946,2963,198,2908,TRUE,Bay,ContraCosta
+"Census Tract 3690.02, Contra Costa County, California",1323,1459,566,224,1992,1063,116,1038,TRUE,Bay,ContraCosta
+"Census Tract 3710, Contra Costa County, California",2895,2997,825,393,4674,1954,145,1939,TRUE,Bay,ContraCosta
+"Census Tract 3870, Contra Costa County, California",1242,1733,396,197,2382,1105,45,1088,TRUE,Bay,ContraCosta
+"Census Tract 3220, Contra Costa County, California",3108,3384,629,238,5618,2453,119,2414,TRUE,Bay,ContraCosta
+"Census Tract 3340.01, Contra Costa County, California",1960,1982,492,270,3180,1505,150,1407,TRUE,Bay,ContraCosta
+"Census Tract 3230, Contra Costa County, California",2114,2250,116,136,4096,1671,53,1640,TRUE,Bay,ContraCosta
+"Census Tract 3260, Contra Costa County, California",1679,1909,225,102,3218,1324,22,1312,FALSE,Bay,ContraCosta
+"Census Tract 3332, Contra Costa County, California",2733,3261,300,127,5546,2272,123,2227,TRUE,Bay,ContraCosta
+"Census Tract 3410, Contra Costa County, California",2656,2783,107,73,5246,2145,18,2145,TRUE,Bay,ContraCosta
+"Census Tract 3430.02, Contra Costa County, California",2183,2768,234,200,4349,1870,13,1857,TRUE,Bay,ContraCosta
+"Census Tract 3451.01, Contra Costa County, California",3011,2720,264,139,5320,1824,6,1824,TRUE,Bay,ContraCosta
+"Census Tract 3500, Contra Costa County, California",2946,3257,290,178,5719,2579,35,2544,TRUE,Bay,ContraCosta
+"Census Tract 3553.01, Contra Costa County, California",4585,3957,394,70,8010,2893,89,2821,TRUE,Bay,ContraCosta
+"Census Tract 3580, Contra Costa County, California",2933,3262,1132,212,4851,2232,501,1996,TRUE,Bay,ContraCosta
+"Census Tract 3780, Contra Costa County, California",1586,1698,214,77,2984,1727,46,1727,FALSE,Bay,ContraCosta
+"Census Tract 3131.03, Contra Costa County, California",4463,4511,982,383,7578,2657,253,2549,TRUE,Bay,ContraCosta
+"Census Tract 3340.04, Contra Costa County, California",3544,4178,791,1028,5886,3223,205,3194,TRUE,Bay,ContraCosta
+"Census Tract 3630, Contra Costa County, California",3796,3454,369,625,6256,2669,103,2669,TRUE,Bay,ContraCosta
+"Census Tract 3090, Contra Costa County, California",1687,1877,421,387,2720,1251,199,1177,TRUE,Bay,ContraCosta
+"Census Tract 3760, Contra Costa County, California",2604,3049,1444,524,3652,1691,327,1630,TRUE,Bay,ContraCosta
+"Census Tract 3452.02, Contra Costa County, California",3597,3904,163,179,7159,2979,39,2979,FALSE,Bay,ContraCosta
+"Census Tract 3521.01, Contra Costa County, California",1402,1936,50,10,2147,830,16,819,FALSE,Bay,ContraCosta
+"Census Tract 3522.01, Contra Costa County, California",3313,3174,324,423,5704,2444,20,2424,FALSE,Bay,ContraCosta
+"Census Tract 3530.02, Contra Costa County, California",2094,2259,74,2,4264,1550,0,1550,FALSE,Bay,ContraCosta
+"Census Tract 3592.02, Contra Costa County, California",2586,3386,312,311,5250,2179,171,2163,TRUE,Bay,ContraCosta
+"Census Tract 3602, Contra Costa County, California",2164,2679,310,446,4087,1801,242,1693,TRUE,Bay,ContraCosta
+"Census Tract 3610, Contra Costa County, California",2474,2655,567,346,4176,1772,173,1699,TRUE,Bay,ContraCosta
+"Census Tract 3620, Contra Costa County, California",1198,1637,86,194,2550,1194,31,1166,TRUE,Bay,ContraCosta
+"Census Tract 3640.02, Contra Costa County, California",3190,2790,480,666,4834,1899,100,1888,TRUE,Bay,ContraCosta
+"Census Tract 3800, Contra Costa County, California",3155,3221,608,616,5122,2803,151,2738,TRUE,Bay,ContraCosta
+"Census Tract 3851, Contra Costa County, California",1427,1526,183,96,2674,1119,7,1119,FALSE,Bay,ContraCosta
+"Census Tract 3902, Contra Costa County, California",803,864,92,126,1431,717,29,698,FALSE,Bay,ContraCosta
+"Census Tract 3071.02, Contra Costa County, California",2537,2736,1016,1189,3068,1746,302,1665,TRUE,Bay,ContraCosta
+"Census Tract 3180, Contra Costa County, California",1761,1841,332,172,3058,1560,66,1532,TRUE,Bay,ContraCosta
+"Census Tract 3540.01, Contra Costa County, California",1138,983,137,7,1977,751,15,751,FALSE,Bay,ContraCosta
+"Census Tract 3540.02, Contra Costa County, California",3242,3868,107,79,6864,2752,59,2725,FALSE,Bay,ContraCosta
+"Census Tract 3553.02, Contra Costa County, California",1827,1580,66,26,3312,1201,44,1175,FALSE,Bay,ContraCosta
+"Census Tract 3250, Contra Costa County, California",2782,3091,359,265,5098,2149,13,2140,TRUE,Bay,ContraCosta
+"Census Tract 3080.02, Contra Costa County, California",2341,2305,411,128,4102,1424,147,1344,TRUE,Bay,ContraCosta
+"Census Tract 3160, Contra Costa County, California",538,568,391,131,503,479,74,421,TRUE,Bay,ContraCosta
+"Census Tract 3190, Contra Costa County, California",4030,4515,533,105,7874,3118,64,3090,TRUE,Bay,ContraCosta
+"Census Tract 3591.03, Contra Costa County, California",2476,2543,294,282,4350,1914,105,1905,TRUE,Bay,ContraCosta
+"Census Tract 3591.04, Contra Costa County, California",932,1068,176,32,1792,870,55,852,FALSE,Bay,ContraCosta
+"Census Tract 3591.05, Contra Costa County, California",2514,2540,96,183,4760,1644,106,1602,TRUE,Bay,ContraCosta
+"Census Tract 3601.01, Contra Costa County, California",2228,2645,349,459,4065,1698,49,1680,TRUE,Bay,ContraCosta
+"Census Tract 3601.02, Contra Costa County, California",1933,2385,125,148,4029,1471,84,1408,TRUE,Bay,ContraCosta
+"Census Tract 3650.03, Contra Costa County, California",2251,2985,283,404,4549,2304,46,2304,TRUE,Bay,ContraCosta
+"Census Tract 3680.01, Contra Costa County, California",2486,2426,812,868,3232,1262,250,1201,TRUE,Bay,ContraCosta
+"Census Tract 3680.02, Contra Costa County, California",1950,1709,633,273,2740,1048,170,990,TRUE,Bay,ContraCosta
+"Census Tract 3922, Contra Costa County, California",6412,5829,1130,1090,9446,3188,241,3163,TRUE,Bay,ContraCosta
+"Census Tract 3923, Contra Costa County, California",1433,1686,259,111,2749,821,98,797,FALSE,Bay,ContraCosta
+"Census Tract 9900, Contra Costa County, California",0,0,0,0,0,0,0,0,NA,Bay,ContraCosta
+"Census Tract 3020.05, Contra Costa County, California",3275,3787,997,1279,4760,2339,278,2201,TRUE,Bay,ContraCosta
+"Census Tract 3020.06, Contra Costa County, California",1842,1974,171,234,3404,1222,111,1183,TRUE,Bay,ContraCosta
+"Census Tract 3020.07, Contra Costa County, California",3583,3407,640,481,5852,2084,198,2063,TRUE,Bay,ContraCosta
+"Census Tract 3020.08, Contra Costa County, California",4298,4358,857,420,7346,2263,199,2170,TRUE,Bay,ContraCosta
+"Census Tract 3020.09, Contra Costa County, California",3843,3688,780,252,6481,2105,145,2026,TRUE,Bay,ContraCosta
+"Census Tract 3020.10, Contra Costa County, California",6086,5717,312,33,11313,3233,119,3205,TRUE,Bay,ContraCosta
+"Census Tract 3031.02, Contra Costa County, California",4490,4728,567,689,7926,2783,180,2713,TRUE,Bay,ContraCosta
+"Census Tract 3031.03, Contra Costa County, California",6272,6755,1574,990,10463,4123,327,4017,TRUE,Bay,ContraCosta
+"Census Tract 3032.01, Contra Costa County, California",5872,5975,1119,647,10052,3120,484,2987,TRUE,Bay,ContraCosta
+"Census Tract 3032.02, Contra Costa County, California",3472,3822,151,321,6797,2332,67,2293,TRUE,Bay,ContraCosta
+"Census Tract 3032.03, Contra Costa County, California",5130,5004,583,183,9357,3043,139,2947,TRUE,Bay,ContraCosta
+"Census Tract 3032.04, Contra Costa County, California",2172,2363,692,436,3407,1601,203,1509,TRUE,Bay,ContraCosta
+"Census Tract 3032.05, Contra Costa County, California",4218,4600,403,153,8262,3454,90,3398,TRUE,Bay,ContraCosta
+"Census Tract 3040.01, Contra Costa County, California",2410,2556,127,211,4628,1777,39,1750,TRUE,Bay,ContraCosta
+"Census Tract 3040.02, Contra Costa County, California",763,720,209,59,1126,463,42,445,TRUE,Bay,ContraCosta
+"Census Tract 3040.03, Contra Costa County, California",2099,1945,416,76,3515,1565,42,1549,TRUE,Bay,ContraCosta
+"Census Tract 3060.04, Contra Costa County, California",1984,1907,423,391,3077,1279,144,1195,TRUE,Bay,ContraCosta
+"Census Tract 3040.04, Contra Costa County, California",1908,2027,144,134,3657,1618,121,1595,TRUE,Bay,ContraCosta
+"Census Tract 3040.05, Contra Costa County, California",3992,4631,692,502,7429,2392,139,2354,TRUE,Bay,ContraCosta
+"Census Tract 3060.03, Contra Costa County, California",2453,2662,765,421,3840,1595,225,1588,TRUE,Bay,ContraCosta
+"Census Tract 3132.03, Contra Costa County, California",1740,1559,97,210,2992,944,56,922,TRUE,Bay,ContraCosta
+"Census Tract 3132.04, Contra Costa County, California",2826,2885,412,516,4777,1720,231,1720,TRUE,Bay,ContraCosta
+"Census Tract 3132.05, Contra Costa County, California",884,792,34,151,1491,507,37,498,TRUE,Bay,ContraCosta
+"Census Tract 3132.06, Contra Costa County, California",3213,2916,1132,390,4593,1551,319,1446,TRUE,Bay,ContraCosta
+"Census Tract 3200.03, Contra Costa County, California",1389,1311,34,44,2622,1014,28,993,TRUE,Bay,ContraCosta
+"Census Tract 3200.04, Contra Costa County, California",3065,3502,196,470,5901,2555,74,2521,TRUE,Bay,ContraCosta
+"Census Tract 3240.01, Contra Costa County, California",3053,2720,384,367,5013,3214,52,3185,TRUE,Bay,ContraCosta
+"Census Tract 3240.02, Contra Costa County, California",2406,2899,448,283,4470,2349,88,2335,TRUE,Bay,ContraCosta
+"Census Tract 3331.01, Contra Costa County, California",2288,2306,201,499,3894,1511,140,1437,TRUE,Bay,ContraCosta
+"Census Tract 3331.02, Contra Costa County, California",2149,2253,269,34,4085,1581,61,1553,TRUE,Bay,ContraCosta
+"Census Tract 3340.06, Contra Costa County, California",2079,2673,48,215,4489,1722,13,1709,TRUE,Bay,ContraCosta
+"Census Tract 3381.01, Contra Costa County, California",2446,2762,558,335,4302,1887,212,1795,TRUE,Bay,ContraCosta
+"Census Tract 3342, Contra Costa County, California",3862,3857,139,152,7071,2674,54,2620,TRUE,Bay,ContraCosta
+"Census Tract 3362.01, Contra Costa County, California",1900,2066,424,665,2868,1291,214,1242,TRUE,Bay,ContraCosta
+"Census Tract 3362.02, Contra Costa County, California",3416,3073,1576,1013,3820,1769,475,1683,TRUE,Bay,ContraCosta
+"Census Tract 3381.02, Contra Costa County, California",1605,1894,185,105,3197,1380,14,1366,TRUE,Bay,ContraCosta
+"Census Tract 3382.03, Contra Costa County, California",2900,2728,363,106,5159,2763,19,2744,TRUE,Bay,ContraCosta
+"Census Tract 3382.04, Contra Costa County, California",2789,3488,268,34,5950,2725,32,2725,FALSE,Bay,ContraCosta
+"Census Tract 3390.01, Contra Costa County, California",1693,1883,341,245,2990,1898,82,1858,TRUE,Bay,ContraCosta
+"Census Tract 3390.02, Contra Costa County, California",3411,3532,1094,314,5535,3531,223,3433,TRUE,Bay,ContraCosta
+"Census Tract 3451.11, Contra Costa County, California",2600,2669,227,220,4822,1848,30,1829,FALSE,Bay,ContraCosta
+"Census Tract 3451.12, Contra Costa County, California",3165,3430,140,168,6187,2288,84,2218,FALSE,Bay,ContraCosta
+"Census Tract 3451.13, Contra Costa County, California",2228,2338,97,27,4433,1562,31,1541,FALSE,Bay,ContraCosta
+"Census Tract 3451.14, Contra Costa County, California",3131,3502,293,163,6177,2576,43,2565,TRUE,Bay,ContraCosta
+"Census Tract 3451.15, Contra Costa County, California",2842,3089,182,59,5690,1921,10,1911,FALSE,Bay,ContraCosta
+"Census Tract 3451.16, Contra Costa County, California",1415,1394,49,39,2709,867,15,852,FALSE,Bay,ContraCosta
+"Census Tract 3452.03, Contra Costa County, California",3163,3592,177,285,6215,2682,132,2580,TRUE,Bay,ContraCosta
+"Census Tract 3452.04, Contra Costa County, California",1885,1957,150,10,3669,1245,10,1245,FALSE,Bay,ContraCosta
+"Census Tract 3462.03, Contra Costa County, California",1847,2088,206,2,3696,1439,11,1428,FALSE,Bay,ContraCosta
+"Census Tract 3462.04, Contra Costa County, California",3759,3753,62,132,7318,2574,27,2554,TRUE,Bay,ContraCosta
+"Census Tract 3511.01, Contra Costa County, California",971,1675,61,124,2461,1954,6,1948,FALSE,Bay,ContraCosta
+"Census Tract 3511.02, Contra Costa County, California",1223,2441,353,185,3057,2694,42,2694,TRUE,Bay,ContraCosta
+"Census Tract 3511.03, Contra Costa County, California",735,1189,101,124,1690,1312,7,1305,TRUE,Bay,ContraCosta
+"Census Tract 3551.07, Contra Costa County, California",2627,2805,321,389,4714,1624,109,1570,TRUE,Bay,ContraCosta
+"Census Tract 3551.08, Contra Costa County, California",6256,7456,1130,677,11810,3719,425,3533,TRUE,Bay,ContraCosta
+"Census Tract 3551.09, Contra Costa County, California",3435,3638,691,299,5991,2151,247,2032,TRUE,Bay,ContraCosta
+"Census Tract 3551.10, Contra Costa County, California",2158,2056,290,195,3718,1128,229,1069,TRUE,Bay,ContraCosta
+"Census Tract 3551.11, Contra Costa County, California",2907,3152,268,206,5544,1917,164,1833,TRUE,Bay,ContraCosta
+"Census Tract 3551.12, Contra Costa County, California",2735,2757,297,119,5005,2073,32,2073,TRUE,Bay,ContraCosta
+"Census Tract 3551.13, Contra Costa County, California",2646,2488,146,0,4976,1690,19,1671,FALSE,Bay,ContraCosta
+"Census Tract 3551.14, Contra Costa County, California",5917,5680,538,0,10991,3423,64,3371,FALSE,Bay,ContraCosta
+"Census Tract 3551.15, Contra Costa County, California",3975,3890,808,192,6865,2573,214,2425,FALSE,Bay,ContraCosta
+"Census Tract 3551.16, Contra Costa County, California",4169,4173,230,58,8054,2390,79,2352,FALSE,Bay,ContraCosta
+"Census Tract 3551.17, Contra Costa County, California",3831,3675,9,74,7423,1960,12,1953,FALSE,Bay,ContraCosta
+"Census Tract 3553.06, Contra Costa County, California",2342,2731,105,78,4889,1790,34,1783,TRUE,Bay,ContraCosta
+"Census Tract 1041.02, Marin County, California",2685,3176,503,400,4955,2163,87,2163,TRUE,Bay,Marin
+"Census Tract 1042, Marin County, California",3070,2772,489,397,4956,2583,161,2524,TRUE,Bay,Marin
+"Census Tract 1060.02, Marin County, California",3057,2863,176,209,5104,2217,0,2217,TRUE,Bay,Marin
+"Census Tract 1181, Marin County, California",1122,1187,129,79,2085,807,0,807,FALSE,Bay,Marin
+"Census Tract 1211, Marin County, California",2469,3028,221,188,5088,2253,76,2233,TRUE,Bay,Marin
+"Census Tract 1321, Marin County, California",843,980,232,131,1449,922,29,914,FALSE,Bay,Marin
+"Census Tract 1011, Marin County, California",1372,1276,44,83,2521,1106,22,1099,TRUE,Bay,Marin
+"Census Tract 1012, Marin County, California",1597,1389,178,181,2627,1137,8,1129,TRUE,Bay,Marin
+"Census Tract 1130, Marin County, California",1619,1664,243,183,2857,1533,28,1516,TRUE,Bay,Marin
+"Census Tract 1220, Marin County, California",2818,0,0,0,0,0,0,0,TRUE,Bay,Marin
+"Census Tract 1261, Marin County, California",2872,3273,183,11,5951,2344,44,2323,FALSE,Bay,Marin
+"Census Tract 1050, Marin County, California",3523,3360,220,203,6460,2741,141,2700,TRUE,Bay,Marin
+"Census Tract 1101, Marin County, California",2712,2934,558,428,4007,2255,0,2255,TRUE,Bay,Marin
+"Census Tract 1150, Marin County, California",3453,3835,208,122,6816,2781,64,2732,FALSE,Bay,Marin
+"Census Tract 1041.01, Marin County, California",3784,4053,441,357,6965,3195,92,3175,TRUE,Bay,Marin
+"Census Tract 1241, Marin County, California",2835,2872,160,69,5478,2244,60,2225,FALSE,Bay,Marin
+"Census Tract 1212, Marin County, California",2866,3260,288,216,5276,2480,90,2454,TRUE,Bay,Marin
+"Census Tract 1290, Marin County, California",1221,1719,721,631,1574,1170,236,1127,TRUE,Bay,Marin
+"Census Tract 1322, Marin County, California",835,981,125,81,1610,917,11,917,FALSE,Bay,Marin
+"Census Tract 1230, Marin County, California",919,1180,48,32,2019,917,10,907,FALSE,Bay,Marin
+"Census Tract 1070, Marin County, California",3089,3864,510,90,6326,2449,106,2415,TRUE,Bay,Marin
+"Census Tract 1110, Marin County, California",3103,2566,671,655,4287,2805,156,2743,TRUE,Bay,Marin
+"Census Tract 1160, Marin County, California",1594,1600,91,52,3023,1310,36,1303,FALSE,Bay,Marin
+"Census Tract 1242, Marin County, California",2764,3184,252,252,5412,2561,51,2561,FALSE,Bay,Marin
+"Census Tract 1250, Marin County, California",2028,2420,221,133,3772,1991,47,1977,FALSE,Bay,Marin
+"Census Tract 1270, Marin County, California",2072,2606,232,32,4414,2031,15,2016,FALSE,Bay,Marin
+"Census Tract 1021, Marin County, California",1102,1239,100,33,2208,988,22,966,FALSE,Bay,Marin
+"Census Tract 1060.01, Marin County, California",2046,2241,236,119,3571,2121,26,2109,TRUE,Bay,Marin
+"Census Tract 1081, Marin County, California",3157,3309,405,27,6019,2586,34,2586,FALSE,Bay,Marin
+"Census Tract 1031, Marin County, California",3977,3797,391,82,7301,2903,58,2845,TRUE,Bay,Marin
+"Census Tract 1082, Marin County, California",3373,3176,651,486,5311,2808,101,2785,TRUE,Bay,Marin
+"Census Tract 1102, Marin County, California",2306,2645,21,71,4859,2121,17,2121,FALSE,Bay,Marin
+"Census Tract 1281, Marin County, California",3220,3390,140,148,6322,2882,47,2882,TRUE,Bay,Marin
+"Census Tract 1043, Marin County, California",779,852,98,37,1496,673,5,673,FALSE,Bay,Marin
+"Census Tract 1141, Marin County, California",2322,2906,186,198,4844,2260,71,2225,TRUE,Bay,Marin
+"Census Tract 1191, Marin County, California",2575,2486,243,92,4726,1947,11,1947,FALSE,Bay,Marin
+"Census Tract 1121, Marin County, California",2581,2201,909,405,3443,1830,161,1786,TRUE,Bay,Marin
+"Census Tract 1142, Marin County, California",1445,1639,177,84,2797,1408,115,1397,TRUE,Bay,Marin
+"Census Tract 1170, Marin County, California",2053,2344,256,107,4034,1982,102,1907,FALSE,Bay,Marin
+"Census Tract 1200, Marin County, California",2755,3529,318,213,5695,2801,50,2801,TRUE,Bay,Marin
+"Census Tract 1262, Marin County, California",2048,2276,280,215,3760,2030,30,2016,TRUE,Bay,Marin
+"Census Tract 1282, Marin County, California",2427,2547,152,182,4640,1917,18,1907,FALSE,Bay,Marin
+"Census Tract 1330, Marin County, California",1299,1504,208,262,2306,1207,50,1189,TRUE,Bay,Marin
+"Census Tract 1032, Marin County, California",3631,3629,525,472,6092,2882,111,2834,TRUE,Bay,Marin
+"Census Tract 1022.02, Marin County, California",2925,3313,454,233,5551,2316,78,2296,TRUE,Bay,Marin
+"Census Tract 1022.03, Marin County, California",2524,3212,1175,422,4139,2169,142,2127,TRUE,Bay,Marin
+"Census Tract 1090.01, Marin County, California",2162,2107,619,185,3434,1797,55,1786,TRUE,Bay,Marin
+"Census Tract 1090.02, Marin County, California",1829,2113,182,55,3705,1753,34,1745,FALSE,Bay,Marin
+"Census Tract 1122.01, Marin County, California",4621,3555,2738,1862,3483,1813,437,1794,TRUE,Bay,Marin
+"Census Tract 1122.02, Marin County, California",2534,2430,674,839,3364,1272,200,1272,TRUE,Bay,Marin
+"Census Tract 1192.01, Marin County, California",1368,2069,304,56,2997,1866,52,1845,FALSE,Bay,Marin
+"Census Tract 1192.02, Marin County, California",1698,1767,268,73,3114,1226,29,1206,FALSE,Bay,Marin
+"Census Tract 1302.01, Marin County, California",1582,1782,177,65,3109,1899,9,1890,FALSE,Bay,Marin
+"Census Tract 1302.02, Marin County, California",1939,2430,218,87,4064,2478,65,2431,TRUE,Bay,Marin
+"Census Tract 1311, Marin County, California",513,652,92,51,972,411,34,397,FALSE,Bay,Marin
+"Census Tract 9901, Marin County, California",0,0,0,0,0,0,0,0,NA,Bay,Marin
+"Census Tract 2002.02, Napa County, California",1486,1286,225,554,1801,1108,119,1085,TRUE,Bay,Napa
+"Census Tract 2004, Napa County, California",2131,1996,301,117,3707,1550,9,1541,TRUE,Bay,Napa
+"Census Tract 2009, Napa County, California",567,155,76,27,16,37,4,33,TRUE,Bay,Napa
+"Census Tract 2012, Napa County, California",2408,2489,649,219,4019,2059,88,2030,TRUE,Bay,Napa
+"Census Tract 2017, Napa County, California",2826,2807,469,162,3840,1619,44,1603,FALSE,Bay,Napa
+"Census Tract 2007.03, Napa County, California",1519,1321,110,64,2652,1099,46,1075,FALSE,Bay,Napa
+"Census Tract 2008.02, Napa County, California",2918,3124,250,393,5296,2362,93,2286,TRUE,Bay,Napa
+"Census Tract 2002.01, Napa County, California",1632,1859,403,146,2893,1295,120,1247,TRUE,Bay,Napa
+"Census Tract 2018, Napa County, California",880,865,95,191,1456,720,58,699,TRUE,Bay,Napa
+"Census Tract 2002.03, Napa County, California",1177,1175,173,235,1944,844,47,837,TRUE,Bay,Napa
+"Census Tract 2019, Napa County, California",672,588,77,44,1136,548,8,540,FALSE,Bay,Napa
+"Census Tract 2015, Napa County, California",1011,973,139,24,1805,744,24,738,FALSE,Bay,Napa
+"Census Tract 2020, Napa County, California",2673,2612,364,561,4296,2082,128,2040,TRUE,Bay,Napa
+"Census Tract 2013, Napa County, California",1353,1629,164,271,2102,1368,60,1360,TRUE,Bay,Napa
+"Census Tract 2005.01, Napa County, California",2572,2683,365,505,4348,1648,140,1599,TRUE,Bay,Napa
+"Census Tract 2005.03, Napa County, California",783,900,301,142,1240,687,52,661,TRUE,Bay,Napa
+"Census Tract 2003.01, Napa County, California",3036,2445,999,372,4065,1723,203,1699,TRUE,Bay,Napa
+"Census Tract 2003.02, Napa County, California",1471,1486,162,136,2659,992,72,987,TRUE,Bay,Napa
+"Census Tract 2005.04, Napa County, California",3287,3183,498,807,4925,2109,93,2092,TRUE,Bay,Napa
+"Census Tract 2005.05, Napa County, California",1457,1179,298,56,2282,952,30,937,TRUE,Bay,Napa
+"Census Tract 2006.01, Napa County, California",2633,2806,455,321,4627,1595,110,1561,TRUE,Bay,Napa
+"Census Tract 2006.02, Napa County, California",1848,2339,287,664,3212,1769,101,1724,TRUE,Bay,Napa
+"Census Tract 2007.04, Napa County, California",2582,2447,309,640,4056,1662,146,1589,TRUE,Bay,Napa
+"Census Tract 2007.05, Napa County, California",1568,1396,280,309,2343,1017,50,986,TRUE,Bay,Napa
+"Census Tract 2007.06, Napa County, California",1550,1642,179,51,2949,1127,0,1127,TRUE,Bay,Napa
+"Census Tract 2007.07, Napa County, California",1445,1745,136,245,2788,1324,75,1273,TRUE,Bay,Napa
+"Census Tract 2008.03, Napa County, California",1033,1074,110,198,1795,856,39,851,FALSE,Bay,Napa
+"Census Tract 2008.04, Napa County, California",2549,3064,472,722,4419,1612,215,1526,TRUE,Bay,Napa
+"Census Tract 2010.03, Napa County, California",2403,2967,653,114,4603,1401,79,1371,FALSE,Bay,Napa
+"Census Tract 2010.04, Napa County, California",2944,3001,482,178,5274,1794,122,1742,TRUE,Bay,Napa
+"Census Tract 2010.05, Napa County, California",1155,1268,162,24,2237,598,31,567,TRUE,Bay,Napa
+"Census Tract 2010.06, Napa County, California",1715,1502,220,216,2775,885,62,854,TRUE,Bay,Napa
+"Census Tract 2010.07, Napa County, California",2217,2078,344,24,3899,1059,53,1022,TRUE,Bay,Napa
+"Census Tract 2011.01, Napa County, California",1086,1037,38,68,2012,798,11,787,FALSE,Bay,Napa
+"Census Tract 2011.02, Napa County, California",1008,795,134,86,1583,711,10,711,FALSE,Bay,Napa
+"Census Tract 2014.01, Napa County, California",1693,1510,158,50,2984,1193,18,1184,TRUE,Bay,Napa
+"Census Tract 2014.02, Napa County, California",1659,1396,117,98,2817,1206,47,1180,TRUE,Bay,Napa
+"Census Tract 2014.03, Napa County, California",364,318,10,33,613,279,14,279,TRUE,Bay,Napa
+"Census Tract 2016.01, Napa County, California",1302,1382,178,406,2100,1065,49,1059,TRUE,Bay,Napa
+"Census Tract 2016.02, Napa County, California",1469,1926,326,248,2707,1535,56,1535,TRUE,Bay,Napa
+"Census Tract 156, San Francisco County, California",1680,1752,504,191,2737,1450,9,1450,TRUE,Bay,San Francisco
+"Census Tract 102, San Francisco County, California",2145,2154,226,136,3937,2541,57,2512,FALSE,Bay,San Francisco
+"Census Tract 108, San Francisco County, California",2384,2476,657,249,3954,2466,115,2453,TRUE,Bay,San Francisco
+"Census Tract 331, San Francisco County, California",1903,1958,234,60,3488,1416,23,1409,TRUE,Bay,San Francisco
+"Census Tract 402, San Francisco County, California",2371,3170,303,353,4885,2319,60,2299,TRUE,Bay,San Francisco
+"Census Tract 428, San Francisco County, California",1194,1296,81,83,2326,923,16,907,FALSE,Bay,San Francisco
+"Census Tract 234, San Francisco County, California",1746,1917,968,279,2373,968,167,916,TRUE,Bay,San Francisco
+"Census Tract 165, San Francisco County, California",2364,3123,568,234,4477,2252,143,2158,TRUE,Bay,San Francisco
+"Census Tract 307, San Francisco County, California",3749,3273,127,439,6456,2684,25,2659,TRUE,Bay,San Francisco
+"Census Tract 351, San Francisco County, California",4141,4912,750,287,7996,2855,142,2808,TRUE,Bay,San Francisco
+"Census Tract 130, San Francisco County, California",2514,2349,304,113,4432,2535,55,2517,FALSE,Bay,San Francisco
+"Census Tract 260.02, San Francisco County, California",1826,1701,193,98,2915,976,60,938,TRUE,Bay,San Francisco
+"Census Tract 264.02, San Francisco County, California",2593,2571,604,245,4247,1214,74,1205,TRUE,Bay,San Francisco
+"Census Tract 303.01, San Francisco County, California",2737,2926,490,127,4990,2291,56,2280,TRUE,Bay,San Francisco
+"Census Tract 308, San Francisco County, California",3143,3441,91,89,6363,2278,49,2229,TRUE,Bay,San Francisco
+"Census Tract 254.02, San Francisco County, California",1617,1667,269,88,2927,1118,32,1108,TRUE,Bay,San Francisco
+"Census Tract 479.01, San Francisco County, California",3719,3878,592,358,6628,2669,160,2548,TRUE,Bay,San Francisco
+"Census Tract 262, San Francisco County, California",3704,3879,611,805,6147,1995,212,1912,TRUE,Bay,San Francisco
+"Census Tract 216, San Francisco County, California",2458,1887,303,66,3976,2116,31,2116,FALSE,Bay,San Francisco
+"Census Tract 309, San Francisco County, California",3623,3691,580,135,6576,2343,19,2324,TRUE,Bay,San Francisco
+"Census Tract 477.01, San Francisco County, California",2055,2414,523,224,3714,2024,84,1981,TRUE,Bay,San Francisco
+"Census Tract 477.02, San Francisco County, California",1848,2029,405,396,3076,1512,84,1466,TRUE,Bay,San Francisco
+"Census Tract 605.02, San Francisco County, California",1636,1852,1251,515,1707,997,397,871,TRUE,Bay,San Francisco
+"Census Tract 607, San Francisco County, California",6023,6157,1050,669,10097,5870,301,5699,TRUE,Bay,San Francisco
+"Census Tract 479.02, San Francisco County, California",1837,1934,325,143,3303,1516,31,1487,TRUE,Bay,San Francisco
+"Census Tract 604, San Francisco County, California",712,845,150,89,1318,989,8,989,TRUE,Bay,San Francisco
+"Census Tract 109, San Francisco County, California",2280,2230,246,300,3964,2547,43,2504,TRUE,Bay,San Francisco
+"Census Tract 118, San Francisco County, California",725,752,324,306,847,735,47,723,TRUE,Bay,San Francisco
+"Census Tract 121, San Francisco County, California",1830,2172,566,184,2657,2176,97,2176,TRUE,Bay,San Francisco
+"Census Tract 128, San Francisco County, California",2099,2337,249,146,4041,2295,32,2295,TRUE,Bay,San Francisco
+"Census Tract 155, San Francisco County, California",1692,1840,376,339,2772,2324,46,2278,TRUE,Bay,San Francisco
+"Census Tract 161, San Francisco County, California",2426,2714,1591,868,2675,2544,351,2424,TRUE,Bay,San Francisco
+"Census Tract 163, San Francisco County, California",2679,2066,417,155,4134,2023,139,1943,TRUE,Bay,San Francisco
+"Census Tract 176.01, San Francisco County, California",5737,3507,2124,837,6283,5273,902,4728,TRUE,Bay,San Francisco
+"Census Tract 201, San Francisco County, California",3423,2616,1312,686,4041,3309,568,3139,TRUE,Bay,San Francisco
+"Census Tract 206, San Francisco County, California",2967,2236,342,97,4764,2738,25,2738,FALSE,Bay,San Francisco
+"Census Tract 209, San Francisco County, California",2500,2246,846,269,3609,1887,117,1860,TRUE,Bay,San Francisco
+"Census Tract 218, San Francisco County, California",2216,2116,209,33,4090,1868,0,1868,FALSE,Bay,San Francisco
+"Census Tract 226, San Francisco County, California",1448,1200,61,62,2525,1241,57,1207,FALSE,Bay,San Francisco
+"Census Tract 231.02, San Francisco County, California",1955,2571,1444,397,2668,1579,340,1455,TRUE,Bay,San Francisco
+"Census Tract 251, San Francisco County, California",1802,1771,345,62,3166,1327,51,1295,FALSE,Bay,San Francisco
+"Census Tract 170, San Francisco County, California",2512,1756,166,78,4024,2230,14,2230,FALSE,Bay,San Francisco
+"Census Tract 180, San Francisco County, California",1958,1133,592,70,2192,1289,20,1269,TRUE,Bay,San Francisco
+"Census Tract 215, San Francisco County, California",2777,2658,380,80,4975,2466,105,2430,FALSE,Bay,San Francisco
+"Census Tract 228.03, San Francisco County, California",2772,2345,357,402,4330,1580,145,1550,TRUE,Bay,San Francisco
+"Census Tract 264.04, San Francisco County, California",1343,1500,447,352,2027,701,45,691,TRUE,Bay,San Francisco
+"Census Tract 306, San Francisco County, California",1273,1243,48,185,2274,896,30,872,FALSE,Bay,San Francisco
+"Census Tract 310, San Francisco County, California",1620,1900,182,53,3285,1307,44,1283,FALSE,Bay,San Francisco
+"Census Tract 332.01, San Francisco County, California",1505,2978,919,185,720,620,25,616,FALSE,Bay,San Francisco
+"Census Tract 111, San Francisco County, California",2452,2326,527,194,4046,3144,93,3133,FALSE,Bay,San Francisco
+"Census Tract 117, San Francisco County, California",1020,748,260,179,1275,1019,163,927,TRUE,Bay,San Francisco
+"Census Tract 154, San Francisco County, California",2923,3047,387,261,5314,2865,11,2865,TRUE,Bay,San Francisco
+"Census Tract 104, San Francisco County, California",2205,2225,368,94,3968,2418,37,2381,TRUE,Bay,San Francisco
+"Census Tract 255, San Francisco County, California",5003,4751,736,625,8383,2768,183,2687,TRUE,Bay,San Francisco
+"Census Tract 256, San Francisco County, California",2833,2570,423,291,4663,1482,107,1425,TRUE,Bay,San Francisco
+"Census Tract 258, San Francisco County, California",991,1029,195,94,1731,613,57,570,TRUE,Bay,San Francisco
+"Census Tract 260.01, San Francisco County, California",2919,3099,687,783,4548,1591,239,1511,TRUE,Bay,San Francisco
+"Census Tract 451, San Francisco County, California",2397,2933,402,261,4624,2102,13,2089,TRUE,Bay,San Francisco
+"Census Tract 452, San Francisco County, California",3139,3774,558,482,5860,2958,87,2931,FALSE,Bay,San Francisco
+"Census Tract 261, San Francisco County, California",3693,3823,382,516,6584,2069,89,2009,TRUE,Bay,San Francisco
+"Census Tract 233, San Francisco County, California",1700,1756,800,275,2368,1100,202,1052,TRUE,Bay,San Francisco
+"Census Tract 253, San Francisco County, California",2617,2202,280,214,4247,1819,41,1799,TRUE,Bay,San Francisco
+"Census Tract 254.01, San Francisco County, California",1828,1897,198,295,3232,1373,88,1322,TRUE,Bay,San Francisco
+"Census Tract 305, San Francisco County, California",1870,1474,184,45,2370,1051,39,1041,TRUE,Bay,San Francisco
+"Census Tract 263.01, San Francisco County, California",2592,2654,608,343,4284,1384,130,1354,TRUE,Bay,San Francisco
+"Census Tract 263.02, San Francisco County, California",2628,2641,438,387,4387,1498,121,1430,TRUE,Bay,San Francisco
+"Census Tract 263.03, San Francisco County, California",2612,2604,452,615,4086,1255,114,1229,TRUE,Bay,San Francisco
+"Census Tract 311, San Francisco County, California",3399,3500,317,207,6375,2433,55,2415,TRUE,Bay,San Francisco
+"Census Tract 217, San Francisco County, California",2240,2069,231,140,3938,1812,98,1783,FALSE,Bay,San Francisco
+"Census Tract 228.02, San Francisco County, California",1133,1196,210,285,1416,680,63,638,FALSE,Bay,San Francisco
+"Census Tract 229.01, San Francisco County, California",2892,2282,820,529,3825,1547,194,1479,TRUE,Bay,San Francisco
+"Census Tract 229.02, San Francisco County, California",1600,1005,339,70,2189,803,104,767,TRUE,Bay,San Francisco
+"Census Tract 229.03, San Francisco County, California",1806,1755,198,97,3192,1128,109,1111,TRUE,Bay,San Francisco
+"Census Tract 230.03, San Francisco County, California",1916,1914,256,429,3108,1252,107,1184,TRUE,Bay,San Francisco
+"Census Tract 264.03, San Francisco County, California",2091,1871,345,298,3249,1134,159,1095,TRUE,Bay,San Francisco
+"Census Tract 302.01, San Francisco County, California",2238,2304,311,200,3994,1976,62,1930,FALSE,Bay,San Francisco
+"Census Tract 303.02, San Francisco County, California",2025,2290,230,80,4005,1493,23,1470,TRUE,Bay,San Francisco
+"Census Tract 304, San Francisco County, California",2625,3016,211,278,5140,1975,74,1922,FALSE,Bay,San Francisco
+"Census Tract 103, San Francisco County, California",2350,1879,347,37,3845,1970,48,1938,TRUE,Bay,San Francisco
+"Census Tract 110, San Francisco County, California",2111,2681,335,93,4364,2497,179,2482,TRUE,Bay,San Francisco
+"Census Tract 260.04, San Francisco County, California",2553,2458,671,103,4222,1301,135,1274,TRUE,Bay,San Francisco
+"Census Tract 301.01, San Francisco County, California",2421,2624,644,57,4200,2061,66,2044,TRUE,Bay,San Francisco
+"Census Tract 330, San Francisco County, California",4374,4051,425,351,7589,2824,142,2772,TRUE,Bay,San Francisco
+"Census Tract 254.03, San Francisco County, California",2638,2412,330,133,4546,1408,215,1301,TRUE,Bay,San Francisco
+"Census Tract 264.01, San Francisco County, California",1663,1885,371,372,2792,1003,63,1003,TRUE,Bay,San Francisco
+"Census Tract 302.02, San Francisco County, California",1966,2521,578,4,3905,2095,55,2080,TRUE,Bay,San Francisco
+"Census Tract 353, San Francisco County, California",3482,3827,339,770,6200,2573,181,2520,TRUE,Bay,San Francisco
+"Census Tract 476, San Francisco County, California",3035,2570,307,88,5210,2324,89,2254,TRUE,Bay,San Francisco
+"Census Tract 106, San Francisco County, California",1805,1551,681,405,2270,1797,106,1769,TRUE,Bay,San Francisco
+"Census Tract 208, San Francisco County, California",3849,2550,618,339,5442,2719,122,2618,TRUE,Bay,San Francisco
+"Census Tract 610, San Francisco County, California",2365,2486,386,338,4127,1752,55,1723,TRUE,Bay,San Francisco
+"Census Tract 203, San Francisco County, California",2104,1309,279,141,2985,1760,52,1751,FALSE,Bay,San Francisco
+"Census Tract 207, San Francisco County, California",2360,2715,308,197,4570,2491,40,2479,FALSE,Bay,San Francisco
+"Census Tract 211, San Francisco County, California",2168,2031,171,78,3950,1887,59,1838,FALSE,Bay,San Francisco
+"Census Tract 212, San Francisco County, California",1593,1502,74,30,2980,1453,24,1439,FALSE,Bay,San Francisco
+"Census Tract 213, San Francisco County, California",1414,1236,105,9,2536,1250,0,1250,FALSE,Bay,San Francisco
+"Census Tract 107, San Francisco County, California",2453,3069,1094,1321,3107,2491,392,2395,TRUE,Bay,San Francisco
+"Census Tract 162, San Francisco County, California",2255,1103,291,259,2808,1903,114,1873,TRUE,Bay,San Francisco
+"Census Tract 169, San Francisco County, California",2063,1128,268,57,2842,1614,116,1592,FALSE,Bay,San Francisco
+"Census Tract 252, San Francisco County, California",2889,2518,238,398,4771,2004,48,1987,TRUE,Bay,San Francisco
+"Census Tract 101, San Francisco County, California",1688,2162,667,441,2742,2061,120,2005,TRUE,Bay,San Francisco
+"Census Tract 112, San Francisco County, California",1637,1822,342,152,2965,1920,55,1892,FALSE,Bay,San Francisco
+"Census Tract 134, San Francisco County, California",1787,2093,155,64,3617,1986,39,1947,FALSE,Bay,San Francisco
+"Census Tract 151, San Francisco County, California",1215,1385,158,63,2351,1618,39,1601,FALSE,Bay,San Francisco
+"Census Tract 157, San Francisco County, California",4129,4783,473,439,5147,2600,97,2525,FALSE,Bay,San Francisco
+"Census Tract 164, San Francisco County, California",2013,2174,174,39,3769,1806,69,1794,TRUE,Bay,San Francisco
+"Census Tract 166, San Francisco County, California",3266,2317,537,121,4925,2398,68,2330,TRUE,Bay,San Francisco
+"Census Tract 179.02, San Francisco County, California",1747,1317,1454,133,1390,595,141,504,TRUE,Bay,San Francisco
+"Census Tract 214, San Francisco County, California",1864,1919,168,124,3491,1744,0,1744,FALSE,Bay,San Francisco
+"Census Tract 120, San Francisco County, California",2482,1511,861,223,2876,2484,238,2348,TRUE,Bay,San Francisco
+"Census Tract 127, San Francisco County, California",1858,2169,154,20,3853,2228,46,2213,TRUE,Bay,San Francisco
+"Census Tract 132, San Francisco County, California",2259,2015,63,32,4150,2191,46,2173,FALSE,Bay,San Francisco
+"Census Tract 133, San Francisco County, California",2092,2637,476,129,4083,1974,34,1965,FALSE,Bay,San Francisco
+"Census Tract 135, San Francisco County, California",1320,1353,175,49,2449,1550,68,1541,FALSE,Bay,San Francisco
+"Census Tract 153, San Francisco County, California",1081,1155,123,38,1955,963,20,947,FALSE,Bay,San Francisco
+"Census Tract 167, San Francisco County, California",2664,2561,296,244,4685,2405,123,2350,FALSE,Bay,San Francisco
+"Census Tract 202, San Francisco County, California",3630,2551,644,409,5128,3143,253,3072,TRUE,Bay,San Francisco
+"Census Tract 205, San Francisco County, California",1908,1041,139,63,2722,1398,23,1386,FALSE,Bay,San Francisco
+"Census Tract 210, San Francisco County, California",2719,1973,315,198,4167,2192,55,2192,TRUE,Bay,San Francisco
+"Census Tract 230.01, San Francisco County, California",2548,2547,650,534,3904,1306,201,1261,TRUE,Bay,San Francisco
+"Census Tract 352.02, San Francisco County, California",2703,2257,450,412,4098,1880,92,1860,TRUE,Bay,San Francisco
+"Census Tract 427, San Francisco County, California",2512,2910,822,596,4004,2427,91,2417,TRUE,Bay,San Francisco
+"Census Tract 601, San Francisco County, California",1899,2220,152,180,3762,1329,28,1315,FALSE,Bay,San Francisco
+"Census Tract 314, San Francisco County, California",3551,3192,638,545,5536,1830,181,1760,TRUE,Bay,San Francisco
+"Census Tract 327, San Francisco County, California",3359,3322,457,355,5869,2441,67,2428,TRUE,Bay,San Francisco
+"Census Tract 401, San Francisco County, California",2089,2347,457,125,3809,1936,59,1894,FALSE,Bay,San Francisco
+"Census Tract 232, San Francisco County, California",1904,2275,917,310,2928,1222,170,1162,TRUE,Bay,San Francisco
+"Census Tract 301.02, San Francisco County, California",2742,2513,170,136,4437,2344,21,2333,FALSE,Bay,San Francisco
+"Census Tract 352.01, San Francisco County, California",3130,2857,756,166,5062,1946,93,1904,TRUE,Bay,San Francisco
+"Census Tract 354, San Francisco County, California",3381,3731,449,395,6268,2548,35,2527,TRUE,Bay,San Francisco
+"Census Tract 159, San Francisco County, California",2333,2230,627,337,3525,2085,141,2085,TRUE,Bay,San Francisco
+"Census Tract 160, San Francisco County, California",1600,1250,529,303,2018,1765,80,1725,TRUE,Bay,San Francisco
+"Census Tract 105, San Francisco County, California",1503,1429,533,48,2351,1717,134,1670,FALSE,Bay,San Francisco
+"Census Tract 113, San Francisco County, California",1562,1484,465,481,2064,1546,153,1527,TRUE,Bay,San Francisco
+"Census Tract 152, San Francisco County, California",1998,2303,512,256,3444,2370,29,2357,TRUE,Bay,San Francisco
+"Census Tract 177, San Francisco County, California",1148,808,193,65,1686,758,34,758,FALSE,Bay,San Francisco
+"Census Tract 227.02, San Francisco County, California",1260,1027,138,7,2124,1012,14,998,FALSE,Bay,San Francisco
+"Census Tract 228.01, San Francisco County, California",3357,2408,751,393,4559,1923,99,1889,TRUE,Bay,San Francisco
+"Census Tract 231.03, San Francisco County, California",1060,1594,867,526,1261,952,337,764,TRUE,Bay,San Francisco
+"Census Tract 259, San Francisco County, California",2319,2490,260,118,4431,1475,68,1437,TRUE,Bay,San Francisco
+"Census Tract 260.03, San Francisco County, California",2513,2498,340,172,4414,1400,114,1397,TRUE,Bay,San Francisco
+"Census Tract 615, San Francisco County, California",7970,6788,961,677,12960,7900,107,7833,TRUE,Bay,San Francisco
+"Census Tract 119.01, San Francisco County, California",1398,1276,159,78,2153,1534,51,1503,FALSE,Bay,San Francisco
+"Census Tract 119.02, San Francisco County, California",1470,1343,256,171,2386,1748,71,1729,FALSE,Bay,San Francisco
+"Census Tract 122.01, San Francisco County, California",2937,1701,762,394,3482,2683,335,2527,TRUE,Bay,San Francisco
+"Census Tract 122.02, San Francisco County, California",2321,1204,1018,529,1978,1631,146,1591,TRUE,Bay,San Francisco
+"Census Tract 123.01, San Francisco County, California",1129,987,654,508,954,1233,221,1112,TRUE,Bay,San Francisco
+"Census Tract 123.02, San Francisco County, California",1510,1111,650,198,1773,1943,182,1840,TRUE,Bay,San Francisco
+"Census Tract 124.01, San Francisco County, California",2838,1944,1224,578,2980,2749,440,2580,TRUE,Bay,San Francisco
+"Census Tract 124.02, San Francisco County, California",2473,1847,761,324,2933,2643,166,2570,TRUE,Bay,San Francisco
+"Census Tract 125.01, San Francisco County, California",2367,1635,1119,974,1828,2259,448,2142,TRUE,Bay,San Francisco
+"Census Tract 125.02, San Francisco County, California",2037,1547,1226,600,1598,2208,408,2063,TRUE,Bay,San Francisco
+"Census Tract 126.01, San Francisco County, California",1342,1288,60,37,2533,1568,32,1557,FALSE,Bay,San Francisco
+"Census Tract 126.02, San Francisco County, California",1207,1481,92,53,2543,1512,0,1512,FALSE,Bay,San Francisco
+"Census Tract 129.01, San Francisco County, California",1350,1311,96,33,2521,1496,10,1486,FALSE,Bay,San Francisco
+"Census Tract 129.02, San Francisco County, California",1719,2307,233,59,3651,2057,0,2057,TRUE,Bay,San Francisco
+"Census Tract 131.01, San Francisco County, California",2028,2111,147,154,3711,2451,57,2421,FALSE,Bay,San Francisco
+"Census Tract 131.02, San Francisco County, California",1425,1534,187,0,2728,1514,9,1514,FALSE,Bay,San Francisco
+"Census Tract 158.01, San Francisco County, California",2106,2058,779,264,3071,1800,167,1704,TRUE,Bay,San Francisco
+"Census Tract 158.02, San Francisco County, California",1931,1390,221,91,3009,1586,62,1575,FALSE,Bay,San Francisco
+"Census Tract 168.01, San Francisco County, California",2243,1503,396,119,3231,1795,84,1755,FALSE,Bay,San Francisco
+"Census Tract 168.02, San Francisco County, California",2020,1622,492,255,2876,1984,100,1930,TRUE,Bay,San Francisco
+"Census Tract 171.01, San Francisco County, California",2037,1851,183,67,3638,1700,23,1677,FALSE,Bay,San Francisco
+"Census Tract 171.02, San Francisco County, California",1792,2036,242,197,3366,1658,28,1640,FALSE,Bay,San Francisco
+"Census Tract 178.01, San Francisco County, California",1543,2111,1037,511,2106,2389,91,2389,TRUE,Bay,San Francisco
+"Census Tract 178.02, San Francisco County, California",3365,2417,1509,797,3465,2535,306,2478,TRUE,Bay,San Francisco
+"Census Tract 204.01, San Francisco County, California",2023,1237,162,117,2981,1590,29,1579,FALSE,Bay,San Francisco
+"Census Tract 204.02, San Francisco County, California",2932,1743,222,77,4376,2495,36,2478,TRUE,Bay,San Francisco
+"Census Tract 227.04, San Francisco County, California",1794,1503,222,70,2997,1540,8,1540,FALSE,Bay,San Francisco
+"Census Tract 257.01, San Francisco County, California",2828,2479,457,55,4770,1458,48,1447,TRUE,Bay,San Francisco
+"Census Tract 313.01, San Francisco County, California",2275,2235,440,696,3374,1279,100,1263,TRUE,Bay,San Francisco
+"Census Tract 257.02, San Francisco County, California",2019,2408,473,383,3566,1248,159,1183,TRUE,Bay,San Francisco
+"Census Tract 312.01, San Francisco County, California",3682,3569,585,649,5975,2073,154,1989,TRUE,Bay,San Francisco
+"Census Tract 312.02, San Francisco County, California",1882,1633,463,187,2832,909,77,907,TRUE,Bay,San Francisco
+"Census Tract 313.02, San Francisco County, California",3140,3058,846,246,5075,1972,188,1920,TRUE,Bay,San Francisco
+"Census Tract 326.01, San Francisco County, California",2894,2510,525,344,4535,1823,114,1783,TRUE,Bay,San Francisco
+"Census Tract 326.02, San Francisco County, California",2294,2597,397,166,4328,1817,59,1791,TRUE,Bay,San Francisco
+"Census Tract 328.01, San Francisco County, California",2090,2306,184,150,3924,1469,122,1429,TRUE,Bay,San Francisco
+"Census Tract 328.02, San Francisco County, California",2021,2334,444,77,3834,1561,53,1561,TRUE,Bay,San Francisco
+"Census Tract 332.04, San Francisco County, California",2579,2227,1514,923,2369,1679,86,1648,TRUE,Bay,San Francisco
+"Census Tract 329.01, San Francisco County, California",2677,3088,200,285,5224,1740,98,1705,TRUE,Bay,San Francisco
+"Census Tract 329.02, San Francisco County, California",2084,2127,632,245,3265,1398,94,1357,TRUE,Bay,San Francisco
+"Census Tract 332.03, San Francisco County, California",1876,1921,988,379,2430,1550,55,1541,FALSE,Bay,San Francisco
+"Census Tract 426.01, San Francisco County, California",1851,1973,563,160,3101,1744,49,1734,TRUE,Bay,San Francisco
+"Census Tract 426.02, San Francisco County, California",1484,1538,165,83,2774,1416,12,1416,FALSE,Bay,San Francisco
+"Census Tract 478.01, San Francisco County, California",2182,2339,371,122,3979,1715,86,1697,TRUE,Bay,San Francisco
+"Census Tract 478.02, San Francisco County, California",1865,1918,308,332,3143,1419,19,1419,FALSE,Bay,San Francisco
+"Census Tract 611, San Francisco County, California",2314,2378,1765,929,1998,2062,516,1939,TRUE,Bay,San Francisco
+"Census Tract 612, San Francisco County, California",2269,2024,659,502,3127,1229,196,1171,TRUE,Bay,San Francisco
+"Census Tract 614, San Francisco County, California",2907,3070,1080,646,4251,2521,321,2486,TRUE,Bay,San Francisco
+"Census Tract 9802, San Francisco County, California",247,58,0,0,106,57,0,57,TRUE,Bay,San Francisco
+"Census Tract 9803, San Francisco County, California",46,20,0,0,66,49,0,49,NA,Bay,San Francisco
+"Census Tract 9804.01, San Francisco County, California",0,0,0,0,0,0,0,0,NA,Bay,San Francisco
+"Census Tract 9805.01, San Francisco County, California",302,367,224,108,337,246,69,228,TRUE,Bay,San Francisco
+"Census Tract 9806, San Francisco County, California",306,269,166,4,405,225,21,225,TRUE,Bay,San Francisco
+"Census Tract 9809, San Francisco County, California",160,112,38,0,234,154,0,154,TRUE,Bay,San Francisco
+"Census Tract 9901, San Francisco County, California",0,0,0,0,0,0,0,0,NA,Bay,San Francisco
+"Census Tract 6030, San Mateo County, California",2138,2289,350,226,3851,1850,56,1824,TRUE,Bay,San Mateo
+"Census Tract 6096.01, San Mateo County, California",1643,1657,80,109,3111,1191,11,1191,FALSE,Bay,San Mateo
+"Census Tract 6098, San Mateo County, California",2386,2287,157,128,4381,1687,21,1687,TRUE,Bay,San Mateo
+"Census Tract 6108, San Mateo County, California",2777,2236,476,336,4168,1665,80,1641,TRUE,Bay,San Mateo
+"Census Tract 6109, San Mateo County, California",3188,3912,1638,992,4435,2502,305,2357,TRUE,Bay,San Mateo
+"Census Tract 6118, San Mateo County, California",2189,2180,670,530,3161,881,181,854,TRUE,Bay,San Mateo
+"Census Tract 6126, San Mateo County, California",2178,2514,190,125,4249,2103,53,2062,FALSE,Bay,San Mateo
+"Census Tract 6132, San Mateo County, California",3291,3577,128,133,6573,2543,0,2543,FALSE,Bay,San Mateo
+"Census Tract 6134, San Mateo County, California",1454,1683,248,55,2823,1133,7,1126,FALSE,Bay,San Mateo
+"Census Tract 6137, San Mateo County, California",4254,4787,791,343,7907,3530,261,3386,TRUE,Bay,San Mateo
+"Census Tract 6083, San Mateo County, California",1976,1739,67,217,3420,1347,0,1347,TRUE,Bay,San Mateo
+"Census Tract 6093, San Mateo County, California",1759,1877,38,282,3300,1195,12,1195,FALSE,Bay,San Mateo
+"Census Tract 6127, San Mateo County, California",1032,1213,168,25,2052,799,27,787,FALSE,Bay,San Mateo
+"Census Tract 6129, San Mateo County, California",2105,2665,212,125,4428,1778,9,1769,FALSE,Bay,San Mateo
+"Census Tract 6133, San Mateo County, California",1563,1463,186,65,2765,989,11,978,FALSE,Bay,San Mateo
+"Census Tract 6136, San Mateo County, California",3370,3121,304,12,6066,2227,71,2211,TRUE,Bay,San Mateo
+"Census Tract 6087, San Mateo County, California",3639,3514,323,189,6314,2603,50,2603,TRUE,Bay,San Mateo
+"Census Tract 6096.03, San Mateo County, California",2479,2953,246,52,5121,2061,0,2061,TRUE,Bay,San Mateo
+"Census Tract 6119, San Mateo County, California",5476,4857,893,1150,8180,2627,259,2514,TRUE,Bay,San Mateo
+"Census Tract 6128, San Mateo County, California",1796,1810,148,2,3454,1069,18,1061,FALSE,Bay,San Mateo
+"Census Tract 6018, San Mateo County, California",3029,4140,807,150,6194,2078,85,2018,TRUE,Bay,San Mateo
+"Census Tract 6008, San Mateo County, California",3394,4016,1532,449,5417,2761,298,2745,TRUE,Bay,San Mateo
+"Census Tract 6012, San Mateo County, California",3379,3747,296,334,6446,2153,70,2132,TRUE,Bay,San Mateo
+"Census Tract 6026, San Mateo County, California",3972,4223,97,248,7836,2725,144,2598,TRUE,Bay,San Mateo
+"Census Tract 6031, San Mateo County, California",1663,1819,256,55,3159,1223,9,1223,TRUE,Bay,San Mateo
+"Census Tract 6045, San Mateo County, California",1892,1994,157,148,3565,1315,19,1315,TRUE,Bay,San Mateo
+"Census Tract 6060, San Mateo County, California",2830,2454,487,615,4182,2141,82,2092,TRUE,Bay,San Mateo
+"Census Tract 6067, San Mateo County, California",1229,1291,81,26,2413,982,5,977,FALSE,Bay,San Mateo
+"Census Tract 6070, San Mateo County, California",1665,1868,136,66,3331,1404,23,1403,FALSE,Bay,San Mateo
+"Census Tract 6071, San Mateo County, California",1503,1657,61,128,2964,1107,0,1107,FALSE,Bay,San Mateo
+"Census Tract 6075, San Mateo County, California",2659,2714,340,200,4833,2009,114,1985,TRUE,Bay,San Mateo
+"Census Tract 6040, San Mateo County, California",1659,1712,244,91,3036,1130,6,1124,TRUE,Bay,San Mateo
+"Census Tract 6073, San Mateo County, California",1772,1988,202,96,3462,1346,28,1325,FALSE,Bay,San Mateo
+"Census Tract 6080.01, San Mateo County, California",1834,1765,193,87,3319,1477,20,1457,FALSE,Bay,San Mateo
+"Census Tract 6082, San Mateo County, California",1837,2114,196,99,3591,1364,20,1364,FALSE,Bay,San Mateo
+"Census Tract 6086, San Mateo County, California",2220,2153,213,101,4047,1787,68,1778,TRUE,Bay,San Mateo
+"Census Tract 6090, San Mateo County, California",1207,1365,59,62,2387,945,0,945,FALSE,Bay,San Mateo
+"Census Tract 6099, San Mateo County, California",1408,1604,166,43,2803,1062,12,1050,FALSE,Bay,San Mateo
+"Census Tract 6103.02, San Mateo County, California",1720,1537,392,382,2217,1023,109,973,TRUE,Bay,San Mateo
+"Census Tract 6114, San Mateo County, California",2126,2190,173,117,3555,1301,0,1301,FALSE,Bay,San Mateo
+"Census Tract 6120, San Mateo County, California",3749,3326,785,1400,4836,1525,280,1464,TRUE,Bay,San Mateo
+"Census Tract 6135.02, San Mateo County, California",3269,3316,71,236,6248,2389,28,2361,TRUE,Bay,San Mateo
+"Census Tract 6138, San Mateo County, California",1962,1990,433,83,3423,1446,43,1439,TRUE,Bay,San Mateo
+"Census Tract 6025, San Mateo County, California",2646,2761,249,162,4912,1585,37,1577,TRUE,Bay,San Mateo
+"Census Tract 6009, San Mateo County, California",2046,2037,194,145,3744,1365,41,1324,TRUE,Bay,San Mateo
+"Census Tract 6016.05, San Mateo County, California",3088,3212,283,228,5765,1662,71,1625,TRUE,Bay,San Mateo
+"Census Tract 6027, San Mateo County, California",3057,3161,195,336,5677,1937,59,1897,TRUE,Bay,San Mateo
+"Census Tract 6029, San Mateo County, California",2096,1812,181,44,3620,1578,74,1527,TRUE,Bay,San Mateo
+"Census Tract 6077.01, San Mateo County, California",2040,2229,328,394,3497,1205,37,1186,TRUE,Bay,San Mateo
+"Census Tract 6078, San Mateo County, California",1827,1700,281,144,3057,1025,61,1003,TRUE,Bay,San Mateo
+"Census Tract 6080.02, San Mateo County, California",1739,1915,90,56,3508,1390,16,1379,FALSE,Bay,San Mateo
+"Census Tract 6080.13, San Mateo County, California",1958,2027,77,45,3863,1570,24,1562,FALSE,Bay,San Mateo
+"Census Tract 6096.02, San Mateo County, California",886,897,52,33,1698,672,6,666,FALSE,Bay,San Mateo
+"Census Tract 6100, San Mateo County, California",2276,2618,283,135,4429,2034,70,1986,FALSE,Bay,San Mateo
+"Census Tract 6105, San Mateo County, California",2546,2359,767,493,3640,1325,174,1311,TRUE,Bay,San Mateo
+"Census Tract 6106.01, San Mateo County, California",3002,3049,1103,978,3845,1645,281,1547,TRUE,Bay,San Mateo
+"Census Tract 6110, San Mateo County, California",2998,3665,235,356,6037,2300,64,2268,TRUE,Bay,San Mateo
+"Census Tract 6112, San Mateo County, California",1505,1350,117,83,2655,1048,17,1038,TRUE,Bay,San Mateo
+"Census Tract 6113, San Mateo County, California",2623,2781,208,229,4959,2003,71,1968,TRUE,Bay,San Mateo
+"Census Tract 6121, San Mateo County, California",4111,4547,1356,1784,5518,2770,509,2679,TRUE,Bay,San Mateo
+"Census Tract 6006, San Mateo County, California",2786,3078,470,504,4875,1525,123,1470,TRUE,Bay,San Mateo
+"Census Tract 6016.01, San Mateo County, California",1433,1379,230,69,2513,886,74,842,TRUE,Bay,San Mateo
+"Census Tract 6032, San Mateo County, California",1960,2014,147,160,3622,1410,76,1401,TRUE,Bay,San Mateo
+"Census Tract 6041.02, San Mateo County, California",1562,1355,134,122,2661,1578,53,1568,TRUE,Bay,San Mateo
+"Census Tract 6049, San Mateo County, California",1405,1630,275,110,2650,1172,49,1164,TRUE,Bay,San Mateo
+"Census Tract 6050, San Mateo County, California",4212,4235,467,184,7470,2858,70,2819,TRUE,Bay,San Mateo
+"Census Tract 6051, San Mateo County, California",1473,1698,319,124,2728,1328,48,1309,FALSE,Bay,San Mateo
+"Census Tract 6052, San Mateo County, California",1752,1892,105,117,3422,1251,16,1235,FALSE,Bay,San Mateo
+"Census Tract 6062, San Mateo County, California",4146,3801,1347,1039,5469,2230,241,2208,TRUE,Bay,San Mateo
+"Census Tract 6065, San Mateo County, California",1811,1780,83,8,3500,1288,8,1288,FALSE,Bay,San Mateo
+"Census Tract 6066, San Mateo County, California",1810,1893,238,317,3148,1442,80,1421,TRUE,Bay,San Mateo
+"Census Tract 6021, San Mateo County, California",1585,1694,299,592,2380,967,135,950,TRUE,Bay,San Mateo
+"Census Tract 6069, San Mateo County, California",1447,1284,44,54,2472,931,8,923,FALSE,Bay,San Mateo
+"Census Tract 6076, San Mateo County, California",1926,1875,304,326,3148,1286,62,1275,TRUE,Bay,San Mateo
+"Census Tract 6016.03, San Mateo County, California",2849,2863,409,211,5085,1871,59,1859,TRUE,Bay,San Mateo
+"Census Tract 6034, San Mateo County, California",2936,2849,154,139,5399,2074,45,2074,TRUE,Bay,San Mateo
+"Census Tract 6041.01, San Mateo County, California",4096,4029,743,927,6402,2461,337,2237,TRUE,Bay,San Mateo
+"Census Tract 6042, San Mateo County, California",2146,2299,96,230,4102,1124,131,1067,TRUE,Bay,San Mateo
+"Census Tract 6044, San Mateo County, California",2587,2609,218,316,4478,1800,55,1758,TRUE,Bay,San Mateo
+"Census Tract 6047, San Mateo County, California",1338,1356,92,118,2484,944,10,934,FALSE,Bay,San Mateo
+"Census Tract 6048, San Mateo County, California",2515,2520,224,118,4684,1879,43,1855,TRUE,Bay,San Mateo
+"Census Tract 6054, San Mateo County, California",2794,3011,207,72,5526,2478,36,2460,TRUE,Bay,San Mateo
+"Census Tract 6059, San Mateo County, California",2687,2869,421,273,4829,2535,137,2429,TRUE,Bay,San Mateo
+"Census Tract 6061, San Mateo County, California",2449,2561,591,257,4157,1364,64,1325,TRUE,Bay,San Mateo
+"Census Tract 6094, San Mateo County, California",1682,1643,73,0,3252,1093,0,1093,FALSE,Bay,San Mateo
+"Census Tract 6095, San Mateo County, California",2401,2507,42,131,4735,1682,21,1670,FALSE,Bay,San Mateo
+"Census Tract 6097, San Mateo County, California",2343,2349,143,24,4514,1654,11,1643,FALSE,Bay,San Mateo
+"Census Tract 6111, San Mateo County, California",3066,3702,152,95,6469,2362,85,2277,TRUE,Bay,San Mateo
+"Census Tract 6117, San Mateo County, California",2536,2869,821,359,4217,1429,287,1361,TRUE,Bay,San Mateo
+"Census Tract 6130, San Mateo County, California",1875,2106,482,84,3415,1430,0,1430,FALSE,Bay,San Mateo
+"Census Tract 6005, San Mateo County, California",4624,3853,694,571,7212,2164,122,2124,TRUE,Bay,San Mateo
+"Census Tract 6016.04, San Mateo County, California",1406,1287,205,94,2394,1100,0,1100,TRUE,Bay,San Mateo
+"Census Tract 6014, San Mateo County, California",3472,3692,1081,204,5817,2171,131,2136,TRUE,Bay,San Mateo
+"Census Tract 6028, San Mateo County, California",2463,2392,265,118,4463,1503,103,1445,TRUE,Bay,San Mateo
+"Census Tract 6102.03, San Mateo County, California",2344,1735,535,880,2626,1067,176,1014,TRUE,Bay,San Mateo
+"Census Tract 6010, San Mateo County, California",3696,3329,400,313,6284,2036,76,2009,TRUE,Bay,San Mateo
+"Census Tract 6106.02, San Mateo County, California",1795,1796,507,346,2708,1177,63,1114,TRUE,Bay,San Mateo
+"Census Tract 6077.02, San Mateo County, California",1574,1532,358,236,2501,806,22,790,TRUE,Bay,San Mateo
+"Census Tract 6072, San Mateo County, California",1903,2143,483,164,3357,1639,41,1598,TRUE,Bay,San Mateo
+"Census Tract 6080.04, San Mateo County, California",4422,3871,375,219,7699,3133,153,3055,TRUE,Bay,San Mateo
+"Census Tract 6080.23, San Mateo County, California",1241,1388,170,1,2458,892,12,887,FALSE,Bay,San Mateo
+"Census Tract 6081, San Mateo County, California",1870,2088,34,153,3738,1427,46,1393,FALSE,Bay,San Mateo
+"Census Tract 6085.02, San Mateo County, California",1163,1586,122,120,2507,1161,55,1129,TRUE,Bay,San Mateo
+"Census Tract 6001, San Mateo County, California",2517,2665,310,117,4735,2035,66,1969,TRUE,Bay,San Mateo
+"Census Tract 6011, San Mateo County, California",2794,3428,327,155,5703,1835,31,1812,TRUE,Bay,San Mateo
+"Census Tract 6013, San Mateo County, California",4273,4265,1002,492,6982,2523,370,2448,TRUE,Bay,San Mateo
+"Census Tract 6015.01, San Mateo County, California",2639,2922,296,194,5043,1307,27,1280,TRUE,Bay,San Mateo
+"Census Tract 6017, San Mateo County, California",2261,2065,245,71,3997,1311,66,1274,TRUE,Bay,San Mateo
+"Census Tract 6020, San Mateo County, California",4292,4147,350,593,7433,2418,42,2376,TRUE,Bay,San Mateo
+"Census Tract 6024, San Mateo County, California",3974,3629,604,437,6562,2690,56,2676,TRUE,Bay,San Mateo
+"Census Tract 6033, San Mateo County, California",3000,3416,164,295,5957,2379,78,2311,TRUE,Bay,San Mateo
+"Census Tract 6046, San Mateo County, California",1393,1464,89,98,2670,934,14,928,FALSE,Bay,San Mateo
+"Census Tract 6055, San Mateo County, California",2083,3451,230,456,4842,2591,115,2564,TRUE,Bay,San Mateo
+"Census Tract 6058, San Mateo County, California",1331,1314,38,15,2582,999,0,999,FALSE,Bay,San Mateo
+"Census Tract 6074, San Mateo County, California",2323,2694,533,419,3973,1990,142,1927,FALSE,Bay,San Mateo
+"Census Tract 6079, San Mateo County, California",1474,1647,166,298,2657,1660,19,1649,TRUE,Bay,San Mateo
+"Census Tract 6084, San Mateo County, California",3713,2615,602,255,5460,2238,163,2238,TRUE,Bay,San Mateo
+"Census Tract 6085.01, San Mateo County, California",2549,2453,193,152,4652,1746,70,1731,TRUE,Bay,San Mateo
+"Census Tract 6053, San Mateo County, California",2296,2394,336,189,4151,1867,72,1834,FALSE,Bay,San Mateo
+"Census Tract 6056, San Mateo County, California",2971,2938,229,56,5624,1890,9,1881,FALSE,Bay,San Mateo
+"Census Tract 6089, San Mateo County, California",3418,3557,425,250,6228,2985,51,2953,TRUE,Bay,San Mateo
+"Census Tract 6064, San Mateo County, California",2499,2537,137,160,4710,2416,44,2389,TRUE,Bay,San Mateo
+"Census Tract 6068, San Mateo County, California",1599,1831,113,31,3277,1287,0,1287,FALSE,Bay,San Mateo
+"Census Tract 6088, San Mateo County, California",3166,3148,114,175,5978,2144,55,2131,TRUE,Bay,San Mateo
+"Census Tract 6091, San Mateo County, California",758,826,56,41,1483,572,35,568,FALSE,Bay,San Mateo
+"Census Tract 6101, San Mateo County, California",1326,1305,301,114,2207,1004,64,997,TRUE,Bay,San Mateo
+"Census Tract 6104, San Mateo County, California",3171,2908,1022,652,4405,1715,237,1684,TRUE,Bay,San Mateo
+"Census Tract 6115, San Mateo County, California",1475,1394,57,40,2766,920,15,909,FALSE,Bay,San Mateo
+"Census Tract 6125, San Mateo County, California",2129,2325,220,44,4190,1824,0,1824,FALSE,Bay,San Mateo
+"Census Tract 6135.01, San Mateo County, California",2304,2673,141,81,4733,1499,93,1485,TRUE,Bay,San Mateo
+"Census Tract 6102.01, San Mateo County, California",3141,2734,1262,309,4290,1777,294,1730,TRUE,Bay,San Mateo
+"Census Tract 6102.02, San Mateo County, California",1982,1169,440,90,1976,1299,53,1291,TRUE,Bay,San Mateo
+"Census Tract 6103.03, San Mateo County, California",3719,4426,455,53,7637,3319,0,3319,TRUE,Bay,San Mateo
+"Census Tract 6103.04, San Mateo County, California",2037,2397,136,62,4236,1873,17,1865,FALSE,Bay,San Mateo
+"Census Tract 6107, San Mateo County, California",3418,2598,314,599,5099,2146,217,2146,TRUE,Bay,San Mateo
+"Census Tract 6116, San Mateo County, California",1145,1336,93,11,2304,795,0,795,FALSE,Bay,San Mateo
+"Census Tract 6002, San Mateo County, California",2071,2102,383,375,3400,1170,109,1143,TRUE,Bay,San Mateo
+"Census Tract 6003, San Mateo County, California",2055,1897,191,26,3735,1272,34,1272,TRUE,Bay,San Mateo
+"Census Tract 6007, San Mateo County, California",3602,3992,643,585,6356,2206,131,2159,TRUE,Bay,San Mateo
+"Census Tract 6015.02, San Mateo County, California",2922,2669,583,489,4190,1791,123,1761,TRUE,Bay,San Mateo
+"Census Tract 6022, San Mateo County, California",4446,4294,981,645,6914,2506,164,2464,TRUE,Bay,San Mateo
+"Census Tract 6023, San Mateo County, California",1850,2317,621,251,3283,1136,86,1118,TRUE,Bay,San Mateo
+"Census Tract 6037, San Mateo County, California",2656,2869,279,215,4992,1695,47,1684,TRUE,Bay,San Mateo
+"Census Tract 6039, San Mateo County, California",2508,3043,152,209,5190,2051,89,2025,TRUE,Bay,San Mateo
+"Census Tract 6057, San Mateo County, California",2778,2752,81,46,5403,1774,9,1774,FALSE,Bay,San Mateo
+"Census Tract 6063, San Mateo County, California",2202,2152,272,192,3781,1887,61,1871,TRUE,Bay,San Mateo
+"Census Tract 6004.01, San Mateo County, California",1654,1659,165,115,3033,1090,103,1060,TRUE,Bay,San Mateo
+"Census Tract 6004.02, San Mateo County, California",2510,2529,406,354,4270,1266,56,1247,TRUE,Bay,San Mateo
+"Census Tract 6019.01, San Mateo County, California",2075,2123,294,147,3757,1383,42,1383,TRUE,Bay,San Mateo
+"Census Tract 6019.02, San Mateo County, California",2658,2814,480,377,4615,2132,122,2132,TRUE,Bay,San Mateo
+"Census Tract 6038.01, San Mateo County, California",1238,1097,78,237,2015,1159,56,1150,TRUE,Bay,San Mateo
+"Census Tract 6038.02, San Mateo County, California",2314,2601,166,290,4442,1838,31,1807,TRUE,Bay,San Mateo
+"Census Tract 6092.01, San Mateo County, California",1821,1887,90,115,3455,1560,63,1542,TRUE,Bay,San Mateo
+"Census Tract 6092.02, San Mateo County, California",2113,2385,319,245,3923,1943,64,1919,TRUE,Bay,San Mateo
+"Census Tract 6139, San Mateo County, California",3525,3392,689,199,5854,2153,53,2140,TRUE,Bay,San Mateo
+"Census Tract 6140, San Mateo County, California",2987,2960,266,165,5495,1774,91,1721,TRUE,Bay,San Mateo
+"Census Tract 9843, San Mateo County, California",0,0,0,0,0,0,0,0,NA,Bay,San Mateo
+"Census Tract 9901, San Mateo County, California",0,0,0,0,0,0,0,0,NA,Bay,San Mateo
+"Census Tract 5081.01, Santa Clara County, California",3285,3633,123,255,6467,2301,11,2290,FALSE,Bay,Santa Clara
+"Census Tract 5092.02, Santa Clara County, California",2420,2443,384,227,4252,1863,73,1853,TRUE,Bay,Santa Clara
+"Census Tract 5093.04, Santa Clara County, California",1959,1558,162,245,3110,1407,30,1407,TRUE,Bay,Santa Clara
+"Census Tract 5094.01, Santa Clara County, California",1936,1905,265,94,3482,1714,94,1706,FALSE,Bay,Santa Clara
+"Census Tract 5098.01, Santa Clara County, California",2811,2724,153,198,5184,2236,80,2236,FALSE,Bay,Santa Clara
+"Census Tract 5123.07, Santa Clara County, California",3362,3643,139,681,6177,2473,140,2400,TRUE,Bay,Santa Clara
+"Census Tract 5032.04, Santa Clara County, California",4318,4096,1047,945,6376,2211,394,2081,TRUE,Bay,Santa Clara
+"Census Tract 5032.10, Santa Clara County, California",2378,2022,405,114,3838,994,122,979,TRUE,Bay,Santa Clara
+"Census Tract 5034.01, Santa Clara County, California",2573,2282,311,463,4016,941,111,890,TRUE,Bay,Santa Clara
+"Census Tract 5035.07, Santa Clara County, California",1180,1287,253,145,2053,370,70,345,FALSE,Bay,Santa Clara
+"Census Tract 5120.19, Santa Clara County, California",2543,2612,458,136,4444,1542,128,1510,TRUE,Bay,Santa Clara
+"Census Tract 5120.20, Santa Clara County, California",3709,4042,1021,349,6319,2564,155,2506,TRUE,Bay,Santa Clara
+"Census Tract 5120.24, Santa Clara County, California",2389,2656,334,289,4422,1733,159,1666,TRUE,Bay,Santa Clara
+"Census Tract 5124.02, Santa Clara County, California",2480,2486,323,182,4461,1492,69,1486,TRUE,Bay,Santa Clara
+"Census Tract 5033.12, Santa Clara County, California",1987,1987,302,320,3336,1078,66,1056,TRUE,Bay,Santa Clara
+"Census Tract 5034.02, Santa Clara County, California",2829,2797,1059,433,4090,1197,332,1135,TRUE,Bay,Santa Clara
+"Census Tract 5035.06, Santa Clara County, California",3385,3350,1375,537,4700,1279,242,1230,TRUE,Bay,Santa Clara
+"Census Tract 5035.08, Santa Clara County, California",3575,3107,815,938,4848,1345,197,1293,TRUE,Bay,Santa Clara
+"Census Tract 5036.01, Santa Clara County, California",1741,1407,402,225,2469,851,65,834,TRUE,Bay,Santa Clara
+"Census Tract 5037.07, Santa Clara County, California",3272,2945,557,522,5062,1458,323,1411,TRUE,Bay,Santa Clara
+"Census Tract 5037.09, Santa Clara County, California",2922,3283,1954,1072,3106,1851,437,1757,TRUE,Bay,Santa Clara
+"Census Tract 5041.02, Santa Clara County, California",2772,2918,393,315,4946,1299,49,1282,TRUE,Bay,Santa Clara
+"Census Tract 5043.08, Santa Clara County, California",2068,2271,342,161,3836,1518,89,1472,TRUE,Bay,Santa Clara
+"Census Tract 5044.16, Santa Clara County, California",1978,1825,194,10,3587,1113,35,1085,TRUE,Bay,Santa Clara
+"Census Tract 5044.22, Santa Clara County, California",1958,1854,256,181,3374,1045,69,1004,TRUE,Bay,Santa Clara
+"Census Tract 5046.02, Santa Clara County, California",1203,1050,79,176,1998,596,27,596,TRUE,Bay,Santa Clara
+"Census Tract 5051, Santa Clara County, California",2171,1814,423,340,3222,1932,170,1899,TRUE,Bay,Santa Clara
+"Census Tract 5052.02, Santa Clara County, California",3481,2991,682,631,5150,2379,263,2291,TRUE,Bay,Santa Clara
+"Census Tract 5120.05, Santa Clara County, California",3245,4039,439,371,6455,2159,135,2143,TRUE,Bay,Santa Clara
+"Census Tract 5121, Santa Clara County, California",786,718,102,86,1298,470,7,470,TRUE,Bay,Santa Clara
+"Census Tract 5124.01, Santa Clara County, California",2579,2203,336,425,3979,1319,124,1272,TRUE,Bay,Santa Clara
+"Census Tract 5001, Santa Clara County, California",4165,3957,529,438,7155,2513,308,2461,TRUE,Bay,Santa Clara
+"Census Tract 5004, Santa Clara County, California",1422,1174,229,100,2267,1016,72,985,TRUE,Bay,Santa Clara
+"Census Tract 5005, Santa Clara County, California",2519,2956,529,343,4324,2067,128,2027,TRUE,Bay,Santa Clara
+"Census Tract 5016, Santa Clara County, California",4273,3324,1631,1455,4450,2446,276,2328,TRUE,Bay,Santa Clara
+"Census Tract 5018, Santa Clara County, California",2672,2613,289,232,4764,1768,85,1748,TRUE,Bay,Santa Clara
+"Census Tract 5019, Santa Clara County, California",2787,2423,267,378,4551,2629,99,2616,TRUE,Bay,Santa Clara
+"Census Tract 5020.02, Santa Clara County, California",3351,2582,1043,851,4026,1801,159,1741,TRUE,Bay,Santa Clara
+"Census Tract 5027.02, Santa Clara County, California",4055,3950,274,280,7272,3054,102,2985,TRUE,Bay,Santa Clara
+"Census Tract 5029.01, Santa Clara County, California",3029,3052,154,594,5311,2207,145,2171,TRUE,Bay,Santa Clara
+"Census Tract 5029.02, Santa Clara County, California",4090,3926,378,30,7601,2797,51,2746,TRUE,Bay,Santa Clara
+"Census Tract 5045.07, Santa Clara County, California",3020,3439,679,95,5685,1809,109,1732,TRUE,Bay,Santa Clara
+"Census Tract 5046.01, Santa Clara County, California",561,464,108,65,852,368,29,352,TRUE,Bay,Santa Clara
+"Census Tract 5048.02, Santa Clara County, California",2817,2528,340,263,4737,1718,93,1663,TRUE,Bay,Santa Clara
+"Census Tract 5049.01, Santa Clara County, California",5124,5212,616,247,9473,4038,107,3966,TRUE,Bay,Santa Clara
+"Census Tract 5053.04, Santa Clara County, California",1671,1602,119,40,3076,1063,8,1055,TRUE,Bay,Santa Clara
+"Census Tract 5053.05, Santa Clara County, California",2969,2966,275,31,5629,2126,118,2038,TRUE,Bay,Santa Clara
+"Census Tract 5065.03, Santa Clara County, California",2900,3283,283,758,5119,2751,106,2699,TRUE,Bay,Santa Clara
+"Census Tract 5043.14, Santa Clara County, California",2538,2660,612,321,4265,1322,77,1292,TRUE,Bay,Santa Clara
+"Census Tract 5043.17, Santa Clara County, California",2541,2293,131,70,4633,1207,33,1194,TRUE,Bay,Santa Clara
+"Census Tract 5044.10, Santa Clara County, California",2232,2589,520,152,4143,1226,233,1123,TRUE,Bay,Santa Clara
+"Census Tract 5044.12, Santa Clara County, California",2560,2391,95,354,4469,1286,130,1184,TRUE,Bay,Santa Clara
+"Census Tract 5114, Santa Clara County, California",1580,1926,106,57,3343,1329,53,1311,FALSE,Bay,Santa Clara
+"Census Tract 5099.02, Santa Clara County, California",2582,2613,447,190,4464,1923,57,1899,FALSE,Bay,Santa Clara
+"Census Tract 5107, Santa Clara County, California",2487,2674,289,559,4292,2059,46,2059,FALSE,Bay,Santa Clara
+"Census Tract 5120.32, Santa Clara County, California",1591,1717,164,95,3044,1052,19,1043,TRUE,Bay,Santa Clara
+"Census Tract 5117.02, Santa Clara County, California",1196,1469,41,20,2604,925,7,918,FALSE,Bay,Santa Clara
+"Census Tract 5120.22, Santa Clara County, California",2840,2906,444,182,5112,1844,121,1776,TRUE,Bay,Santa Clara
+"Census Tract 5120.27, Santa Clara County, California",2331,2482,199,395,4188,1636,77,1613,TRUE,Bay,Santa Clara
+"Census Tract 5120.33, Santa Clara County, California",4416,4366,815,414,7514,2933,176,2890,TRUE,Bay,Santa Clara
+"Census Tract 5120.35, Santa Clara County, California",2426,2392,120,152,4546,1402,43,1389,TRUE,Bay,Santa Clara
+"Census Tract 5117.01, Santa Clara County, California",2212,2121,226,50,4057,1524,46,1524,FALSE,Bay,Santa Clara
+"Census Tract 5097, Santa Clara County, California",1682,1425,158,67,2864,1423,0,1423,FALSE,Bay,Santa Clara
+"Census Tract 5099.01, Santa Clara County, California",932,1009,68,6,1831,706,5,706,FALSE,Bay,Santa Clara
+"Census Tract 5103, Santa Clara County, California",2113,2183,127,97,4064,1703,20,1703,FALSE,Bay,Santa Clara
+"Census Tract 5029.09, Santa Clara County, California",2563,2827,370,135,4864,2020,87,1992,TRUE,Bay,Santa Clara
+"Census Tract 5120.23, Santa Clara County, California",2623,2876,394,607,4494,1980,126,1902,TRUE,Bay,Santa Clara
+"Census Tract 5042.02, Santa Clara County, California",2234,2246,120,173,4187,1464,8,1456,TRUE,Bay,Santa Clara
+"Census Tract 5053.02, Santa Clara County, California",2048,2218,109,173,3968,1504,22,1482,TRUE,Bay,Santa Clara
+"Census Tract 5066.03, Santa Clara County, California",1919,2123,232,50,3718,1356,51,1348,TRUE,Bay,Santa Clara
+"Census Tract 5080.01, Santa Clara County, California",3945,3887,348,254,7230,2950,30,2920,TRUE,Bay,Santa Clara
+"Census Tract 5100.01, Santa Clara County, California",3281,3391,152,183,6191,2019,26,1993,FALSE,Bay,Santa Clara
+"Census Tract 5060, Santa Clara County, California",2596,2209,364,197,4244,1783,72,1745,TRUE,Bay,Santa Clara
+"Census Tract 5104, Santa Clara County, California",1856,1769,168,19,3438,1292,11,1292,FALSE,Bay,Santa Clara
+"Census Tract 5083.03, Santa Clara County, California",1198,1276,98,0,2376,881,8,881,FALSE,Bay,Santa Clara
+"Census Tract 5119.05, Santa Clara County, California",1449,1742,117,115,2959,1061,16,1051,FALSE,Bay,Santa Clara
+"Census Tract 5123.08, Santa Clara County, California",4234,4324,504,130,7911,2605,31,2574,TRUE,Bay,Santa Clara
+"Census Tract 5032.11, Santa Clara County, California",2465,2193,205,213,4225,1174,50,1145,TRUE,Bay,Santa Clara
+"Census Tract 5035.09, Santa Clara County, California",2068,2150,209,428,3564,898,131,881,TRUE,Bay,Santa Clara
+"Census Tract 5033.26, Santa Clara County, California",3405,3913,191,154,6947,1801,28,1784,FALSE,Bay,Santa Clara
+"Census Tract 5044.17, Santa Clara County, California",155,124,18,5,256,105,0,105,FALSE,Bay,Santa Clara
+"Census Tract 5031.15, Santa Clara County, California",3261,3350,251,601,5759,2878,113,2771,TRUE,Bay,Santa Clara
+"Census Tract 5043.20, Santa Clara County, California",1606,1348,203,115,2636,844,28,825,FALSE,Bay,Santa Clara
+"Census Tract 5055, Santa Clara County, California",2090,2155,214,49,3975,1574,12,1562,TRUE,Bay,Santa Clara
+"Census Tract 5079.05, Santa Clara County, California",3163,2991,261,339,5554,2092,51,2079,TRUE,Bay,Santa Clara
+"Census Tract 5110, Santa Clara County, California",3271,3466,284,125,6328,2431,32,2424,FALSE,Bay,Santa Clara
+"Census Tract 5075, Santa Clara County, California",2896,2879,500,87,5188,2049,47,2002,FALSE,Bay,Santa Clara
+"Census Tract 5067.03, Santa Clara County, California",1813,1939,214,207,3305,1348,71,1296,TRUE,Bay,Santa Clara
+"Census Tract 5068.01, Santa Clara County, California",2826,3038,253,375,5133,2120,0,2120,FALSE,Bay,Santa Clara
+"Census Tract 5070.02, Santa Clara County, California",1622,1337,120,129,2708,992,0,992,FALSE,Bay,Santa Clara
+"Census Tract 5082.02, Santa Clara County, California",3994,3825,193,216,7398,2770,136,2719,TRUE,Bay,Santa Clara
+"Census Tract 5091.08, Santa Clara County, California",2430,2208,207,282,4149,1904,94,1904,TRUE,Bay,Santa Clara
+"Census Tract 5091.09, Santa Clara County, California",2709,2287,203,168,4615,2029,0,2029,FALSE,Bay,Santa Clara
+"Census Tract 5094.04, Santa Clara County, California",3919,3363,822,542,5884,2922,162,2885,TRUE,Bay,Santa Clara
+"Census Tract 5095, Santa Clara County, California",3265,2360,525,702,4398,2367,117,2320,TRUE,Bay,Santa Clara
+"Census Tract 5108.01, Santa Clara County, California",2844,3103,207,206,5534,2238,34,2226,FALSE,Bay,Santa Clara
+"Census Tract 5108.03, Santa Clara County, California",1184,1395,245,20,2314,1010,38,1010,FALSE,Bay,Santa Clara
+"Census Tract 5115, Santa Clara County, California",3837,4290,212,216,6808,2968,57,2941,FALSE,Bay,Santa Clara
+"Census Tract 5037.03, Santa Clara County, California",2241,2084,509,333,3452,947,252,905,TRUE,Bay,Santa Clara
+"Census Tract 5037.08, Santa Clara County, California",1414,1439,399,262,2192,761,106,736,TRUE,Bay,Santa Clara
+"Census Tract 5040.02, Santa Clara County, California",3290,3344,463,383,5788,1393,285,1279,TRUE,Bay,Santa Clara
+"Census Tract 5026.01, Santa Clara County, California",1204,1487,30,96,2552,1183,0,1183,FALSE,Bay,Santa Clara
+"Census Tract 5029.07, Santa Clara County, California",1940,1996,165,181,3581,1285,11,1274,TRUE,Bay,Santa Clara
+"Census Tract 5032.08, Santa Clara County, California",2288,2413,281,422,3984,890,118,847,TRUE,Bay,Santa Clara
+"Census Tract 5033.15, Santa Clara County, California",4180,4648,925,992,6889,2030,263,1947,TRUE,Bay,Santa Clara
+"Census Tract 5058, Santa Clara County, California",2089,2056,91,68,3968,1576,66,1540,TRUE,Bay,Santa Clara
+"Census Tract 5050.06, Santa Clara County, California",5907,4381,564,69,9655,4844,92,4771,FALSE,Bay,Santa Clara
+"Census Tract 5057, Santa Clara County, California",3979,3246,2153,553,4428,2251,145,2242,TRUE,Bay,Santa Clara
+"Census Tract 5061.03, Santa Clara County, California",2413,2530,189,262,4492,1666,18,1648,TRUE,Bay,Santa Clara
+"Census Tract 5062.02, Santa Clara County, California",3557,3621,516,54,6343,2478,50,2464,TRUE,Bay,Santa Clara
+"Census Tract 5063.01, Santa Clara County, California",2779,2897,437,367,4799,2335,107,2260,TRUE,Bay,Santa Clara
+"Census Tract 5063.02, Santa Clara County, California",3402,3286,440,119,6129,2324,95,2254,TRUE,Bay,Santa Clara
+"Census Tract 5063.04, Santa Clara County, California",2627,2638,619,98,4503,2148,130,2126,TRUE,Bay,Santa Clara
+"Census Tract 5033.04, Santa Clara County, California",3635,3551,856,559,5595,1846,203,1807,TRUE,Bay,Santa Clara
+"Census Tract 5029.06, Santa Clara County, California",2191,2330,315,210,3996,1547,159,1491,TRUE,Bay,Santa Clara
+"Census Tract 5030.01, Santa Clara County, California",2019,2162,157,88,3844,1616,15,1601,FALSE,Bay,Santa Clara
+"Census Tract 5031.08, Santa Clara County, California",3920,4232,545,384,7189,2953,245,2860,TRUE,Bay,Santa Clara
+"Census Tract 5043.19, Santa Clara County, California",4119,3715,601,259,6974,2406,105,2374,TRUE,Bay,Santa Clara
+"Census Tract 5044.14, Santa Clara County, California",2648,2888,363,183,4942,1626,76,1564,TRUE,Bay,Santa Clara
+"Census Tract 5044.15, Santa Clara County, California",2940,2829,504,132,5128,1604,95,1529,TRUE,Bay,Santa Clara
+"Census Tract 5045.04, Santa Clara County, California",6561,4853,911,203,8281,3348,54,3348,TRUE,Bay,Santa Clara
+"Census Tract 5077.03, Santa Clara County, California",3971,4138,476,124,7261,2729,19,2710,FALSE,Bay,Santa Clara
+"Census Tract 5065.02, Santa Clara County, California",1925,2372,234,230,3820,1900,101,1867,FALSE,Bay,Santa Clara
+"Census Tract 5066.05, Santa Clara County, California",2149,2193,398,181,3763,1622,52,1598,TRUE,Bay,Santa Clara
+"Census Tract 5066.06, Santa Clara County, California",2346,2374,299,299,4077,1570,88,1547,TRUE,Bay,Santa Clara
+"Census Tract 5078.07, Santa Clara County, California",1643,1741,55,16,3313,1043,20,1023,FALSE,Bay,Santa Clara
+"Census Tract 5079.04, Santa Clara County, California",1580,1608,8,46,3134,1090,0,1090,FALSE,Bay,Santa Clara
+"Census Tract 5085.04, Santa Clara County, California",4350,4228,826,449,7303,3354,168,3325,TRUE,Bay,Santa Clara
+"Census Tract 5085.05, Santa Clara County, California",2227,2432,262,122,4211,1866,17,1858,FALSE,Bay,Santa Clara
+"Census Tract 5087.04, Santa Clara County, California",4002,3438,400,217,6814,2849,55,2837,TRUE,Bay,Santa Clara
+"Census Tract 5053.03, Santa Clara County, California",3033,3100,473,782,4869,2114,116,2043,TRUE,Bay,Santa Clara
+"Census Tract 5054.01, Santa Clara County, California",3781,3115,286,379,6220,2610,9,2610,TRUE,Bay,Santa Clara
+"Census Tract 5059, Santa Clara County, California",3942,3502,666,273,6377,3190,100,3155,TRUE,Bay,Santa Clara
+"Census Tract 5066.04, Santa Clara County, California",3800,4023,238,341,7244,2619,43,2586,TRUE,Bay,Santa Clara
+"Census Tract 5071, Santa Clara County, California",1596,1553,247,89,2813,1314,17,1306,FALSE,Bay,Santa Clara
+"Census Tract 5072.03, Santa Clara County, California",1608,1355,84,56,2799,1182,56,1162,TRUE,Bay,Santa Clara
+"Census Tract 5072.05, Santa Clara County, California",2250,2465,223,147,4345,1819,29,1819,FALSE,Bay,Santa Clara
+"Census Tract 5072.06, Santa Clara County, California",1162,1237,52,16,2331,881,0,881,FALSE,Bay,Santa Clara
+"Census Tract 5074.02, Santa Clara County, California",1893,2175,220,127,3721,1425,20,1418,TRUE,Bay,Santa Clara
+"Census Tract 5083.04, Santa Clara County, California",4273,4186,696,707,7033,2974,34,2974,TRUE,Bay,Santa Clara
+"Census Tract 5084.04, Santa Clara County, California",3590,3407,278,5,6714,2391,0,2391,TRUE,Bay,Santa Clara
+"Census Tract 5091.06, Santa Clara County, California",2171,2205,197,241,3938,1669,50,1653,TRUE,Bay,Santa Clara
+"Census Tract 5096, Santa Clara County, California",1866,1599,193,49,3213,1520,71,1520,FALSE,Bay,Santa Clara
+"Census Tract 5120.01, Santa Clara County, California",3602,3391,300,41,6573,2035,42,2035,TRUE,Bay,Santa Clara
+"Census Tract 5108.02, Santa Clara County, California",921,1002,107,40,1767,679,0,679,FALSE,Bay,Santa Clara
+"Census Tract 5111, Santa Clara County, California",2888,2696,247,36,5275,1816,15,1816,FALSE,Bay,Santa Clara
+"Census Tract 5112, Santa Clara County, California",2755,2219,150,14,4810,1726,52,1674,FALSE,Bay,Santa Clara
+"Census Tract 5010, Santa Clara County, California",2424,2297,1217,884,2604,2122,301,2023,TRUE,Bay,Santa Clara
+"Census Tract 5015.02, Santa Clara County, California",2661,2194,864,737,3254,1232,158,1172,TRUE,Bay,Santa Clara
+"Census Tract 5028, Santa Clara County, California",2103,2329,263,0,4145,1350,27,1330,TRUE,Bay,Santa Clara
+"Census Tract 5029.08, Santa Clara County, California",3779,3476,216,550,6447,2368,0,2368,TRUE,Bay,Santa Clara
+"Census Tract 5030.03, Santa Clara County, California",2894,2659,323,88,5138,1844,81,1809,TRUE,Bay,Santa Clara
+"Census Tract 5032.12, Santa Clara County, California",2200,2203,393,416,3589,976,132,912,TRUE,Bay,Santa Clara
+"Census Tract 5032.18, Santa Clara County, California",2521,2397,868,565,3451,1184,224,1149,TRUE,Bay,Santa Clara
+"Census Tract 5094.03, Santa Clara County, California",2867,2377,794,560,3757,2173,128,2173,TRUE,Bay,Santa Clara
+"Census Tract 5098.02, Santa Clara County, California",1521,1613,85,96,2946,1148,37,1139,FALSE,Bay,Santa Clara
+"Census Tract 5102, Santa Clara County, California",2171,2390,168,32,4361,1429,7,1422,FALSE,Bay,Santa Clara
+"Census Tract 5106, Santa Clara County, California",2949,3126,431,187,5457,2253,27,2239,TRUE,Bay,Santa Clara
+"Census Tract 5118, Santa Clara County, California",2198,2133,198,29,4081,1533,40,1499,TRUE,Bay,Santa Clara
+"Census Tract 5119.07, Santa Clara County, California",2136,2022,153,67,3938,1359,6,1353,FALSE,Bay,Santa Clara
+"Census Tract 5119.09, Santa Clara County, California",3750,4027,38,101,7638,2618,22,2596,FALSE,Bay,Santa Clara
+"Census Tract 5120.21, Santa Clara County, California",3274,3263,676,331,5530,2076,196,2039,TRUE,Bay,Santa Clara
+"Census Tract 5120.26, Santa Clara County, California",1959,2058,308,23,3686,1323,66,1314,TRUE,Bay,Santa Clara
+"Census Tract 5038.02, Santa Clara County, California",4491,4214,264,414,7803,2312,169,2286,TRUE,Bay,Santa Clara
+"Census Tract 5038.03, Santa Clara County, California",2293,2497,322,765,3703,1391,106,1363,TRUE,Bay,Santa Clara
+"Census Tract 5038.04, Santa Clara County, California",2675,2910,488,337,4750,1747,111,1709,TRUE,Bay,Santa Clara
+"Census Tract 5043.07, Santa Clara County, California",2829,2601,410,67,4934,1764,51,1764,TRUE,Bay,Santa Clara
+"Census Tract 5043.11, Santa Clara County, California",3746,3685,930,242,6259,2577,87,2508,FALSE,Bay,Santa Clara
+"Census Tract 5044.13, Santa Clara County, California",961,962,131,106,1686,727,0,727,FALSE,Bay,Santa Clara
+"Census Tract 5044.20, Santa Clara County, California",2190,2248,265,60,4113,1425,66,1387,TRUE,Bay,Santa Clara
+"Census Tract 5050.07, Santa Clara County, California",2227,2130,148,198,3548,955,91,912,TRUE,Bay,Santa Clara
+"Census Tract 5054.02, Santa Clara County, California",1613,1630,156,255,2832,1139,54,1095,TRUE,Bay,Santa Clara
+"Census Tract 5062.04, Santa Clara County, California",2812,3064,297,270,5309,2039,31,2015,TRUE,Bay,Santa Clara
+"Census Tract 5063.05, Santa Clara County, California",3549,3103,1218,398,5036,2435,219,2385,TRUE,Bay,Santa Clara
+"Census Tract 5064.02, Santa Clara County, California",3023,3007,612,322,4968,2282,138,2235,TRUE,Bay,Santa Clara
+"Census Tract 5125.06, Santa Clara County, California",3665,3778,1004,426,5998,1959,397,1849,TRUE,Bay,Santa Clara
+"Census Tract 5120.25, Santa Clara County, California",1572,1675,148,124,2975,1064,19,1056,TRUE,Bay,Santa Clara
+"Census Tract 5119.12, Santa Clara County, California",2754,2791,239,94,5189,1752,25,1752,FALSE,Bay,Santa Clara
+"Census Tract 5119.13, Santa Clara County, California",2235,2103,64,9,4265,1396,22,1383,FALSE,Bay,Santa Clara
+"Census Tract 5119.14, Santa Clara County, California",2978,2894,196,61,5601,1930,10,1920,FALSE,Bay,Santa Clara
+"Census Tract 5120.29, Santa Clara County, California",3201,3487,166,117,6378,2296,51,2257,TRUE,Bay,Santa Clara
+"Census Tract 5120.30, Santa Clara County, California",1713,1533,74,66,3086,992,36,992,FALSE,Bay,Santa Clara
+"Census Tract 5120.34, Santa Clara County, California",1661,1373,109,0,2919,1004,65,983,TRUE,Bay,Santa Clara
+"Census Tract 5125.03, Santa Clara County, California",5020,4432,166,0,9226,2829,94,2781,TRUE,Bay,Santa Clara
+"Census Tract 5125.08, Santa Clara County, California",3791,4216,581,1445,5970,2629,339,2573,TRUE,Bay,Santa Clara
+"Census Tract 5003, Santa Clara County, California",2281,1706,636,206,3119,1504,64,1496,TRUE,Bay,Santa Clara
+"Census Tract 5008, Santa Clara County, California",2301,1875,676,366,3089,2062,121,2032,TRUE,Bay,Santa Clara
+"Census Tract 5013, Santa Clara County, California",2332,1731,960,377,2164,1095,101,1047,FALSE,Bay,Santa Clara
+"Census Tract 5029.10, Santa Clara County, California",1761,1822,324,191,3061,1390,75,1333,TRUE,Bay,Santa Clara
+"Census Tract 5031.12, Santa Clara County, California",1982,2110,465,564,3046,1471,154,1422,TRUE,Bay,Santa Clara
+"Census Tract 5031.16, Santa Clara County, California",2908,2961,678,224,4967,2294,188,2251,TRUE,Bay,Santa Clara
+"Census Tract 5032.07, Santa Clara County, California",2173,2055,537,198,3493,1059,122,1021,TRUE,Bay,Santa Clara
+"Census Tract 5032.17, Santa Clara County, California",2352,2433,336,386,4063,1094,272,1034,TRUE,Bay,Santa Clara
+"Census Tract 5033.23, Santa Clara County, California",2391,2474,319,173,4343,1238,96,1211,TRUE,Bay,Santa Clara
+"Census Tract 5033.24, Santa Clara County, California",1862,1741,294,178,3131,906,53,866,FALSE,Bay,Santa Clara
+"Census Tract 5033.25, Santa Clara County, California",2249,2342,545,82,3918,1182,122,1147,TRUE,Bay,Santa Clara
+"Census Tract 5040.01, Santa Clara County, California",3647,2697,700,998,4621,1561,244,1487,TRUE,Bay,Santa Clara
+"Census Tract 5042.01, Santa Clara County, California",2694,2342,262,127,4632,1632,36,1625,TRUE,Bay,Santa Clara
+"Census Tract 5043.18, Santa Clara County, California",3123,2806,624,426,4873,1689,148,1635,TRUE,Bay,Santa Clara
+"Census Tract 5044.11, Santa Clara County, California",3044,2792,247,294,5295,1530,47,1521,TRUE,Bay,Santa Clara
+"Census Tract 5044.18, Santa Clara County, California",2493,2716,306,527,4370,1403,130,1387,TRUE,Bay,Santa Clara
+"Census Tract 5048.06, Santa Clara County, California",1716,1408,207,142,2767,797,53,786,TRUE,Bay,Santa Clara
+"Census Tract 5064.01, Santa Clara County, California",2563,2633,546,132,4498,2219,60,2195,TRUE,Bay,Santa Clara
+"Census Tract 5065.01, Santa Clara County, California",3325,3807,886,864,5267,2393,493,2303,TRUE,Bay,Santa Clara
+"Census Tract 5033.21, Santa Clara County, California",2310,2562,300,93,4463,1129,63,1099,TRUE,Bay,Santa Clara
+"Census Tract 5033.27, Santa Clara County, California",2204,2433,376,459,3787,1351,109,1335,TRUE,Bay,Santa Clara
+"Census Tract 5035.10, Santa Clara County, California",3165,2764,661,466,4791,1393,176,1314,TRUE,Bay,Santa Clara
+"Census Tract 5012, Santa Clara County, California",2242,1970,460,461,3177,1301,87,1285,TRUE,Bay,Santa Clara
+"Census Tract 5017, Santa Clara County, California",2765,2197,612,1477,2855,1334,315,1277,TRUE,Bay,Santa Clara
+"Census Tract 5074.01, Santa Clara County, California",2815,2843,243,9,5406,1929,15,1914,FALSE,Bay,Santa Clara
+"Census Tract 5086.02, Santa Clara County, California",2727,2172,391,87,4421,2141,63,2119,TRUE,Bay,Santa Clara
+"Census Tract 5087.03, Santa Clara County, California",4306,3627,254,195,7484,3151,100,3098,TRUE,Bay,Santa Clara
+"Census Tract 5088, Santa Clara County, California",2017,1924,472,212,3257,1463,117,1394,FALSE,Bay,Santa Clara
+"Census Tract 5089, Santa Clara County, California",2671,2625,498,241,4548,1685,95,1633,TRUE,Bay,Santa Clara
+"Census Tract 5090, Santa Clara County, California",4129,3703,448,1229,6021,2557,198,2411,TRUE,Bay,Santa Clara
+"Census Tract 5091.07, Santa Clara County, California",2693,2442,425,505,4205,1986,208,1894,TRUE,Bay,Santa Clara
+"Census Tract 5093.03, Santa Clara County, California",1740,1837,485,173,2919,1741,91,1741,FALSE,Bay,Santa Clara
+"Census Tract 5101, Santa Clara County, California",1441,1505,131,58,2750,1044,8,1036,FALSE,Bay,Santa Clara
+"Census Tract 5119.10, Santa Clara County, California",1530,1644,154,73,2947,1061,0,1061,FALSE,Bay,Santa Clara
+"Census Tract 5119.11, Santa Clara County, California",2304,2533,268,136,4392,1862,8,1854,TRUE,Bay,Santa Clara
+"Census Tract 5125.05, Santa Clara County, California",3986,4387,1049,843,6476,2313,176,2254,TRUE,Bay,Santa Clara
+"Census Tract 5126.02, Santa Clara County, California",1199,1178,285,189,1877,732,70,697,TRUE,Bay,Santa Clara
+"Census Tract 5079.06, Santa Clara County, California",2176,2255,89,38,4304,1393,6,1393,FALSE,Bay,Santa Clara
+"Census Tract 5068.04, Santa Clara County, California",1927,1787,108,150,3456,1277,10,1267,FALSE,Bay,Santa Clara
+"Census Tract 5073.01, Santa Clara County, California",3329,3361,232,284,6087,2499,42,2477,TRUE,Bay,Santa Clara
+"Census Tract 5079.03, Santa Clara County, California",2491,2500,155,34,4795,1596,22,1574,FALSE,Bay,Santa Clara
+"Census Tract 5081.02, Santa Clara County, California",1794,1611,76,143,3186,1301,0,1301,FALSE,Bay,Santa Clara
+"Census Tract 5084.01, Santa Clara County, California",3435,3545,260,72,6547,2443,49,2412,TRUE,Bay,Santa Clara
+"Census Tract 5084.03, Santa Clara County, California",1549,1538,59,32,2892,1048,22,1036,FALSE,Bay,Santa Clara
+"Census Tract 5085.03, Santa Clara County, California",3544,3460,273,275,6377,2548,14,2548,FALSE,Bay,Santa Clara
+"Census Tract 5086.01, Santa Clara County, California",2019,1841,196,100,3564,1364,26,1347,FALSE,Bay,Santa Clara
+"Census Tract 5091.02, Santa Clara County, California",2502,2466,239,34,4695,2243,25,2218,FALSE,Bay,Santa Clara
+"Census Tract 5091.05, Santa Clara County, California",3661,3229,197,152,6541,3048,47,3016,TRUE,Bay,Santa Clara
+"Census Tract 5092.01, Santa Clara County, California",3021,2300,331,269,4721,2537,69,2537,TRUE,Bay,Santa Clara
+"Census Tract 5100.02, Santa Clara County, California",1654,1990,85,27,3520,1263,11,1260,FALSE,Bay,Santa Clara
+"Census Tract 5105, Santa Clara County, California",2126,2453,151,55,4298,1662,18,1649,FALSE,Bay,Santa Clara
+"Census Tract 5109, Santa Clara County, California",2770,2578,143,222,4983,2041,15,2041,FALSE,Bay,Santa Clara
+"Census Tract 5122, Santa Clara County, California",1949,1946,101,54,3740,1573,42,1531,TRUE,Bay,Santa Clara
+"Census Tract 5033.13, Santa Clara County, California",2357,2331,85,85,4509,1331,21,1321,FALSE,Bay,Santa Clara
+"Census Tract 5033.22, Santa Clara County, California",2157,2271,211,300,3917,1063,76,1037,TRUE,Bay,Santa Clara
+"Census Tract 5066.01, Santa Clara County, California",2406,2170,252,340,3984,1675,93,1622,TRUE,Bay,Santa Clara
+"Census Tract 5067.01, Santa Clara County, California",2100,1912,134,88,3781,1303,64,1285,TRUE,Bay,Santa Clara
+"Census Tract 5067.02, Santa Clara County, California",3183,2987,894,254,5022,1990,111,1972,TRUE,Bay,Santa Clara
+"Census Tract 5068.03, Santa Clara County, California",3872,3373,305,297,6615,2302,22,2291,TRUE,Bay,Santa Clara
+"Census Tract 5022.01, Santa Clara County, California",3572,3853,1605,555,5265,3143,415,3031,TRUE,Bay,Santa Clara
+"Census Tract 5031.05, Santa Clara County, California",1212,1317,479,208,1815,795,157,773,TRUE,Bay,Santa Clara
+"Census Tract 5050.01, Santa Clara County, California",5194,4377,544,129,8898,3367,65,3302,TRUE,Bay,Santa Clara
+"Census Tract 5053.01, Santa Clara County, California",2568,2263,542,448,3818,1577,121,1496,TRUE,Bay,Santa Clara
+"Census Tract 5002, Santa Clara County, California",3491,2477,341,184,4459,1985,62,1978,TRUE,Bay,Santa Clara
+"Census Tract 5009.01, Santa Clara County, California",2335,1904,1044,258,2937,2125,121,2070,TRUE,Bay,Santa Clara
+"Census Tract 5015.01, Santa Clara County, California",2349,2496,601,1058,3168,1297,292,1225,TRUE,Bay,Santa Clara
+"Census Tract 5021.01, Santa Clara County, California",2678,2503,262,351,4398,1920,70,1893,TRUE,Bay,Santa Clara
+"Census Tract 5027.01, Santa Clara County, California",2670,2406,326,145,4601,1896,90,1870,TRUE,Bay,Santa Clara
+"Census Tract 5029.03, Santa Clara County, California",2628,2698,287,47,4985,1915,25,1890,TRUE,Bay,Santa Clara
+"Census Tract 5030.02, Santa Clara County, California",1796,1802,144,115,3260,1238,42,1238,TRUE,Bay,Santa Clara
+"Census Tract 5031.10, Santa Clara County, California",2610,2531,1092,1064,2985,1114,359,1069,TRUE,Bay,Santa Clara
+"Census Tract 5031.11, Santa Clara County, California",2614,2582,504,248,4437,1058,143,1008,TRUE,Bay,Santa Clara
+"Census Tract 5031.13, Santa Clara County, California",2711,2615,1130,600,3541,1305,253,1270,TRUE,Bay,Santa Clara
+"Census Tract 5032.13, Santa Clara County, California",2576,2335,838,342,3724,1270,366,1171,TRUE,Bay,Santa Clara
+"Census Tract 5032.14, Santa Clara County, California",3865,4175,1444,1374,5222,2294,466,2264,TRUE,Bay,Santa Clara
+"Census Tract 5035.11, Santa Clara County, California",1964,1756,285,274,3161,840,37,825,TRUE,Bay,Santa Clara
+"Census Tract 5036.02, Santa Clara County, California",2581,2787,994,824,3536,1388,266,1328,TRUE,Bay,Santa Clara
+"Census Tract 5041.01, Santa Clara County, California",2579,2374,747,404,3802,1101,129,1024,TRUE,Bay,Santa Clara
+"Census Tract 5048.03, Santa Clara County, California",3812,2805,243,275,6099,2719,84,2648,TRUE,Bay,Santa Clara
+"Census Tract 5043.16, Santa Clara County, California",2607,2360,310,274,4341,1418,161,1367,TRUE,Bay,Santa Clara
+"Census Tract 5043.21, Santa Clara County, California",2697,2789,352,312,4822,1647,76,1635,TRUE,Bay,Santa Clara
+"Census Tract 5045.05, Santa Clara County, California",3915,3843,601,467,6657,2504,131,2474,TRUE,Bay,Santa Clara
+"Census Tract 5052.03, Santa Clara County, California",3098,2902,792,101,2667,1376,45,1339,FALSE,Bay,Santa Clara
+"Census Tract 5054.03, Santa Clara County, California",4053,3610,317,268,7078,2998,189,2925,TRUE,Bay,Santa Clara
+"Census Tract 5061.02, Santa Clara County, California",2035,2042,91,63,3917,1597,22,1586,FALSE,Bay,Santa Clara
+"Census Tract 5076, Santa Clara County, California",2839,2830,104,0,5532,2015,13,2015,FALSE,Bay,Santa Clara
+"Census Tract 5077.01, Santa Clara County, California",1938,1916,121,40,3693,1344,0,1344,FALSE,Bay,Santa Clara
+"Census Tract 5078.08, Santa Clara County, California",2630,2608,118,74,5038,1722,7,1715,FALSE,Bay,Santa Clara
+"Census Tract 5082.03, Santa Clara County, California",2655,2720,143,103,5117,1805,33,1783,FALSE,Bay,Santa Clara
+"Census Tract 5082.04, Santa Clara County, California",2050,2128,208,98,3872,1461,32,1440,FALSE,Bay,Santa Clara
+"Census Tract 5083.01, Santa Clara County, California",2323,2349,132,86,4293,1581,24,1557,FALSE,Bay,Santa Clara
+"Census Tract 5093.02, Santa Clara County, California",1751,1623,199,73,3102,1245,40,1212,TRUE,Bay,Santa Clara
+"Census Tract 5123.05, Santa Clara County, California",2492,2339,73,68,4667,1558,9,1558,TRUE,Bay,Santa Clara
+"Census Tract 5044.21, Santa Clara County, California",2855,2588,200,230,5013,1389,32,1362,TRUE,Bay,Santa Clara
+"Census Tract 5045.06, Santa Clara County, California",3322,3782,860,358,5886,2224,72,2200,TRUE,Bay,Santa Clara
+"Census Tract 5047, Santa Clara County, California",339,340,55,22,602,172,14,167,FALSE,Bay,Santa Clara
+"Census Tract 5048.05, Santa Clara County, California",3648,3472,736,386,5985,2831,93,2775,TRUE,Bay,Santa Clara
+"Census Tract 5056, Santa Clara County, California",2329,2350,795,149,2320,1224,96,1187,FALSE,Bay,Santa Clara
+"Census Tract 5061.01, Santa Clara County, California",2227,2102,93,217,4019,1608,25,1608,TRUE,Bay,Santa Clara
+"Census Tract 5062.03, Santa Clara County, California",3378,3065,497,304,5642,2345,138,2300,TRUE,Bay,Santa Clara
+"Census Tract 5068.02, Santa Clara County, California",2928,2826,228,238,5150,1936,7,1929,TRUE,Bay,Santa Clara
+"Census Tract 5069, Santa Clara County, California",4074,3879,130,108,7647,2636,135,2555,TRUE,Bay,Santa Clara
+"Census Tract 5070.01, Santa Clara County, California",3138,3856,273,36,6649,2920,18,2920,TRUE,Bay,Santa Clara
+"Census Tract 5073.02, Santa Clara County, California",1554,1625,158,18,2930,1025,36,1017,FALSE,Bay,Santa Clara
+"Census Tract 5077.02, Santa Clara County, California",3074,3011,304,89,5692,2015,45,1970,FALSE,Bay,Santa Clara
+"Census Tract 5078.05, Santa Clara County, California",2829,3117,706,0,5225,2108,38,2093,TRUE,Bay,Santa Clara
+"Census Tract 5078.06, Santa Clara County, California",2890,3091,309,70,5602,1949,27,1949,FALSE,Bay,Santa Clara
+"Census Tract 5023.02, Santa Clara County, California",1378,1512,123,142,2625,1282,28,1254,TRUE,Bay,Santa Clara
+"Census Tract 5026.03, Santa Clara County, California",1298,1487,176,14,2558,1037,11,1037,TRUE,Bay,Santa Clara
+"Census Tract 5026.04, Santa Clara County, California",2038,2056,235,125,3724,2121,16,2121,TRUE,Bay,Santa Clara
+"Census Tract 5031.17, Santa Clara County, California",1517,1530,416,638,1980,792,227,782,TRUE,Bay,Santa Clara
+"Census Tract 5031.18, Santa Clara County, California",2791,2827,757,665,4196,1697,195,1689,TRUE,Bay,Santa Clara
+"Census Tract 5031.21, Santa Clara County, California",2285,2408,743,595,3296,1447,159,1382,TRUE,Bay,Santa Clara
+"Census Tract 5031.22, Santa Clara County, California",1660,1484,717,682,1745,1154,279,1018,TRUE,Bay,Santa Clara
+"Census Tract 5031.23, Santa Clara County, California",1946,1824,667,488,2615,1614,208,1504,TRUE,Bay,Santa Clara
+"Census Tract 5033.29, Santa Clara County, California",2118,2139,149,33,4069,1112,31,1094,FALSE,Bay,Santa Clara
+"Census Tract 5033.30, Santa Clara County, California",4039,4138,496,65,7548,2136,39,2097,TRUE,Bay,Santa Clara
+"Census Tract 5033.31, Santa Clara County, California",1591,1765,59,100,3197,1359,66,1349,TRUE,Bay,Santa Clara
+"Census Tract 5033.32, Santa Clara County, California",2540,3179,220,148,5351,2548,26,2522,TRUE,Bay,Santa Clara
+"Census Tract 5033.33, Santa Clara County, California",2425,2520,156,132,4650,1330,11,1321,TRUE,Bay,Santa Clara
+"Census Tract 5033.34, Santa Clara County, California",4318,4510,191,0,8637,2585,14,2571,FALSE,Bay,Santa Clara
+"Census Tract 5033.36, Santa Clara County, California",1883,1890,464,99,3205,880,91,838,TRUE,Bay,Santa Clara
+"Census Tract 5033.37, Santa Clara County, California",1603,1970,393,212,2968,951,103,948,TRUE,Bay,Santa Clara
+"Census Tract 5037.10, Santa Clara County, California",2035,2026,794,839,2428,1133,327,1063,TRUE,Bay,Santa Clara
+"Census Tract 5037.11, Santa Clara County, California",2849,2478,625,701,3994,1055,185,961,TRUE,Bay,Santa Clara
+"Census Tract 5037.12, Santa Clara County, California",2087,2357,839,803,2531,1405,211,1338,TRUE,Bay,Santa Clara
+"Census Tract 5037.13, Santa Clara County, California",1705,1752,661,316,2480,1131,132,1059,TRUE,Bay,Santa Clara
+"Census Tract 5039.02, Santa Clara County, California",3148,2871,644,597,4732,1540,252,1470,TRUE,Bay,Santa Clara
+"Census Tract 5039.03, Santa Clara County, California",1911,1747,320,338,2988,952,116,908,TRUE,Bay,Santa Clara
+"Census Tract 5043.22, Santa Clara County, California",2797,2716,405,171,4937,2017,6,2017,TRUE,Bay,Santa Clara
+"Census Tract 5043.23, Santa Clara County, California",3315,2880,672,365,5147,1851,47,1813,TRUE,Bay,Santa Clara
+"Census Tract 5044.23, Santa Clara County, California",1514,1161,132,28,2505,686,54,673,TRUE,Bay,Santa Clara
+"Census Tract 5050.08, Santa Clara County, California",3876,3508,669,110,6585,3210,22,3210,FALSE,Bay,Santa Clara
+"Census Tract 5050.09, Santa Clara County, California",5571,5046,938,540,9130,3781,194,3746,TRUE,Bay,Santa Clara
+"Census Tract 5080.03, Santa Clara County, California",1227,1269,250,121,2120,769,11,763,FALSE,Bay,Santa Clara
+"Census Tract 5080.04, Santa Clara County, California",3101,3305,647,25,5701,2043,38,2005,FALSE,Bay,Santa Clara
+"Census Tract 5085.07, Santa Clara County, California",1715,1432,184,124,2839,1320,64,1293,FALSE,Bay,Santa Clara
+"Census Tract 5116.08, Santa Clara County, California",1796,1442,63,15,137,112,27,108,FALSE,Bay,Santa Clara
+"Census Tract 5085.08, Santa Clara County, California",2976,2501,252,83,5142,2026,45,2004,TRUE,Bay,Santa Clara
+"Census Tract 5113.01, Santa Clara County, California",1743,2196,348,102,3414,1819,38,1791,FALSE,Bay,Santa Clara
+"Census Tract 5113.02, Santa Clara County, California",2171,1926,650,73,3231,1994,117,1962,TRUE,Bay,Santa Clara
+"Census Tract 5116.09, Santa Clara County, California",1629,1810,326,110,2922,1731,13,1731,FALSE,Bay,Santa Clara
+"Census Tract 5117.04, Santa Clara County, California",2253,2559,157,34,4612,1724,0,1724,FALSE,Bay,Santa Clara
+"Census Tract 5117.05, Santa Clara County, California",638,449,8,27,945,361,4,361,FALSE,Bay,Santa Clara
+"Census Tract 5011.01, Santa Clara County, California",2343,2152,890,243,3327,1967,110,1933,TRUE,Bay,Santa Clara
+"Census Tract 5011.02, Santa Clara County, California",2334,2409,639,430,3674,1375,139,1331,TRUE,Bay,Santa Clara
+"Census Tract 5014.01, Santa Clara County, California",1600,1582,436,428,2279,992,219,890,TRUE,Bay,Santa Clara
+"Census Tract 5014.02, Santa Clara County, California",1788,1541,341,519,2453,871,126,853,TRUE,Bay,Santa Clara
+"Census Tract 5023.01, Santa Clara County, California",1670,1920,150,142,3287,1354,31,1347,FALSE,Bay,Santa Clara
+"Census Tract 5117.07, Santa Clara County, California",1247,1474,75,21,2553,1159,0,1159,FALSE,Bay,Santa Clara
+"Census Tract 5120.37, Santa Clara County, California",1567,1815,141,59,3182,994,38,979,FALSE,Bay,Santa Clara
+"Census Tract 5119.15, Santa Clara County, California",1882,1965,401,399,3032,1228,129,1147,TRUE,Bay,Santa Clara
+"Census Tract 5119.16, Santa Clara County, California",2314,2447,529,196,4029,1676,58,1676,TRUE,Bay,Santa Clara
+"Census Tract 5120.36, Santa Clara County, California",2619,2649,219,35,5008,1867,22,1856,TRUE,Bay,Santa Clara
+"Census Tract 5120.38, Santa Clara County, California",1588,1671,400,375,2484,1086,102,1009,TRUE,Bay,Santa Clara
+"Census Tract 5120.39, Santa Clara County, California",2676,2581,106,245,4906,1430,103,1379,TRUE,Bay,Santa Clara
+"Census Tract 5120.42, Santa Clara County, California",1465,1536,181,242,2567,870,111,856,TRUE,Bay,Santa Clara
+"Census Tract 5120.43, Santa Clara County, California",3155,3589,1312,936,4481,1510,350,1438,TRUE,Bay,Santa Clara
+"Census Tract 5120.45, Santa Clara County, California",2944,2622,275,158,5128,1809,66,1789,TRUE,Bay,Santa Clara
+"Census Tract 5120.47, Santa Clara County, California",3041,2825,296,106,5448,1688,79,1652,TRUE,Bay,Santa Clara
+"Census Tract 5120.52, Santa Clara County, California",2085,2300,330,151,3865,1723,96,1670,TRUE,Bay,Santa Clara
+"Census Tract 5120.53, Santa Clara County, California",1836,2554,446,117,3827,1457,76,1446,TRUE,Bay,Santa Clara
+"Census Tract 5123.10, Santa Clara County, California",2469,2529,472,520,4006,1736,136,1676,TRUE,Bay,Santa Clara
+"Census Tract 5123.11, Santa Clara County, California",2028,1977,178,164,3652,1309,4,1305,TRUE,Bay,Santa Clara
+"Census Tract 5123.12, Santa Clara County, California",1645,1743,259,197,2897,1174,32,1151,FALSE,Bay,Santa Clara
+"Census Tract 5123.13, Santa Clara County, California",2097,1817,337,177,3345,1170,125,1121,TRUE,Bay,Santa Clara
+"Census Tract 5123.14, Santa Clara County, California",3013,3464,663,322,5359,2281,209,2195,TRUE,Bay,Santa Clara
+"Census Tract 5125.09, Santa Clara County, California",2572,2672,351,62,4797,1530,74,1530,TRUE,Bay,Santa Clara
+"Census Tract 5125.10, Santa Clara County, California",3452,3900,626,199,6516,2566,240,2450,TRUE,Bay,Santa Clara
+"Census Tract 5126.03, Santa Clara County, California",2257,2306,783,672,3037,1091,275,983,TRUE,Bay,Santa Clara
+"Census Tract 5126.04, Santa Clara County, California",2364,2490,508,787,3357,1208,242,1161,TRUE,Bay,Santa Clara
+"Census Tract 5130, Santa Clara County, California",5276,3870,1583,134,2832,2431,24,2431,FALSE,Bay,Santa Clara
+"Census Tract 5135, Santa Clara County, California",604,674,85,33,1098,398,19,398,TRUE,Bay,Santa Clara
+"Census Tract 5120.17, Santa Clara County, California",4104,4302,769,228,7379,2157,244,2045,TRUE,Bay,Santa Clara
+"Census Tract 5120.31, Santa Clara County, California",2295,2193,79,133,4260,1381,49,1365,TRUE,Bay,Santa Clara
+"Census Tract 5123.09, Santa Clara County, California",2485,2751,248,8,4952,1728,104,1682,TRUE,Bay,Santa Clara
+"Census Tract 5006, Santa Clara County, California",2768,2671,457,358,4616,2404,151,2321,TRUE,Bay,Santa Clara
+"Census Tract 5009.02, Santa Clara County, California",2895,2899,754,222,767,590,63,565,FALSE,Bay,Santa Clara
+"Census Tract 5020.01, Santa Clara County, California",2740,2825,440,679,4434,2125,233,1999,TRUE,Bay,Santa Clara
+"Census Tract 5021.02, Santa Clara County, California",4328,3492,974,341,6359,2584,262,2574,TRUE,Bay,Santa Clara
+"Census Tract 5022.02, Santa Clara County, California",1225,1641,199,94,2429,1374,6,1374,TRUE,Bay,Santa Clara
+"Census Tract 5024, Santa Clara County, California",3249,3713,218,243,6488,2845,65,2813,TRUE,Bay,Santa Clara
+"Census Tract 5025, Santa Clara County, California",3451,3375,227,347,6252,2432,109,2392,TRUE,Bay,Santa Clara
+"Census Tract 5033.05, Santa Clara County, California",3182,3091,528,679,5040,1502,234,1418,TRUE,Bay,Santa Clara
+"Census Tract 5033.06, Santa Clara County, California",2228,2050,570,519,3169,903,154,809,TRUE,Bay,Santa Clara
+"Census Tract 5035.04, Santa Clara County, California",3129,3124,1028,90,5054,1195,223,1105,TRUE,Bay,Santa Clara
+"Census Tract 5043.15, Santa Clara County, California",3215,3446,271,287,6083,1952,87,1941,TRUE,Bay,Santa Clara
+"Census Tract 2505.01, Solano County, California",1009,1141,264,229,1657,769,76,763,TRUE,Bay,Solano
+"Census Tract 2506.01, Solano County, California",2823,2748,761,589,4151,1559,141,1493,TRUE,Bay,Solano
+"Census Tract 2518.02, Solano County, California",1079,1367,639,260,1547,1195,355,1103,TRUE,Bay,Solano
+"Census Tract 2527.05, Solano County, California",3079,3300,721,262,5385,1840,122,1795,TRUE,Bay,Solano
+"Census Tract 2521.08, Solano County, California",1528,1587,175,212,2728,1343,47,1322,TRUE,Bay,Solano
+"Census Tract 2531.06, Solano County, California",1844,1841,288,247,3150,1302,50,1265,TRUE,Bay,Solano
+"Census Tract 2526.04, Solano County, California",1976,1807,626,518,2484,1113,186,1032,TRUE,Bay,Solano
+"Census Tract 2527.02, Solano County, California",3310,3419,521,217,5972,2422,341,2359,TRUE,Bay,Solano
+"Census Tract 2518.03, Solano County, California",2327,2489,213,819,3675,1353,196,1309,TRUE,Bay,Solano
+"Census Tract 2512, Solano County, California",1923,1712,533,449,2653,1252,191,1170,TRUE,Bay,Solano
+"Census Tract 2527.06, Solano County, California",1905,1951,56,480,3288,1235,24,1223,TRUE,Bay,Solano
+"Census Tract 2526.07, Solano County, California",1983,2227,688,871,2648,1217,200,1174,TRUE,Bay,Solano
+"Census Tract 2523.05, Solano County, California",2379,2637,62,165,4752,1666,55,1633,TRUE,Bay,Solano
+"Census Tract 2535, Solano County, California",5043,5081,1470,806,7713,4630,219,4567,TRUE,Bay,Solano
+"Census Tract 2514, Solano County, California",2851,2962,512,194,5060,2122,301,1960,TRUE,Bay,Solano
+"Census Tract 2525.01, Solano County, California",1461,1359,409,407,1914,924,147,890,TRUE,Bay,Solano
+"Census Tract 2531.07, Solano County, California",2887,3199,786,708,4515,2405,185,2340,TRUE,Bay,Solano
+"Census Tract 2531.08, Solano County, California",2275,2907,253,233,4688,1681,150,1597,TRUE,Bay,Solano
+"Census Tract 2532.03, Solano County, California",1934,2197,552,335,3166,1523,187,1493,TRUE,Bay,Solano
+"Census Tract 2526.08, Solano County, California",1818,2387,404,607,3184,1353,285,1286,TRUE,Bay,Solano
+"Census Tract 2521.07, Solano County, California",1815,1905,239,50,3431,1427,25,1413,TRUE,Bay,Solano
+"Census Tract 2526.05, Solano County, California",2933,3024,1530,1325,3102,1972,414,1909,TRUE,Bay,Solano
+"Census Tract 2529.03, Solano County, California",2022,1904,187,352,3367,1551,79,1536,TRUE,Bay,Solano
+"Census Tract 2517.01, Solano County, California",1633,1782,691,270,2452,1343,335,1224,TRUE,Bay,Solano
+"Census Tract 2520, Solano County, California",2206,2376,672,162,3748,2233,166,2096,TRUE,Bay,Solano
+"Census Tract 2521.05, Solano County, California",1597,1656,78,246,2929,1300,62,1271,FALSE,Bay,Solano
+"Census Tract 2526.06, Solano County, California",2826,2608,941,788,3533,1608,323,1506,TRUE,Bay,Solano
+"Census Tract 2527.03, Solano County, California",2107,2071,539,632,2987,1307,133,1273,TRUE,Bay,Solano
+"Census Tract 2527.07, Solano County, California",2576,2803,826,384,4169,1762,292,1684,TRUE,Bay,Solano
+"Census Tract 2532.01, Solano County, California",2450,2377,285,166,4373,1846,67,1819,TRUE,Bay,Solano
+"Census Tract 2507.01, Solano County, California",1968,1627,468,698,2384,1134,254,1051,TRUE,Bay,Solano
+"Census Tract 2509, Solano County, California",1341,1430,1491,142,1138,1364,522,1238,TRUE,Bay,Solano
+"Census Tract 2517.02, Solano County, California",1295,1375,144,189,2319,999,99,956,TRUE,Bay,Solano
+"Census Tract 2519.02, Solano County, California",2850,2983,1068,635,4130,1731,319,1626,TRUE,Bay,Solano
+"Census Tract 2519.03, Solano County, California",2729,3088,514,848,4447,1684,155,1625,TRUE,Bay,Solano
+"Census Tract 2521.04, Solano County, California",2909,2777,254,210,5222,1856,78,1805,TRUE,Bay,Solano
+"Census Tract 2529.09, Solano County, California",1593,1773,62,56,3223,1053,32,1037,TRUE,Bay,Solano
+"Census Tract 2529.10, Solano County, California",2769,3051,264,239,5310,1967,157,1951,TRUE,Bay,Solano
+"Census Tract 2533, Solano County, California",1460,1489,69,272,2583,869,66,821,TRUE,Bay,Solano
+"Census Tract 2502, Solano County, California",1846,2135,539,478,2909,1461,226,1385,TRUE,Bay,Solano
+"Census Tract 2510, Solano County, California",1117,1531,638,296,1686,1047,259,1005,TRUE,Bay,Solano
+"Census Tract 2518.04, Solano County, California",1750,1996,565,134,3047,1023,200,962,TRUE,Bay,Solano
+"Census Tract 2521.06, Solano County, California",2081,2214,310,62,3923,1655,73,1615,TRUE,Bay,Solano
+"Census Tract 2503, Solano County, California",1463,1527,314,311,2256,1111,198,1077,TRUE,Bay,Solano
+"Census Tract 2505.02, Solano County, California",1684,1937,331,468,2779,1110,129,1042,TRUE,Bay,Solano
+"Census Tract 2521.03, Solano County, California",2665,2942,360,383,4857,1898,86,1878,TRUE,Bay,Solano
+"Census Tract 2524.02, Solano County, California",2805,2713,776,632,4090,1752,400,1688,TRUE,Bay,Solano
+"Census Tract 2525.02, Solano County, California",1266,820,286,300,971,614,105,584,TRUE,Bay,Solano
+"Census Tract 2529.08, Solano County, California",2162,1751,317,165,3431,1321,148,1279,TRUE,Bay,Solano
+"Census Tract 2531.01, Solano County, California",2630,2750,586,430,4332,2025,204,1949,TRUE,Bay,Solano
+"Census Tract 2513, Solano County, California",1290,1453,203,61,2467,1159,65,1131,TRUE,Bay,Solano
+"Census Tract 2527.04, Solano County, California",2600,2697,616,226,4442,1712,102,1649,TRUE,Bay,Solano
+"Census Tract 2531.05, Solano County, California",3031,3345,1287,457,4609,2595,234,2579,TRUE,Bay,Solano
+"Census Tract 2529.04, Solano County, California",3400,3199,323,151,6086,2464,107,2409,TRUE,Bay,Solano
+"Census Tract 2530, Solano County, California",6429,6,0,0,0,0,0,0,TRUE,Bay,Solano
+"Census Tract 2534.02, Solano County, California",3914,3890,933,1120,5616,2345,311,2274,TRUE,Bay,Solano
+"Census Tract 2521.02, Solano County, California",1984,1947,259,150,3511,1477,91,1453,TRUE,Bay,Solano
+"Census Tract 2522.01, Solano County, California",4365,5203,125,81,9362,3189,165,3059,TRUE,Bay,Solano
+"Census Tract 2523.06, Solano County, California",1693,1646,91,148,3098,1289,25,1279,TRUE,Bay,Solano
+"Census Tract 2524.01, Solano County, California",2452,2316,367,966,3332,1401,107,1364,TRUE,Bay,Solano
+"Census Tract 2504, Solano County, California",1347,1457,298,317,2189,1093,70,1058,TRUE,Bay,Solano
+"Census Tract 2511, Solano County, California",1381,1708,988,90,2011,1143,197,1095,TRUE,Bay,Solano
+"Census Tract 2515, Solano County, California",1865,2246,1310,719,2082,1426,442,1191,TRUE,Bay,Solano
+"Census Tract 2516, Solano County, California",1536,1057,755,264,1574,1149,142,1100,TRUE,Bay,Solano
+"Census Tract 2519.01, Solano County, California",2456,2825,1044,334,3574,1870,295,1793,TRUE,Bay,Solano
+"Census Tract 2522.02, Solano County, California",5373,5149,545,30,9919,3269,88,3205,TRUE,Bay,Solano
+"Census Tract 2501.03, Solano County, California",2604,2384,685,510,3784,1586,230,1513,TRUE,Bay,Solano
+"Census Tract 2501.04, Solano County, California",1013,1034,122,34,1865,757,31,736,TRUE,Bay,Solano
+"Census Tract 2501.05, Solano County, California",3100,3684,476,497,5783,2337,106,2303,TRUE,Bay,Solano
+"Census Tract 2501.06, Solano County, California",2245,2557,212,211,4358,1407,60,1386,TRUE,Bay,Solano
+"Census Tract 2506.04, Solano County, California",1826,2036,318,207,3333,1422,73,1418,TRUE,Bay,Solano
+"Census Tract 2506.05, Solano County, California",2266,1864,234,34,3855,1504,22,1504,TRUE,Bay,Solano
+"Census Tract 2508.01, Solano County, California",1934,2139,654,304,2881,1495,161,1459,TRUE,Bay,Solano
+"Census Tract 2523.10, Solano County, California",1448,1493,107,72,2762,1132,39,1113,TRUE,Bay,Solano
+"Census Tract 2523.11, Solano County, California",2306,2116,92,110,4210,1533,83,1461,TRUE,Bay,Solano
+"Census Tract 2523.12, Solano County, California",1866,2251,361,296,3437,1380,148,1380,TRUE,Bay,Solano
+"Census Tract 2523.13, Solano County, California",2757,3086,332,302,5134,2306,170,2296,TRUE,Bay,Solano
+"Census Tract 2523.14, Solano County, California",2064,2402,351,398,3717,1464,105,1438,TRUE,Bay,Solano
+"Census Tract 2523.15, Solano County, California",2394,2347,151,183,4345,1567,81,1515,TRUE,Bay,Solano
+"Census Tract 2523.16, Solano County, California",2074,1841,226,360,3306,1185,70,1140,TRUE,Bay,Solano
+"Census Tract 2523.17, Solano County, California",4452,4099,215,195,7876,2265,83,2265,TRUE,Bay,Solano
+"Census Tract 2526.10, Solano County, California",1337,1714,201,183,2667,1036,220,986,TRUE,Bay,Solano
+"Census Tract 2526.11, Solano County, California",1538,2162,841,346,2513,1118,299,1042,TRUE,Bay,Solano
+"Census Tract 2528.01, Solano County, California",1406,1592,165,322,2511,864,4,864,FALSE,Bay,Solano
+"Census Tract 2528.02, Solano County, California",616,308,68,19,504,205,5,200,FALSE,Bay,Solano
+"Census Tract 2529.11, Solano County, California",1733,2935,252,443,3856,2719,240,2685,TRUE,Bay,Solano
+"Census Tract 2529.12, Solano County, California",2710,3107,142,130,5531,1888,64,1834,TRUE,Bay,Solano
+"Census Tract 2529.13, Solano County, California",2557,2370,236,70,4610,1662,84,1598,TRUE,Bay,Solano
+"Census Tract 2529.14, Solano County, California",2959,2933,151,497,5222,1920,163,1843,TRUE,Bay,Solano
+"Census Tract 2529.15, Solano County, California",2421,2446,208,8,4651,1489,32,1489,TRUE,Bay,Solano
+"Census Tract 2532.04, Solano County, California",3843,3758,1093,774,5734,2482,365,2339,TRUE,Bay,Solano
+"Census Tract 2532.05, Solano County, California",1650,1495,553,303,2279,1010,77,969,TRUE,Bay,Solano
+"Census Tract 2532.06, Solano County, California",1519,1643,119,172,2871,1057,62,1049,TRUE,Bay,Solano
+"Census Tract 2534.03, Solano County, California",2619,2364,259,392,4332,1558,36,1532,TRUE,Bay,Solano
+"Census Tract 2534.04, Solano County, California",3576,3562,1182,132,5824,2211,364,2165,TRUE,Bay,Solano
+"Census Tract 9800, Solano County, California",0,0,0,0,0,0,0,0,NA,Bay,Solano
+"Census Tract 1514.02, Sonoma County, California",4877,5040,1846,1806,6265,3516,383,3437,TRUE,Bay,Sonoma
+"Census Tract 1521, Sonoma County, California",1790,1368,317,89,1967,1062,147,991,TRUE,Bay,Sonoma
+"Census Tract 1523, Sonoma County, California",2077,2104,285,165,3682,1794,36,1767,FALSE,Bay,Sonoma
+"Census Tract 1524, Sonoma County, California",4621,4812,369,237,8734,3969,26,3943,TRUE,Bay,Sonoma
+"Census Tract 1526, Sonoma County, California",3939,4251,267,322,7568,3052,77,3002,TRUE,Bay,Sonoma
+"Census Tract 1531.02, Sonoma County, California",3228,2507,551,401,4701,1454,163,1397,TRUE,Bay,Sonoma
+"Census Tract 1537.05, Sonoma County, California",2104,1974,560,283,3173,1851,204,1780,TRUE,Bay,Sonoma
+"Census Tract 1537.06, Sonoma County, California",2355,2283,396,333,3909,2065,129,2027,TRUE,Bay,Sonoma
+"Census Tract 1543.02, Sonoma County, California",1665,1704,414,169,2757,1733,39,1715,TRUE,Bay,Sonoma
+"Census Tract 1539.02, Sonoma County, California",2347,2104,282,427,3658,1648,184,1616,TRUE,Bay,Sonoma
+"Census Tract 1503.03, Sonoma County, California",2236,2167,204,161,4017,2310,108,2262,TRUE,Bay,Sonoma
+"Census Tract 1503.04, Sonoma County, California",3184,2871,623,202,5197,2172,148,2133,TRUE,Bay,Sonoma
+"Census Tract 1506.01, Sonoma County, California",2243,2200,439,170,3820,1414,32,1407,TRUE,Bay,Sonoma
+"Census Tract 1512.03, Sonoma County, California",2246,2496,740,226,3776,1880,124,1832,TRUE,Bay,Sonoma
+"Census Tract 1514.01, Sonoma County, California",3898,3725,862,233,6494,2520,381,2322,TRUE,Bay,Sonoma
+"Census Tract 1509.01, Sonoma County, California",2626,2441,195,679,4153,2035,131,2019,TRUE,Bay,Sonoma
+"Census Tract 1512.01, Sonoma County, California",3473,3879,1017,1012,5315,2899,255,2899,TRUE,Bay,Sonoma
+"Census Tract 1513.08, Sonoma County, California",2191,2562,772,207,3769,1890,231,1810,TRUE,Bay,Sonoma
+"Census Tract 1513.09, Sonoma County, California",2265,2882,341,307,4499,1979,135,1943,TRUE,Bay,Sonoma
+"Census Tract 1525.02, Sonoma County, California",1781,1994,549,136,3040,1493,51,1466,TRUE,Bay,Sonoma
+"Census Tract 1502.02, Sonoma County, California",1997,2710,269,135,4287,2237,29,2227,TRUE,Bay,Sonoma
+"Census Tract 1508, Sonoma County, California",2656,2746,551,266,4294,2001,76,1990,TRUE,Bay,Sonoma
+"Census Tract 1515.03, Sonoma County, California",1678,1673,101,67,3183,1333,15,1318,FALSE,Bay,Sonoma
+"Census Tract 1517, Sonoma County, California",3388,3956,699,538,5873,2860,264,2846,TRUE,Bay,Sonoma
+"Census Tract 1518, Sonoma County, California",2276,2836,712,244,3947,2116,257,2022,TRUE,Bay,Sonoma
+"Census Tract 1527.02, Sonoma County, California",2945,2699,404,368,4374,1955,192,1900,TRUE,Bay,Sonoma
+"Census Tract 1512.04, Sonoma County, California",1473,1790,293,247,2711,1285,47,1259,TRUE,Bay,Sonoma
+"Census Tract 1534.01, Sonoma County, California",2947,3427,591,616,5126,2677,144,2627,TRUE,Bay,Sonoma
+"Census Tract 1529.03, Sonoma County, California",2785,2651,1107,578,3751,1545,343,1471,TRUE,Bay,Sonoma
+"Census Tract 1530.01, Sonoma County, California",3195,3790,1483,319,4991,2548,511,2455,TRUE,Bay,Sonoma
+"Census Tract 1530.06, Sonoma County, California",3824,4380,785,311,7101,2823,299,2747,TRUE,Bay,Sonoma
+"Census Tract 1527.01, Sonoma County, California",2381,2982,451,343,4526,2066,170,2066,TRUE,Bay,Sonoma
+"Census Tract 1505, Sonoma County, California",2277,2190,363,247,3726,1912,0,1912,TRUE,Bay,Sonoma
+"Census Tract 1534.03, Sonoma County, California",1977,1848,250,92,3360,1574,82,1534,TRUE,Bay,Sonoma
+"Census Tract 1538.01, Sonoma County, California",5545,4936,815,854,8781,3161,215,3105,TRUE,Bay,Sonoma
+"Census Tract 1501, Sonoma County, California",1182,1274,124,33,2299,1019,53,1009,TRUE,Bay,Sonoma
+"Census Tract 1506.03, Sonoma County, California",3771,3710,556,276,6560,2799,134,2762,TRUE,Bay,Sonoma
+"Census Tract 1507.02, Sonoma County, California",2276,2745,243,93,4685,1902,99,1889,TRUE,Bay,Sonoma
+"Census Tract 1510, Sonoma County, California",2109,2100,373,237,3564,1512,100,1458,TRUE,Bay,Sonoma
+"Census Tract 1513.01, Sonoma County, California",2304,2570,696,261,3917,1593,182,1564,TRUE,Bay,Sonoma
+"Census Tract 1522.03, Sonoma County, California",1701,1800,624,200,2663,1795,151,1760,TRUE,Bay,Sonoma
+"Census Tract 1530.05, Sonoma County, California",3467,3557,769,378,5778,2491,96,2484,TRUE,Bay,Sonoma
+"Census Tract 1532, Sonoma County, California",4530,4091,917,1115,6582,2602,317,2543,TRUE,Bay,Sonoma
+"Census Tract 1535.02, Sonoma County, California",2315,2276,543,234,3802,1755,94,1744,TRUE,Bay,Sonoma
+"Census Tract 1537.04, Sonoma County, California",1976,1974,422,320,3165,1839,221,1761,TRUE,Bay,Sonoma
+"Census Tract 1539.01, Sonoma County, California",2255,2889,356,119,4669,2213,145,2141,TRUE,Bay,Sonoma
+"Census Tract 1509.02, Sonoma County, California",1540,1707,277,147,2815,1407,35,1396,TRUE,Bay,Sonoma
+"Census Tract 1513.06, Sonoma County, California",1661,1938,265,208,3126,1601,133,1561,TRUE,Bay,Sonoma
+"Census Tract 1539.03, Sonoma County, California",1841,2207,84,483,3481,1612,16,1600,TRUE,Bay,Sonoma
+"Census Tract 1541, Sonoma County, California",2062,1783,523,178,3127,1398,68,1378,TRUE,Bay,Sonoma
+"Census Tract 1530.02, Sonoma County, California",3216,3658,803,637,5313,1927,204,1908,TRUE,Bay,Sonoma
+"Census Tract 1511, Sonoma County, California",2802,2877,287,331,4707,1899,31,1884,TRUE,Bay,Sonoma
+"Census Tract 1506.02, Sonoma County, California",2228,2129,346,200,3807,1528,68,1518,TRUE,Bay,Sonoma
+"Census Tract 1507.01, Sonoma County, California",2457,2699,1006,426,3699,2056,178,2036,TRUE,Bay,Sonoma
+"Census Tract 1513.05, Sonoma County, California",3157,3187,795,1109,4410,2429,253,2342,TRUE,Bay,Sonoma
+"Census Tract 1513.07, Sonoma County, California",2775,2847,296,411,4906,1979,99,1943,TRUE,Bay,Sonoma
+"Census Tract 1513.10, Sonoma County, California",2663,2998,779,268,3294,1486,171,1455,TRUE,Bay,Sonoma
+"Census Tract 1519, Sonoma County, California",1683,1707,419,827,2028,1418,165,1380,TRUE,Bay,Sonoma
+"Census Tract 1522.01, Sonoma County, California",1932,2022,651,527,2731,1747,240,1673,TRUE,Bay,Sonoma
+"Census Tract 1522.02, Sonoma County, California",2850,3744,829,514,5229,2867,196,2777,TRUE,Bay,Sonoma
+"Census Tract 1515.02, Sonoma County, California",3342,3532,703,327,5819,2882,224,2781,TRUE,Bay,Sonoma
+"Census Tract 1529.04, Sonoma County, California",2761,2452,415,278,4520,1896,123,1870,TRUE,Bay,Sonoma
+"Census Tract 1530.03, Sonoma County, California",2639,3164,795,487,4521,1978,304,1894,TRUE,Bay,Sonoma
+"Census Tract 1535.01, Sonoma County, California",2275,2501,223,168,4364,1930,75,1910,TRUE,Bay,Sonoma
+"Census Tract 1537.03, Sonoma County, California",1885,1672,741,322,2494,1739,257,1642,TRUE,Bay,Sonoma
+"Census Tract 1513.11, Sonoma County, California",2853,3546,839,227,5311,2336,84,2316,TRUE,Bay,Sonoma
+"Census Tract 1515.04, Sonoma County, California",1652,1964,118,122,3270,1316,64,1278,TRUE,Bay,Sonoma
+"Census Tract 1525.01, Sonoma County, California",2217,2085,268,267,3758,1669,136,1618,TRUE,Bay,Sonoma
+"Census Tract 1528.01, Sonoma County, California",2453,2484,564,394,3979,1635,126,1617,TRUE,Bay,Sonoma
+"Census Tract 1534.04, Sonoma County, California",2035,2357,323,271,3791,1717,89,1693,TRUE,Bay,Sonoma
+"Census Tract 1536, Sonoma County, California",3083,2993,609,288,5082,2341,137,2320,TRUE,Bay,Sonoma
+"Census Tract 1540, Sonoma County, California",1406,1162,215,185,2168,1017,15,1005,FALSE,Bay,Sonoma
+"Census Tract 1520, Sonoma County, California",902,854,476,148,1132,930,102,930,TRUE,Bay,Sonoma
+"Census Tract 1528.02, Sonoma County, California",3587,3571,1133,982,5027,2819,370,2717,TRUE,Bay,Sonoma
+"Census Tract 1533, Sonoma County, California",6407,6805,1671,1198,10280,3782,361,3683,TRUE,Bay,Sonoma
+"Census Tract 1502.03, Sonoma County, California",2616,2290,494,224,4075,2172,131,2155,TRUE,Bay,Sonoma
+"Census Tract 1502.04, Sonoma County, California",1611,2060,565,122,2854,1690,137,1633,TRUE,Bay,Sonoma
+"Census Tract 1503.05, Sonoma County, California",3486,2778,850,685,4654,1823,178,1781,TRUE,Bay,Sonoma
+"Census Tract 1503.06, Sonoma County, California",1979,2099,265,377,3419,1771,146,1716,TRUE,Bay,Sonoma
+"Census Tract 1506.07, Sonoma County, California",2567,2708,265,54,4940,1719,44,1688,FALSE,Bay,Sonoma
+"Census Tract 1506.09, Sonoma County, California",2468,2418,450,464,3963,2021,179,1990,TRUE,Bay,Sonoma
+"Census Tract 1506.10, Sonoma County, California",1915,1942,742,214,2901,1329,41,1323,TRUE,Bay,Sonoma
+"Census Tract 1506.11, Sonoma County, California",2077,1977,191,197,3666,1475,113,1411,FALSE,Bay,Sonoma
+"Census Tract 1506.12, Sonoma County, California",2064,2564,247,39,4342,1693,35,1693,TRUE,Bay,Sonoma
+"Census Tract 1529.06, Sonoma County, California",2640,2996,308,267,5004,2035,61,2021,TRUE,Bay,Sonoma
+"Census Tract 1516.01, Sonoma County, California",1320,1670,54,67,2742,1715,47,1715,TRUE,Bay,Sonoma
+"Census Tract 1516.02, Sonoma County, California",1358,1771,136,184,2809,1852,25,1838,TRUE,Bay,Sonoma
+"Census Tract 1529.05, Sonoma County, California",2406,2176,364,287,3931,1548,76,1486,TRUE,Bay,Sonoma
+"Census Tract 1531.03, Sonoma County, California",1894,2368,684,282,3272,1383,345,1350,TRUE,Bay,Sonoma
+"Census Tract 1531.04, Sonoma County, California",2036,1854,879,478,2473,1206,288,1167,TRUE,Bay,Sonoma
+"Census Tract 1538.04, Sonoma County, California",1737,1756,51,31,3411,1183,10,1183,TRUE,Bay,Sonoma
+"Census Tract 1538.06, Sonoma County, California",1638,1706,125,136,3071,1207,40,1197,TRUE,Bay,Sonoma
+"Census Tract 1538.07, Sonoma County, California",1700,1922,72,98,3452,1385,12,1385,TRUE,Bay,Sonoma
+"Census Tract 1538.08, Sonoma County, California",2148,2273,350,467,3546,1528,182,1462,TRUE,Bay,Sonoma
+"Census Tract 1538.09, Sonoma County, California",2271,2109,259,673,3448,1586,93,1563,TRUE,Bay,Sonoma
+"Census Tract 1542.01, Sonoma County, California",1802,2072,448,627,2788,1325,266,1249,TRUE,Bay,Sonoma
+"Census Tract 1542.02, Sonoma County, California",2876,2970,468,152,5149,2207,113,2174,TRUE,Bay,Sonoma
+"Census Tract 1543.03, Sonoma County, California",689,878,227,43,1297,780,34,780,FALSE,Bay,Sonoma
+"Census Tract 1543.04, Sonoma County, California",1158,1155,241,149,1871,1016,60,1002,TRUE,Bay,Sonoma
+"Census Tract 9901, Sonoma County, California",0,0,0,0,0,0,0,0,NA,Bay,Sonoma

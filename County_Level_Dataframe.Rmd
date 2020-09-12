@@ -1,0 +1,306 @@
+---
+title: "Assignment 1: Assembling a Dataframe"
+author: "Julia Meinhardt"
+date: "9/10/2020"
+output: html_document
+---
+
+## Area of Study
+
+The dataset I compiled for this exercise will be used to explore two different different regions of Northern California: the Bay Area and an informal region sometimes referred to as "Jefferson." I'm interested in residents' poverty levels and use of public assistance both within each respective region and between the two regions for comparison. 
+
+*I utilized Kristy's code and methods extensively in this dataset! I both accessed her code on GitHub and asked her questions personally when I was stumped. Her code and assistance were essential in organizing my data by county (and I directly used her Bay Area counties code to combine the tracts into counties) and region and turning them into a categorical variables, as well as binding my datasets together into one dataframe.*
+
+## Loading and Choosing Variables
+
+First, I loaded the necessary libraries. 
+
+```{r load libraries, message = FALSE,results = 'hide'  }
+
+library(tidycensus)
+library(tidyverse)
+library(dplyr)
+
+```
+
+Next, I loaded area-level data from the 5-Year ACS.
+
+```{r load area-level data}
+area_vars_2018 <- load_variables (2018, "acs5")
+```
+
+
+I chose the following variables to include in my dataset: 
+
+*The number of variabes is larger than I initially expected, but after exploring the variables in each dataset, I determined that a closer look into levels of poverty and types of government assistance would enable me to explore my area of interest with greater nuance and detail.*
+
+
+1.Female population: female_pop = B01001_026 (continuous)
+2.Male population: male_pop = B01001_002 (continous)
+3.Total Population: total_pop = B00001_001 (continuous)
+
+4.Total below 100% poverty level: poverty_100 = B06012_002 (continuous)
+5.Total from 100 to 149% of poverty Level: poverty_149 = B06012_003 100 (continuous)
+6.Total People at or above 150% of poverty level: poverty_150 =B06012_004 (continuous)
+
+7.Total households receiving public assistance including social secuity: public_assist = B19057_001  (continuous)
+8.Total households receiving cash public assistance or food stamps/SNAP: cash_assist = B19058_002 (continuous)
+9.Total households not receiving public assistance: no_assist = B19057_003 (continuous)
+
+10.Total pop hs graduates: hs_grads = B06009_003 (mutated into categorical, >83% meets statewide average)
+
+11. County (categorical)
+12. Region (categorical)
+
+
+## Loading, Joining, and Creating Variables
+
+The following code loads the variables for each county. It loads each variable by tract, joins tracts by county, and then turns both county and region into categorical variables. 
+
+Then, it binds the datasets for each county into one dataframe.
+
+``` {r load variables for dataframe, message=FALSE, include = TRUE, results = 'hide'}
+
+population_vars <- c( total_pop = "B00001_001",
+              male_pop =    "B01001_002",
+              female_pop =  "B01001_026", 
+              
+              poverty_100 = "B06012_002",
+              poverty_149 = "B06012_003",
+              poverty_150 = "B06012_004",
+              
+              pub_assist =  "B19057_001",
+              cash_assist = "B19058_002",
+              no_assist =   "B19057_003",
+              
+              hs_grads =    "B06009_003")
+
+
+tractLassen2018 <- get_acs(geography= "tract", 
+              variables = population_vars, 
+              output = "wide", 
+              state = "CA",
+              county = "Lassen",
+              year = 2018, 
+              survey = "acs5")
+
+tractLassen2018$county <- rep("Lassen", times = length(tractLassen2018$total_popE))
+tractLassen2018$region <- rep("Jefferson", times = length(tractLassen2018$total_popE))
+
+
+tractModoc2018 <- get_acs(geography= "tract", 
+              variables = population_vars, 
+              output = "wide", 
+              state = "CA",
+              county = "Modoc",
+              year = 2018, 
+              survey = "acs5")
+
+tractModoc2018$county <- rep("Modoc", times = length(tractModoc2018$total_popE))
+tractModoc2018$region <- rep("Jefferson", times = length(tractModoc2018$total_popE))
+
+
+tractPlumas2018 <- get_acs(geography= "tract", 
+              variables = population_vars, 
+              output = "wide", 
+              state = "CA",
+              county = "Plumas",
+              year = 2018, 
+              survey = "acs5")
+
+tractPlumas2018$county <- rep("Plumas", times = length(tractPlumas2018$total_popE))
+tractPlumas2018$region <- rep("Jefferson", times = length(tractPlumas2018$total_popE))
+
+
+tractShasta2018 <- get_acs(geography= "tract", 
+              variables = population_vars, 
+              output = "wide", 
+              state = "CA",
+              county = "Shasta",
+              year = 2018, 
+              survey = "acs5")
+
+tractShasta2018$county <- rep("Shasta", times = length(tractShasta2018$total_popE))
+tractShasta2018$region <- rep("Jefferson", times = length(tractShasta2018$total_popE))
+
+
+tractTrinity2018 <- get_acs(geography= "tract", 
+              variables = population_vars, 
+              output = "wide", 
+              state = "CA",
+              county = "Trinity",
+              year = 2018, 
+              survey = "acs5")
+
+tractTrinity2018$county <- rep("Trinity", times = length(tractTrinity2018$total_popE))
+tractTrinity2018$region <- rep("Jefferson", times = length(tractTrinity2018$total_popE))
+
+
+tractSiskiyou2018 <- get_acs(geography= "tract", 
+              variables = population_vars, 
+              output = "wide", 
+              state = "CA",
+              county = "Siskiyou",
+              year = 2018, 
+              survey = "acs5")
+
+tractSiskiyou2018$county <- rep("Siskiyou", times = length(tractSiskiyou2018$total_popE))
+tractSiskiyou2018$region <- rep("Jefferson", times = length(tractSiskiyou2018$total_popE))
+
+
+tractDelNorte2018 <- get_acs(geography= "tract", 
+              variables = population_vars, 
+              output = "wide", 
+              state = "CA",
+              county = "Del Norte",
+              year = 2018, 
+              survey = "acs5")
+
+tractDelNorte2018$county <- rep("Del Norte", times = length(tractDelNorte2018$total_popE))
+tractDelNorte2018$region <- rep("Jefferson", times = length(tractDelNorte2018$total_popE))
+
+
+tractAlameda2018 <- get_acs(geography= "tract", 
+              variables = population_vars, 
+              output = "wide", 
+              state = "CA",
+              county = "Alameda",
+              year = 2018, 
+              survey = "acs5")
+
+tractAlameda2018$county <- rep("Alameda", times = length(tractAlameda2018$total_popE))
+tractAlameda2018$region <- rep("Bay", times = length(tractAlameda2018$total_popE))
+
+
+tractContraCosta2018 <- get_acs(geography= "tract", 
+              variables = population_vars, 
+              output = "wide", 
+              state = "CA",
+              county = "Contra Costa",
+              year = 2018, 
+              survey = "acs5")
+
+tractContraCosta2018$county <- rep("ContraCosta", times = length(tractContraCosta2018$total_popE))
+tractContraCosta2018$region <- rep("Bay", times = length(tractContraCosta2018$total_popE))
+
+
+tractMarin2018 <- get_acs(geography= "tract", 
+              variables = population_vars, 
+              output = "wide", 
+              state = "CA",
+              county = "Marin",
+              year = 2018, 
+              survey = "acs5")
+
+tractMarin2018$county <- rep("Marin", times = length(tractMarin2018$total_popE))
+tractMarin2018$region <- rep("Bay", times = length(tractMarin2018$total_popE))
+
+
+tractNapa2018 <- get_acs(geography= "tract", 
+              variables = population_vars, 
+              output = "wide", 
+              state = "CA",
+              county = "Napa",
+              year = 2018, 
+              survey = "acs5")
+
+tractNapa2018$county <- rep("Napa", times = length(tractNapa2018$total_popE))
+tractNapa2018$region <- rep("Bay", times = length(tractNapa2018$total_popE))
+
+
+tractSanFrancisco2018 <- get_acs(geography= "tract", 
+              variables = population_vars, 
+              output = "wide", 
+              state = "CA",
+              county = "San Francisco",
+              year = 2018, 
+              survey = "acs5")
+
+tractSanFrancisco2018$county <- rep("San Francisco", times = length(tractSanFrancisco2018$total_popE))
+tractSanFrancisco2018$region <- rep("Bay", times = length(tractSanFrancisco2018$total_popE))
+
+
+tractSanMateo2018 <- get_acs(geography= "tract", 
+              variables = population_vars, 
+              output = "wide", 
+              state = "CA",
+              county = "San Mateo",
+              year = 2018, 
+              survey = "acs5")
+
+tractSanMateo2018$county <- rep("San Mateo", times = length(tractSanMateo2018$total_popE))
+tractSanMateo2018$region <- rep("Bay", times = length(tractSanMateo2018$total_popE))
+
+
+tractSantaClara2018 <- get_acs(geography= "tract", 
+              variables = population_vars, 
+              output = "wide", 
+              state = "CA",
+              county = "Santa Clara",
+              year = 2018, 
+              survey = "acs5")
+
+tractSantaClara2018$county <- rep("Santa Clara", times = length(tractSantaClara2018$total_popE))
+tractSantaClara2018$region <- rep("Bay", times = length(tractSantaClara2018$total_popE))
+
+
+tractSolano2018 <- get_acs(geography= "tract", 
+              variables = population_vars, 
+              output = "wide", 
+              state = "CA",
+              county = "Solano",
+              year = 2018, 
+              survey = "acs5")
+
+tractSolano2018$county <- rep("Solano", times = length(tractSolano2018$total_popE))
+tractSolano2018$region <- rep("Bay", times = length(tractSolano2018$total_popE))
+
+
+tractSonoma2018 <- get_acs(geography= "tract", 
+              variables = population_vars, 
+              output = "wide", 
+              state = "CA",
+              county = "Sonoma",
+              year = 2018, 
+              survey = "acs5")
+
+tractSonoma2018$county <- rep("Sonoma", times = length(tractSonoma2018$total_popE))
+tractSonoma2018$region <- rep("Bay", times = length(tractSonoma2018$total_popE))
+
+Jefferson_Bay2018 <- rbind(tractModoc2018, tractLassen2018, tractPlumas2018, tractShasta2018, tractTrinity2018, tractSiskiyou2018, tractDelNorte2018, tractAlameda2018, tractContraCosta2018, tractMarin2018, tractNapa2018, tractSanFrancisco2018, tractSanMateo2018, tractSantaClara2018, tractSolano2018, tractSonoma2018)
+
+```
+
+## Mutating, selecting, displaying, and saving 
+
+The following categorizes majority_hs_grads for each tract as TRUE or FALSE depending upon whether the percentage of residents with high school or equivalent diplomas meets the statewide average of 83% or not. 
+
+```{r mutate and select}
+Jefferson_Bay2018 <- Jefferson_Bay2018 %>%
+  mutate(majority_hs_grads = hs_gradsE/total_popE > 0.83) %>%
+  select (NAME, male_popE, female_popE, poverty_100E, poverty_149E, poverty_150E, pub_assistE, cash_assistE, no_assistE, majority_hs_grads, region, county)
+```
+
+A sample of the assembled dataframe is shown below. 
+
+```{r}
+Jefferson_Bay2018
+```
+Lastly, I saved the dataframeas a .csv for future use. 
+
+```{r save as .csv}
+
+write_csv(Jefferson_Bay2018, "jeffersonbay2018.csv")
+
+```
+
+## Summary
+
+1. Unit of analysis: county (by census tract)
+2. Definition of sample population: all residents of 16 counties in California 
+3. Variables: population (male, female, total), poverty level (100%, 100-149%, 150%) public assistance (use, type) region, county, education 
+4. The number of observations (rows) in dataset: 1,683
+
+
+
+
