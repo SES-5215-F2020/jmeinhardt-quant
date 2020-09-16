@@ -1,0 +1,202 @@
+---
+title: 'Assignment 2: Distributions and Proportions'
+author: "Julia Meinhardt"
+date: "9/15/2020"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load libraries}
+library(ggplot2)
+library(tidyverse)
+
+```
+
+### Reading csv, filtering by region, and attaching. 
+
+```{r load and attach data for Jefferson, message=FALSE}
+Jefferson_tract_data <- read_csv("jeffersonbay2018.csv") %>%
+  filter(region == "Jefferson")
+attach(Jefferson_tract_data)
+```
+
+### Assignment Deliverables
+
+For each continuous variable in your dataset calculate:
+1.sample mean
+2.sample standard deviation
+3.95-percent confidence interval for the population mean
+4.interquartile range. 
+
+Create a histogram to illustrate the distribution of each variable and describe the distribution in a sentence or two.
+
+For each categorical variable in your dataset calculate:
+1.95-percent confidence interval for the proportion of the population in each category
+
+
+**List of Variables**
+
+1.**female_popE** (continuous)
+2.**male_popE**  (continuous)
+
+3.**poverty_100** : total below 100% poverty level (continuous)
+4.**poverty_149** : total from 100 to 149% of poverty Level (continuous)
+5.**poverty_150** : total at or above 150% of poverty level (continuous)
+
+6.**public_assist** : households receiving public assistance (including ss)  (continuous)
+8.**cash_assist** :  households receiving public assistance, cash and food stamps (continuous)
+9.**no_assist** (continuous)
+
+10.**majority_hs_grads** (categorical)
+
+11. **county** (categorical)
+12. **region** (categorical)
+
+
+### Summary Stats for Jefferson Region
+
+```{r summary stats female pop Jefferson}
+
+summary(female_popE)
+sd(female_popE)
+pop_mean <- t.test(female_popE)
+pop_mean
+```
+```{r histogram female population Jefferson}
+hist <- ggplot(Jefferson_tract_data, aes(x = female_popE)) +
+  geom_histogram() 
+hist
+```
+
+
+```{r summary stats male pop Jefferson}
+
+summary(male_popE)
+sd(male_popE)
+pop_mean <- t.test(male_popE)
+pop_mean
+```
+```{r  histogram male pop Jefferson}
+hist <- ggplot(Jefferson_tract_data, aes(x = male_popE)) +
+  geom_histogram() 
+hist
+```
+
+```{r summary stats below 100% poverty Jefferson}
+summary(poverty_100E)
+sd(poverty_100E)
+pop_mean <- t.test(poverty_100E)
+pop_mean
+```
+```{r histogram population below 100% poverty Jefferson}
+hist<- ggplot(Jefferson_tract_data, aes(x = poverty_100E)) +
+  geom_histogram() 
+hist
+```
+
+```{r summary 100-149% poverty Jefferson}
+summary(poverty_149E)
+sd(poverty_149E)
+pop_mean <- t.test(poverty_149E)
+pop_mean
+```
+```{r histogram population between 100-149% poverty Jefferson}
+hist <- ggplot(Jefferson_tract_data, aes(x = poverty_149E)) +
+  geom_histogram() 
+hist
+```
+
+```{r summary over 150% poverty Jefferson}
+summary(poverty_150E)
+sd(poverty_150E)
+pop_mean <- t.test(poverty_150E)
+pop_mean
+```
+```{r histogram population over 150% poverty Jefferson}
+hist <- ggplot(Jefferson_tract_data, aes(x = poverty_150E)) +
+  geom_histogram() 
+hist
+```
+
+
+```{r summary population receiving public assistance Jefferson}
+summary(pub_assistE)
+sd(pub_assistE)
+pop_mean <- t.test(pub_assistE)
+pop_mean
+```
+```{r histogram population receiving public assistance Jefferson}
+hist <- ggplot(Jefferson_tract_data, aes(x = pub_assistE)) +
+  geom_histogram() 
+hist
+```
+
+
+```{r summary population receiving cash or food stamps public assistance Jefferson}
+summary(cash_assistE)
+sd(cash_assistE)
+pop_mean <- t.test(cash_assistE)
+pop_mean
+```
+```{r histogram population receiving cash or food stamps public assistance Jefferson}
+hist <- ggplot(Jefferson_tract_data, aes(x = cash_assistE)) +
+  geom_histogram() 
+hist
+```
+
+```{r summary population not receiving public asssistance}
+summary(no_assistE)
+sd(no_assistE)
+pop_mean <- t.test(no_assistE)
+pop_mean
+```
+```{r histogram population not receiving public assistance }
+hist <- ggplot(Jefferson_tract_data, aes(x = no_assistE)) +
+  geom_histogram() 
+hist
+```
+
+
+
+###Distribution of Categorical Variables: Jefferson 
+
+```{r t-test majority hs grads Jefferson}
+meets_hs_grads <- t.test(majority_hs_grads)
+below_hs_grads <- t.test(!majority_hs_grads)
+```
+
+```{r hs_grads table}
+grads_shares <- tibble(Diplomas = c("Meets Statewise Average",
+                                    "Below Statewide Average"), 
+                     `Sample` =c(paste(prettyNum(meets_hs_grads$estimate*100,
+                                         digits = 3), "%"),
+                         paste(prettyNum(below_hs_grads$estimate*100,
+                                         digits = 3), "%")), 
+                      `95-percent confidence interval` =  
+                        c(paste(prettyNum(meets_hs_grads$conf.int[1]*100,
+                                          digits = 3), "% to ",
+                                prettyNum(meets_hs_grads$conf.int[2]*100,
+                                          digits = 3), "%"),
+                         paste(prettyNum(below_hs_grads$conf.int[1]*100,
+                                          digits = 3), "% to ",
+                                prettyNum(below_hs_grads$conf.int[2]*100,
+                                          digits = 3), "%")))
+knitr::kable(grads_shares, caption = "Census Tracts in Jefferson Region")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
