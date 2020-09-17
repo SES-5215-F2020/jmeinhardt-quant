@@ -1,0 +1,427 @@
+---
+title: 'Assignment 2: Distributions and Proportions Part 2'
+author: "Julia Meinhardt"
+date: "9/15/2020"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load libraries}
+library(ggplot2)
+library(tidyverse)
+library(ggthemes)
+
+```
+
+### Reading csv, filtering by region, and attaching. 
+
+```{r load and attach data for Bay, message=FALSE}
+Bay_tract_data <- read_csv("jeffersonbay2018.csv") %>%
+  filter(region == "Bay")
+attach(Bay_tract_data)
+```
+
+### Assignment Deliverables
+
+For each continuous variable in your dataset calculate:
+
+1.sample mean
+2.sample standard deviation
+3.95-percent confidence interval for the population mean
+4.interquartile range. 
+
+Create a histogram to illustrate the distribution of each variable and describe the distribution in a sentence or two.
+
+For each categorical variable in your dataset calculate:
+1.95-percent confidence interval for the proportion of the population in each category
+
+
+**List of Variables**
+
+1.**female_popE** (continuous)
+2.**male_popE**  (continuous)
+
+3.**poverty_100** : total below 100% poverty level (continuous)
+4.**poverty_149** : total from 100 to 149% of poverty Level (continuous)
+5.**poverty_150** : total at or above 150% of poverty level (continuous)
+
+6.**public_assist** : households receiving public assistance (including ss)  (continuous)
+7.**cash_assist** :  households receiving public assistance, cash and food stamps (continuous)
+8.**no_assist** (continuous)
+
+9.**majority_hs_grads** (categorical)
+
+10. **county** (categorical)
+11. **region** (categorical)
+
+
+## Calculations and Distributions for Bay Region
+
+This file is comprised of all the data calculaitons for the Bay Region of my dataset. The Bay Region calculations and distributions are done in a second file. 
+
+### Female Pop Summary Stats and Distribution 
+
+```{r summary stats female pop Bay}
+
+summary(female_popE)
+sd(female_popE)
+pop_mean9 <- t.test(female_popE)
+pop_mean9
+```
+```{r histogram female population Bay}
+hist9 <- ggplot(Bay_tract_data, aes(x = female_popE)) +
+  geom_histogram() 
+
+
+```
+
+```{r hist9}
+hist9+
+  theme_solarized() +
+  scale_x_continuous(name = "Female Population Count Per Tract") +
+  scale_y_continuous(name = "Total") +
+  annotate("text", x = 4000, y = 150, size = 3, 
+           label = paste("Population mean (95% confidence):",
+                         prettyNum(pop_mean9$conf.int[1], digits = 0),
+                         "to",
+                         prettyNum(pop_mean9$conf.int[2], digits = 0),
+                        
+                         "\nSample mean:", 
+                         prettyNum(mean(female_popE), digits = 0), 
+                         "\nSample median:",
+                         prettyNum(median(female_popE), digits = 0),
+                         "\nSample standard deviation:",
+                         prettyNum(sd(female_popE), digits = 0), 
+                         "\nSample interquartile range:",
+                         prettyNum(quantile(female_popE)["25%"], digits = 0),
+                         "to",
+                         prettyNum(quantile(female_popE)["75%"], digits = 0)),
+           hjust = 0, vjust = 1) 
+
+```
+All of the histograms in this dataset are smoother with fewer outliers than the Jefferson data set. This makes sense given the much larger number of observations. From this analysis, I have begun to wonder about data gathering and statistics for rural areas and how sample size might problematically effect data representation. 
+
+### Male Pop Summary Stats and Distribution 
+
+```{r summary stats male pop Bay}
+
+summary(male_popE)
+sd(male_popE)
+pop_mean10 <- t.test(male_popE)
+pop_mean10
+
+```
+
+
+```{r  histogram of male Bay population}
+hist10 <- ggplot(Bay_tract_data, aes(x = male_popE)) +
+  geom_histogram() 
+
+```
+
+```{r hist10}
+hist10+
+  theme_solarized() +
+  scale_x_continuous(name = "Male Population Count Per Tract") +
+  scale_y_continuous(name = "Total") +
+  annotate("text", x = 4000, y = 150, size = 3, 
+           label = paste("Population mean (95% confidence):",
+                         prettyNum(pop_mean10$conf.int[1], digits = 0),
+                         "to",
+                         prettyNum(pop_mean10$conf.int[2], digits = 0),
+                        
+                         "\nSample mean:", 
+                         prettyNum(mean(male_popE), digits = 0), 
+                         "\nSample median:",
+                         prettyNum(median(male_popE), digits = 0),
+                         "\nSample standard deviation:",
+                         prettyNum(sd(male_popE), digits = 0), 
+                         "\nSample interquartile range:",
+                         prettyNum(quantile(male_popE)["25%"], digits = 0),
+                         "to",
+                         prettyNum(quantile(male_popE)["75%"], digits = 0)),
+           hjust = 0, vjust = 1) 
+
+```
+
+
+### Population Below 100% Poverty Level Summary Stats and Distribution
+
+```{r summary stats below 100pct poverty Bay}
+summary(poverty_100E)
+sd(poverty_100E)
+pop_mean11 <- t.test(poverty_100E)
+pop_mean11
+```
+```{r histogram population below 100pct poverty Bay}
+hist11<- ggplot(Bay_tract_data, aes(x = poverty_100E)) +
+  geom_histogram() 
+```
+
+```{r hist 11}
+hist11+
+  theme_solarized() +
+  scale_x_continuous(name = "Population Below 100% Poverty Rate") +
+  scale_y_continuous(name = "Total") +
+  annotate("text", x = 1000, y = 300, size = 3, 
+           label = paste("Population mean (95% confidence):",
+                         prettyNum(pop_mean11$conf.int[1], digits = 0),
+                         "to",
+                         prettyNum(pop_mean11$conf.int[2], digits = 0),
+                        
+                         "\nSample mean:", 
+                         prettyNum(mean(poverty_100E), digits = 0), 
+                         "\nSample median:",
+                         prettyNum(median(poverty_100E), digits = 0),
+                         "\nSample standard deviation:",
+                         prettyNum(sd(poverty_100E), digits = 0), 
+                         "\nSample interquartile range:",
+                         prettyNum(quantile(poverty_100E)["25%"], digits = 0),
+                         "to",
+                         prettyNum(quantile(poverty_100E)["75%"], digits = 0)),
+           hjust = 0, vjust = 1) 
+
+```
+
+
+The mean for the population below 100% poverty is greater than the mean for the population between 100-149%. I would need to learn more about the values for these ranges to provide a good explanation, but it could be an indication that there are greater disparities in wealth that are visible in the Bay that aren't visible in the Jefferson data. 
+
+### Poulation Between 100 and 149 % Poverty Level Summary Stats and Distribution
+
+```{r summary 100-149pct poverty Bay}
+summary(poverty_149E)
+sd(poverty_149E)
+pop_mean12 <- t.test(poverty_149E)
+pop_mean12
+```
+
+```{r histogram population between 100-149pct poverty Bay}
+hist12 <- ggplot(Bay_tract_data, aes(x = poverty_149E)) +
+  geom_histogram() 
+```
+
+```{r hist12}
+hist12+
+  theme_solarized() +
+  scale_x_continuous(name = "Population Between 100-149% Poverty Rate") +
+  scale_y_continuous(name = "Total") +
+  annotate("text", x = 500, y = 250, size = 3, 
+           label = paste("Population mean (95% confidence):",
+                         prettyNum(pop_mean12$conf.int[1], digits = 0),
+                         "to",
+                         prettyNum(pop_mean12$conf.int[2], digits = 0),
+                        
+                         "\nSample mean:", 
+                         prettyNum(mean(poverty_149E), digits = 0), 
+                         "\nSample median:",
+                         prettyNum(median(poverty_149E), digits = 0),
+                         "\nSample standard deviation:",
+                         prettyNum(sd(poverty_149E), digits = 0), 
+                         "\nSample interquartile range:",
+                         prettyNum(quantile(poverty_149E)["25%"], digits = 0),
+                         "to",
+                         prettyNum(quantile(poverty_100E)["75%"], digits = 0)),
+           hjust = 0, vjust = 1) 
+
+```
+
+
+###  Population over 150% Poverty Rate Summary Stats and Distribution
+
+```{r summary over 150pct poverty Bay}
+summary(poverty_150E)
+sd(poverty_150E)
+pop_mean13 <- t.test(poverty_150E)
+pop_mean13
+```
+```{r histogram population over 150pct poverty Bay}
+hist13 <- ggplot(Bay_tract_data, aes(x = poverty_150E)) +
+  geom_histogram() 
+
+```
+
+```{r hist 13}
+hist13+
+  theme_solarized() +
+  scale_x_continuous(name = "Population Over 150% Poverty Rate") +
+  scale_y_continuous(name = "Total") +
+  annotate("text", x = 7000, y = 175, size = 3, 
+           label = paste("Population mean (95% confidence):",
+                         prettyNum(pop_mean13$conf.int[1], digits = 0),
+                         "to",
+                         prettyNum(pop_mean13$conf.int[2], digits = 0),
+                        
+                         "\nSample mean:", 
+                         prettyNum(mean(poverty_150E), digits = 0), 
+                         "\nSample median:",
+                         prettyNum(median(poverty_150E), digits = 0),
+                         "\nSample standard deviation:",
+                         prettyNum(sd(poverty_150E), digits = 0), 
+                         "\nSample interquartile range:",
+                         prettyNum(quantile(poverty_150E)["25%"], digits = 0),
+                         "to",
+                         prettyNum(quantile(poverty_150E)["75%"], digits = 0)),
+           hjust = 0, vjust = 1) 
+```
+
+### Population Receiving Public Assistance Summary Stats and Distribution
+
+```{r summary population receiving public assistance Bay}
+summary(pub_assistE)
+sd(pub_assistE)
+pop_mean14 <- t.test(pub_assistE)
+pop_mean14
+```
+```{r histogram population receiving public assistance Bay}
+hist14 <- ggplot(Bay_tract_data, aes(x = pub_assistE)) +
+  geom_histogram() 
+```
+
+```{r hist14}
+hist14+
+  theme_solarized() +
+  scale_x_continuous(name = "Population Using Public Assistance (Including SSI)") +
+  scale_y_continuous(name = "Total") +
+  annotate("text", x = 4000, y = 200, size = 3, 
+           label = paste("Population mean (95% confidence):",
+                         prettyNum(pop_mean14$conf.int[1], digits = 0),
+                         "to",
+                         prettyNum(pop_mean14$conf.int[2], digits = 0),
+                        
+                         "\nSample mean:", 
+                         prettyNum(mean(pub_assistE), digits = 0), 
+                         "\nSample median:",
+                         prettyNum(median(pub_assistE), digits = 0),
+                         "\nSample standard deviation:",
+                         prettyNum(sd(pub_assistE), digits = 0), 
+                         "\nSample interquartile range:",
+                         prettyNum(quantile(pub_assistE)["25%"], digits = 0),
+                         "to",
+                         prettyNum(quantile(pub_assistE)["75%"], digits = 0)),
+           hjust = 0, vjust = 1) 
+```
+### Population Receiving Public Assistance (cash or food stamps) Summary Stats and Distribution
+
+```{r summary population receiving cash or food stamps public assistance Bay}
+summary(cash_assistE)
+sd(cash_assistE)
+pop_mean15 <- t.test(cash_assistE)
+pop_mean15
+```
+```{r histogram population receiving cash or food stamps public assistance Bay}
+hist15 <- ggplot(Bay_tract_data, aes(x = cash_assistE)) +
+  geom_histogram() 
+```
+
+```{r hist 15}
+hist15+
+  theme_solarized() +
+  scale_x_continuous(name = "Population Using Public Assistance (Cash and Food Stamps)") +
+  scale_y_continuous(name = "Total") +
+  annotate("text", x = 250, y = 250, size = 3, 
+           label = paste("Population mean (95% confidence):",
+                         prettyNum(pop_mean15$conf.int[1], digits = 0),
+                         "to",
+                         prettyNum(pop_mean15$conf.int[2], digits = 0),
+                        
+                         "\nSample mean:", 
+                         prettyNum(mean(cash_assistE), digits = 0), 
+                         "\nSample median:",
+                         prettyNum(median(cash_assistE), digits = 0),
+                         "\nSample standard deviation:",
+                         prettyNum(sd(cash_assistE), digits = 0), 
+                         "\nSample interquartile range:",
+                         prettyNum(quantile(cash_assistE)["25%"], digits = 0),
+                         "to",
+                         prettyNum(quantile(cash_assistE)["75%"], digits = 0)),
+           hjust = 0, vjust = 1) 
+```
+### Population Not Receiving Public Assistance Summary Stats and Distribution
+
+```{r summary population not receiving public asssistance}
+summary(no_assistE)
+sd(no_assistE)
+pop_mean16 <- t.test(no_assistE)
+pop_mean16
+```
+```{r histogram population not receiving public assistance }
+hist16 <- ggplot(Bay_tract_data, aes(x = no_assistE)) +
+  geom_histogram() 
+```
+
+```{r hist 16}
+hist16+
+  theme_solarized() +
+  scale_x_continuous(name = "Population Not Receiving Public Assistance") +
+  scale_y_continuous(name = "Total") +
+  annotate("text", x = 4000, y = 200, size = 3, 
+           label = paste("Population mean (95% confidence):",
+                         prettyNum(pop_mean16$conf.int[1], digits = 0),
+                         "to",
+                         prettyNum(pop_mean16$conf.int[2], digits = 0),
+                        
+                         "\nSample mean:", 
+                         prettyNum(mean(poverty_100E), digits = 0), 
+                         "\nSample median:",
+                         prettyNum(median(poverty_100E), digits = 0),
+                         "\nSample standard deviation:",
+                         prettyNum(sd(poverty_100E), digits = 0), 
+                         "\nSample interquartile range:",
+                         prettyNum(quantile(poverty_100E)["25%"], digits = 0),
+                         "to",
+                         prettyNum(quantile(poverty_100E)["75%"], digits = 0)),
+           hjust = 0, vjust = 1) 
+```
+
+
+
+
+###  Categorical Variable Calculation: Bay 
+
+My categorical variables for this dataset are county, region, and whether or not the tract meets/exceeds or is below the statewide average HS graduation rate of 83%. I've only performed caluclations on HS graduation rate here because the county and region variables are set and cannot be estimated or calculated. 
+
+```{r t-test majority hs grads Bay}
+meets_hs_grads2 <- t.test(majority_hs_grads)
+below_hs_grads2 <- t.test(!majority_hs_grads)
+```
+
+```{r hs_grads table Bay}
+grads_shares2 <- tibble(Diplomas = c("Meets Statewise Average",
+                                    "Below Statewide Average"), 
+                     `Sample` =c(paste(prettyNum(meets_hs_grads2$estimate*100,
+                                         digits = 3), "%"),
+                         paste(prettyNum(below_hs_grads2$estimate*100,
+                                         digits = 3), "%")), 
+                      `95-percent confidence interval` =  
+                        c(paste(prettyNum(meets_hs_grads2$conf.int[1]*100,
+                                          digits = 3), "% to ",
+                                prettyNum(meets_hs_grads2$conf.int[2]*100,
+                                          digits = 3), "%"),
+                         paste(prettyNum(below_hs_grads2$conf.int[1]*100,
+                                          digits = 3), "% to ",
+                                prettyNum(below_hs_grads2$conf.int[2]*100,
+                                          digits = 3), "%")))
+knitr::kable(grads_shares2, caption = "Census Tracts in Bay Region")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
