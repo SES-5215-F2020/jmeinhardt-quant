@@ -20,13 +20,14 @@ First, I loaded the necessary libraries.
 library(tidycensus)
 library(tidyverse)
 library(dplyr)
-
+library(ggplot2)
 ```
 
 Next, I loaded area-level data from the 5-Year ACS.
 
 ```{r load area-level data}
 area_vars_2018 <- load_variables (2018, "acs5")
+
 ```
 
 
@@ -35,33 +36,24 @@ I chose the following variables to include in my dataset:
 *The number of variabes is larger than I initially expected, but after exploring the variables in each dataset, I determined that a closer look into levels of poverty and types of government assistance would enable me to explore my area of interest with greater nuance and detail.*
 
 
-1.Female population: female_pop = B01001_026 (continuous)
-2.Male population: male_pop = B01001_002 (continous)
-3.Total Population: total_pop = B00001_001 (continuous)
-
-4.Total below 100% poverty level: poverty_100 = B06012_002 (continuous)
-5.Total from 100 to 149% of poverty Level: poverty_149 = B06012_003 100 (continuous)
-6.Total People at or above 150% of poverty level: poverty_150 =B06012_004 (continuous)
-
-7.Total households receiving public assistance including social secuity: public_assist = B19057_001  (continuous)
-8.Total households receiving cash public assistance or food stamps/SNAP: cash_assist = B19058_002 (continuous)
-9.Total households not receiving public assistance: no_assist = B19057_003 (continuous)
-
-10.Total pop hs graduates: hs_grads = B06009_003 (mutated into categorical, >83% meets statewide average)
-
-11. County (categorical)
-12. Region (categorical)
+1.Total Population: total_pop =  (continuous)
+2.Total below 150 % poverty level: low_income (continuous)
+3.Percent of population receiving public assistance (including SSI):  (continuous)
+4.Percent of population receiving cash public assistance (including food stamps/SNAP):  (continuous)
+5.High School Graduates:  (mutated into categorical, >83% meets statewide average)
+6.Some college or Associates: (>29% meets statewide average)
+7.Bachelors or higher: (>33 meets statewide average)
+8. County (categorical)
+9. Region (categorical)
 
 
 ## Loading, Joining, and Creating Variables
 
-The following code loads the variables for each county. It loads each variable by tract, joins tracts by county, and then turns both county and region into categorical variables. 
+CHANGES: The only thing that has changed in lines 69-273 is in lines 75-82. I eliminated male/female, poverty 150, no assist, and added some college and bachelors. The problem I'm running into centers around the hs_grads variable. 
 
-Then, it binds the datasets for each county into one dataframe.
 
-``` {r load variables for dataframe, message=FALSE, include = TRUE, results = 'hide'}
+ OLD CODE: population_vars <- c( total_pop = "B00001_001")
 
-population_vars <- c( total_pop = "B00001_001",
               male_pop =    "B01001_002",
               female_pop =  "B01001_026", 
               
@@ -73,8 +65,19 @@ population_vars <- c( total_pop = "B00001_001",
               cash_assist = "B19058_002",
               no_assist =   "B19057_003",
               
-              hs_grads =    "B06009_003")
+              hs_grads =    "B06009_003")    
+              
+              
+``` {r load variables for dataframe, message=FALSE, include = TRUE, results = 'hide'}
 
+population_vars <- c( total_pop = "B02001_001", 
+              poverty_100 = "B06012_002",
+              poverty_149 = "B06012_003",
+              pub_assist =  "B19057_001",
+              cash_assist = "B19058_002",
+              hs_grads =    "B06009_003",
+              some_college = "B06009_004",
+              bachelors = "B06009_005")
 
 tractLassen2018 <- get_acs(geography= "tract", 
               variables = population_vars, 
@@ -267,31 +270,43 @@ tractSonoma2018 <- get_acs(geography= "tract",
 tractSonoma2018$county <- rep("Sonoma", times = length(tractSonoma2018$total_popE))
 tractSonoma2018$region <- rep("Bay", times = length(tractSonoma2018$total_popE))
 
-Jefferson_Bay2018 <- rbind(tractModoc2018, tractLassen2018, tractPlumas2018, tractShasta2018, tractTrinity2018, tractSiskiyou2018, tractDelNorte2018, tractAlameda2018, tractContraCosta2018, tractMarin2018, tractNapa2018, tractSanFrancisco2018, tractSanMateo2018, tractSantaClara2018, tractSolano2018, tractSonoma2018)
+Jefferson_Bay <- rbind(tractModoc2018, tractLassen2018, tractPlumas2018, tractShasta2018, tractTrinity2018, tractSiskiyou2018, tractDelNorte2018, tractAlameda2018, tractContraCosta2018, tractMarin2018, tractNapa2018, tractSanFrancisco2018, tractSanMateo2018, tractSantaClara2018, tractSolano2018, tractSonoma2018)
 
 ```
 
-## Mutating, selecting, displaying, and saving 
+PROBLEMS HERE: 
 
-The following categorizes majority_hs_grads for each tract as TRUE or FALSE depending upon whether the percentage of residents with high school or equivalent diplomas meets the statewide average of 83% or not. 
+After running the above chunk, you can see that the number of Hs grads/per tract (majority_grads)is coming up very low, so when I run my mutations below, it's reading all of my observations as FALSE because they're below the 0.83 threshold. This is in contrast to my first time through this dataset, where roughly 90ish % of tracts were reading as having >83% population having high school diplomas. 
+
+The majority_college and majority_bachelors variables seem to be calculating just fine. 
 
 ```{r mutate and select}
-Jefferson_Bay2018 <- Jefferson_Bay2018 %>%
-  mutate(majority_hs_grads = hs_gradsE/total_popE > 0.83) %>%
-  select (NAME, male_popE, female_popE, poverty_100E, poverty_149E, poverty_150E, pub_assistE, cash_assistE, no_assistE, majority_hs_grads, region, county)
+Jefferson_Bay <- Jefferson_Bay %>%
+  mutate(majority_grads = hs_gradsE/total_popE > 0.83,
+         majority_college = some_collegeE/total_popE > 0.29,
+         majority_bachelors = bachelorsE/total_popE > 0.33,
+         cash_assist = cash_assistE/total_popE,
+         pub_assist = pub_assistE/total_popE,
+         low_income = (poverty_100E + poverty_149E)/total_popE) %>%
+  filter(total_popE != 0)%>%
+  select (NAME, low_income, total_popE, pub_assist, cash_assist, majority_grads, majority_college, majority_bachelors, region, county)
 ```
 
 A sample of the assembled dataframe is shown below. 
 
 ```{r}
-Jefferson_Bay2018
+Jefferson_Bay
 ```
 Lastly, I saved the dataframeas a .csv for future use. 
 
 ```{r save as .csv}
 
-write_csv(Jefferson_Bay2018, "jeffersonbay2018.csv")
+write_csv(Jefferson_Bay, "jeffersonbay2018.csv")
 
+```
+
+
+write_csv(Bay2018, "baytractdata2018.csv")
 ```
 
 ## Summary
@@ -300,7 +315,5 @@ write_csv(Jefferson_Bay2018, "jeffersonbay2018.csv")
 2. Definition of sample population: all residents of 16 counties in California 
 3. Variables: population (male, female, total), poverty level (100%, 100-149%, 150%) public assistance (use, type) region, county, education 
 4. The number of observations (rows) in dataset: 1,683
-
-
 
 
