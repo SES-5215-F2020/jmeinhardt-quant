@@ -29,7 +29,7 @@ summary(model_combined)
 
 ### Regression Interpretation
 
-The R value for this data set is 0.666, so this model explains about 67% of the variation in proportions of residents per tract receiving cash public assistance. 
+The R value for this data set is 0.6527, so this model explains about 66% of the variation in proportions of residents per tract receiving cash public assistance. 
 Three of the coefficient values for my independent variables show a significant relationship for predicting the proportion of a county that will receive public assistance: public assistance, low income, and percent of bachelor's degree holders. 
 
  1. The coefficient for public assistance is 1.216e-02. This means that when the  population receiving public assistance increases by one percentage point, the  population receiving cash assistance increases by 1.216e-02 percentage points, controlling for all other variables.
