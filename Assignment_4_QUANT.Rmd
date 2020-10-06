@@ -1,0 +1,59 @@
+---
+title: "Regression Part 1" 
+author: "Julia Meinhardt"
+date: "10/3/2020"
+output: html_document
+---
+
+
+
+```{r setup, message=FALSE}
+library(tidyverse)
+```
+
+```{r, message=FALSE}
+  Jefferson_Bay <- read_csv("jeffersonbay2018.csv")
+  Bay_tract_data <- read_csv("baytractdata2018.csv")
+  Jefferson_tract_data <- read_csv("jeffersontractdata2018.csv")
+
+```
+
+## Regression Results 
+
+```{r}
+model_combined <- lm(cash_assist ~ total_popE + pub_assist +low_income + majority_grads + majority_college +  majority_bachelors + region,
+            data = Jefferson_Bay)
+
+summary(model_combined)
+```
+
+### Regression Interpretation
+
+The R value for this data set is 0.666, so this model explains about 67% of the variation in proportions of residents per tract receiving cash public assistance. 
+Three of the coefficient values for my independent variables show a significant relationship for predicting the proportion of a county that will receive public assistance: public assistance, low income, and percent of bachelor's degree holders. 
+
+ 1. The coefficient for public assistance is 1.216e-02. This means that when the  population receiving public assistance increases by one percentage point, the  population receiving cash assistance increases by 1.216e-02 percentage points, controlling for all other variables.
+
+2. The coefficient for low income is 1.512e-01, meaning that when the population considered low income (below 150% poverty) increases by one percentage point, the population that is receiving cash assistance increases by 1.512e-01. 
+
+3. The coefficient for bachelor's degree holders is -6.250e-03. This means that, compared to counties where the percentage of bachelor's degree holders is less than 21% and controlling for all other variables, if  21% or more of a tract's population is bachelor's degree holder (or higher), the population receiving cash assistance decreases by -6.250e-03 percentage points. 
+
+
+
+
+#### Extra Regressions 
+
+I also ran regressions on datasets for my two regions independently. I chose not to explore them in detail for this assignment after speaking with Sara, and determining that my interest is moreso in comparing each region then analyzing independently. I included them in here for my own reference and interest later on. 
+
+```{r}
+model_bay <- lm(low_income ~ total_popE + pub_assist + cash_assist + majority_grads + majority_college +  majority_bachelors + county,
+            data = Bay_tract_data)
+
+summary(model_bay)
+```
+```{r}
+model_jefferson <- lm(low_income ~ total_popE + pub_assist + cash_assist + majority_grads + majority_college +  majority_bachelors + county,
+            data = Jefferson_tract_data)
+
+summary(model_jefferson)
+```
