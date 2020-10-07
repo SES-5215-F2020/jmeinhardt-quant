@@ -31,18 +31,17 @@ I have quite a large set of variables, most of which are continuous. Part of thi
 
 **List of Variables**
 
-1. Female Population
-2. Male Population 
-3. Population below 100% Poverty
-4. Population between 100% and 149% Poverty
-5. Population over 150% Poverty
-6. Households Receiving Public Assistance (including Social Security Income)
-7. Households Receiving Cash Public Assistance (including Food Stamps)
-8.Households Receiving Public Assistance (including Social Security Income)
-9. Households not receiving Public Assistance
-10. High School Graduation Rate vs. Statewide Average (tracts measured by those that meet or exceed statewide graduation rate average (83%) and those that are below)
-11. County
-12. Region
+
+1. Total Population: total_popE =  (continuous)
+2. Total below 150 % poverty level: low_income (continuous)
+3. Percent of population receiving public assistance (including SSI):  (continuous)
+4. Percent of population receiving cash public assistance (including food stamps/SNAP):  (continuous)
+5. High School Graduates:  (categorical, >83% meets statewide average)
+6. Some college or Associates: (categorical, >29% meets statewide average)
+7. Bachelors or higher: (categorical, >33% meets statewide average)
+8. County (categorical)
+9. Region (categorical)
+
  
 #### Organization and Credit
 
@@ -77,122 +76,35 @@ The remainder of this tab shows individual correlations in more detail. These wi
 #### <span style="color: blue;">Individual Bay Correlations</span>  
 ```{r individual correlations for bay}
 
-correlation1_bay <- cor.test(bay_data$female_popE, bay_data$male_popE)
+correlation1_bay <- cor.test(bay_data$total_popE, bay_data$low_income)
 correlation1_bay
-correlation2_bay <- cor.test(bay_data$female_popE, bay_data$poverty_100E)
+correlation2_bay <- cor.test(bay_data$total_popE, bay_data$pub_assist)
 correlation2_bay
-correlation3_bay <- cor.test(bay_data$female_popE, bay_data$poverty_149E)
+correlation3_bay <- cor.test(bay_data$total_popE, bay_data$cash_assist)
 correlation3_bay
-correlation4_bay <- cor.test(bay_data$female_popE, bay_data$poverty_150E)
+correlation4_bay <- cor.test(bay_data$low_income, bay_data$pub_assist)
 correlation4_bay
-correlation5_bay <- cor.test(bay_data$female_popE, bay_data$pub_assistE)
+correlation5_bay <- cor.test(bay_data$low_income, bay_data$cash_assist)
 correlation5_bay
-correlation6_bay <- cor.test(bay_data$female_popE, bay_data$cash_assistE)
+correlation6_bay <- cor.test(bay_data$cash_assist, bay_data$pub_assist)
 correlation6_bay
-correlation7_bay <- cor.test(bay_data$female_popE, bay_data$no_assistE)
-correlation7_bay
-correlation8_bay <- cor.test(bay_data$male_popE, bay_data$poverty_100E)
-correlation8_bay
-correlation9_bay <- cor.test(bay_data$male_popE, bay_data$poverty_149E)
-correlation9_bay
-correlation10_bay <- cor.test(bay_data$male_popE, bay_data$poverty_150E)
-correlation10_bay
-correlation11_bay <- cor.test(bay_data$male_popE, bay_data$pub_assistE)
-correlation11_bay
-correlation12_bay <- cor.test(bay_data$male_popE, bay_data$cash_assistE)
-correlation12_bay
-correlation13_bay <- cor.test(bay_data$male_popE, bay_data$no_assistE)
-correlation13_bay
-correlation14_bay <- cor.test(bay_data$poverty_100E, bay_data$poverty_149E)
-correlation14_bay
-correlation15_bay <- cor.test(bay_data$poverty_100E, bay_data$poverty_150E)
-correlation15_bay
-correlation16_bay <- cor.test(bay_data$poverty_100E, bay_data$pub_assistE)
-correlation16_bay
-correlation17_bay <- cor.test(bay_data$poverty_100E, bay_data$cash_assistE)
-correlation17_bay
-correlation18_bay <- cor.test(bay_data$poverty_100E, bay_data$no_assistE)
-correlation18_bay
-correlation19_bay <- cor.test(bay_data$poverty_149E, bay_data$poverty_150E)
-correlation19_bay
-correlation20_bay <- cor.test(bay_data$poverty_149E, bay_data$pub_assistE)
-correlation20_bay
-correlation21_bay <- cor.test(bay_data$poverty_149E, bay_data$cash_assistE)
-correlation21_bay
-correlation22_bay <- cor.test(bay_data$poverty_149E, bay_data$no_assistE)
-correlation22_bay
-correlation23_bay <- cor.test(bay_data$poverty_150E, bay_data$pub_assistE)
-correlation23_bay
-correlation24_bay <- cor.test(bay_data$poverty_150E, bay_data$cash_assistE)
-correlation24_bay
-correlation25_bay <- cor.test(bay_data$poverty_150E, bay_data$no_assistE)
-correlation25_bay
-correlation26_bay <- cor.test(bay_data$no_assistE, bay_data$pub_assistE)
-correlation26_bay
-correlation27_bay <- cor.test(bay_data$no_assistE, bay_data$cash_assistE)
-correlation27_bay
-
 ```
 
 #### <span style="color: green;">Individual Jefferson Correlations</span>  
 
 ```{r individual correlations for Jefferson}
-
-correlation1_jefferson <- cor.test(jefferson_data$female_popE, jefferson_data$male_popE)
+correlation1_jefferson <- cor.test(jefferson_data$total_popE, jefferson_data$low_income)
 correlation1_jefferson
-correlation2_jefferson <- cor.test(jefferson_data$female_popE, jefferson_data$poverty_100E)
+correlation2_jefferson <- cor.test(jefferson_data$total_popE, jefferson_data$pub_assist)
 correlation2_jefferson
-correlation3_jefferson <- cor.test(jefferson_data$female_popE, jefferson_data$poverty_149E)
+correlation3_jefferson <- cor.test(jefferson_data$total_popE, jefferson_data$cash_assist)
 correlation3_jefferson
-correlation4_jefferson <- cor.test(jefferson_data$female_popE, jefferson_data$poverty_150E)
+correlation4_jefferson <- cor.test(jefferson_data$low_income, jefferson_data$pub_assist)
 correlation4_jefferson
-correlation5_jefferson <- cor.test(jefferson_data$female_popE, jefferson_data$pub_assistE)
+correlation5_jefferson <- cor.test(jefferson_data$low_income, jefferson_data$cash_assist)
 correlation5_jefferson
-correlation6_jefferson <- cor.test(jefferson_data$female_popE, jefferson_data$cash_assistE)
+correlation6_jefferson <- cor.test(jefferson_data$cash_assist, jefferson_data$pub_assist)
 correlation6_jefferson
-correlation7_jefferson <- cor.test(jefferson_data$female_popE, jefferson_data$no_assistE)
-correlation7_jefferson
-correlation8_jefferson <- cor.test(jefferson_data$male_popE, jefferson_data$poverty_100E)
-correlation8_jefferson
-correlation9_jefferson <- cor.test(jefferson_data$male_popE, jefferson_data$poverty_149E)
-correlation9_jefferson
-correlation10_jefferson <- cor.test(jefferson_data$male_popE, jefferson_data$poverty_150E)
-correlation10_jefferson
-correlation11_jefferson <- cor.test(jefferson_data$male_popE, jefferson_data$pub_assistE)
-correlation11_jefferson
-correlation12_jefferson <- cor.test(jefferson_data$male_popE, jefferson_data$cash_assistE)
-correlation12_jefferson
-correlation13_jefferson <- cor.test(jefferson_data$male_popE, jefferson_data$no_assistE)
-correlation13_jefferson
-correlation14_jefferson <- cor.test(jefferson_data$poverty_100E, jefferson_data$poverty_149E)
-correlation14_jefferson
-correlation15_jefferson <- cor.test(jefferson_data$poverty_100E, jefferson_data$poverty_150E)
-correlation15_jefferson
-correlation16_jefferson <- cor.test(jefferson_data$poverty_100E, jefferson_data$pub_assistE)
-correlation16_jefferson
-correlation17_jefferson <- cor.test(jefferson_data$poverty_100E, jefferson_data$cash_assistE)
-correlation17_jefferson
-correlation18_jefferson <- cor.test(jefferson_data$poverty_100E, jefferson_data$no_assistE)
-correlation18_jefferson
-correlation19_jefferson <- cor.test(jefferson_data$poverty_149E, jefferson_data$poverty_150E)
-correlation19_jefferson
-correlation20_jefferson <- cor.test(jefferson_data$poverty_149E, jefferson_data$pub_assistE)
-correlation20_jefferson
-correlation21_jefferson <- cor.test(jefferson_data$poverty_149E, jefferson_data$cash_assistE)
-correlation21_jefferson
-correlation22_jefferson <- cor.test(jefferson_data$poverty_149E, jefferson_data$no_assistE)
-correlation22_jefferson
-correlation23_jefferson <- cor.test(jefferson_data$poverty_150E, jefferson_data$pub_assistE)
-correlation23_jefferson
-correlation24_jefferson <- cor.test(jefferson_data$poverty_150E, jefferson_data$cash_assistE)
-correlation24_jefferson
-correlation25_jefferson <- cor.test(jefferson_data$poverty_150E, jefferson_data$no_assistE)
-correlation25_jefferson
-correlation26_jefferson <- cor.test(jefferson_data$no_assistE, jefferson_data$pub_assistE)
-correlation26_jefferson
-correlation27_jefferson <- cor.test(jefferson_data$no_assistE, jefferson_data$cash_assistE)
-correlation27_jefferson
-
 ```
 
 
@@ -201,90 +113,105 @@ correlation27_jefferson
 
 #### <span style="color: blue;">Bay Area T-Test Calculations:</span>  
 ```{r bay continuous plus grads}
-difference1_bay = t.test(female_popE ~ majority_hs_grads, 
+difference1_bay = t.test(total_popE~ majority_grads, 
                     data = bay_data)
 difference1_bay
-difference2_bay = t.test(male_popE ~ majority_hs_grads, 
+difference2_bay = t.test(low_income ~ majority_grads, 
                     data = bay_data)
 difference2_bay
-difference3_bay = t.test(poverty_100E ~ majority_hs_grads , 
+difference3_bay = t.test(pub_assist ~ majority_grads , 
                     data = bay_data)
 difference3_bay
-difference4_bay = t.test(poverty_149E ~ majority_hs_grads , 
+difference4_bay = t.test(cash_assist ~ majority_grads , 
                     data = bay_data)
 difference4_bay
-difference5_bay = t.test(poverty_150E ~ majority_hs_grads , 
+difference5_bay = t.test(total_popE~ majority_college, 
                     data = bay_data)
 difference5_bay
-difference6_bay = t.test(pub_assistE ~ majority_hs_grads , 
+difference6_bay = t.test(low_income ~ majority_college, 
                     data = bay_data)
 difference6_bay
-difference7_bay = t.test(cash_assistE ~ majority_hs_grads , 
+difference7_bay = t.test(pub_assist ~ majority_college, 
                     data = bay_data)
 difference7_bay
-difference8_bay = t.test(no_assistE ~ majority_hs_grads , 
+difference8_bay = t.test(cash_assist ~ majority_college, 
                     data = bay_data)
 difference8_bay
+difference9_bay = t.test(total_popE~ majority_bachelors, 
+                    data = bay_data)
+difference9_bay
+difference10_bay = t.test(low_income ~ majority_bachelors, 
+                    data = bay_data)
+difference10_bay
+difference11_bay = t.test(pub_assist ~ majority_bachelors, 
+                    data = bay_data)
+difference11_bay
+difference12_bay = t.test(cash_assist ~ majority_bachelors, 
+                    data = bay_data)
+difference12_bay
+
 
 ```
 
 #### <span style="color: green;">Jefferson T-Test Calculations:</span>  
 
 ```{r jefferson continuous plus grads}
-difference1_jefferson = t.test(female_popE ~ majority_hs_grads, 
+difference1_jefferson = t.test(total_popE~ majority_grads, 
                     data = jefferson_data)
 difference1_jefferson
-difference2_jefferson = t.test(male_popE ~ majority_hs_grads, 
+difference2_jefferson = t.test(low_income ~ majority_grads, 
                     data = jefferson_data)
 difference2_jefferson
-difference3_jefferson = t.test(poverty_100E ~ majority_hs_grads , 
+difference3_jefferson = t.test(pub_assist ~ majority_grads , 
                     data = jefferson_data)
 difference3_jefferson
-difference4_jefferson = t.test(poverty_149E ~ majority_hs_grads , 
+difference4_jefferson = t.test(cash_assist ~ majority_grads , 
                     data = jefferson_data)
 difference4_jefferson
-difference5_jefferson = t.test(poverty_150E ~ majority_hs_grads , 
+difference5_jefferson = t.test(total_popE~ majority_college, 
                     data = jefferson_data)
 difference5_jefferson
-difference6_jefferson = t.test(pub_assistE ~ majority_hs_grads , 
+difference6_jefferson = t.test(low_income ~ majority_college, 
                     data = jefferson_data)
 difference6_jefferson
-difference7_jefferson = t.test(cash_assistE ~ majority_hs_grads , 
+difference7_jefferson = t.test(pub_assist ~ majority_college, 
                     data = jefferson_data)
 difference7_jefferson
-difference8_jefferson= t.test(no_assistE ~ majority_hs_grads , 
+difference8_jefferson = t.test(cash_assist ~ majority_college, 
                     data = jefferson_data)
 difference8_jefferson
+difference9_jefferson = t.test(total_popE~ majority_bachelors, 
+                    data = jefferson_data)
+difference9_jefferson
+difference10_jefferson = t.test(low_income ~ majority_bachelors, 
+                    data = jefferson_data)
+difference10_jefferson
+difference11_jefferson = t.test(pub_assist ~ majority_bachelors, 
+                    data = jefferson_data)
+difference11_jefferson
+difference12_jefferson = t.test(cash_assist ~ majority_bachelors, 
+                    data = jefferson_data)
+difference12_jefferson
+
 
 ```
 
 #### <span style="color: orange;">Bay and Jefferson Combined T-Test Calculations:</span>  
 
 ```{r continuous plus region}
-difference9_combined = t.test(female_popE ~ region, 
+difference1_combined = t.test(total_popE ~ region, 
                     data = combined_data)
-difference9_combined
-difference10_combined = t.test(male_popE ~ region, 
+difference1_combined
+difference2_combined = t.test(low_income ~ region, 
                     data = combined_data)
-difference10_combined
-difference11_combined = t.test(poverty_100E ~ region, 
+difference2_combined
+difference3_combined = t.test(cash_assist ~ region, 
                     data = combined_data)
-difference11_combined
-difference12_combined = t.test(poverty_149E ~ region, 
+difference3_combined
+difference4_combined = t.test(pub_assist ~ region, 
                     data = combined_data)
-difference12_combined
-difference13_combined = t.test(poverty_150E ~ region, 
-                    data = combined_data)
-difference13_combined
-difference14_combined = t.test(pub_assistE ~ region, 
-                    data = combined_data)
-difference14_combined
-difference15_combined = t.test(cash_assistE ~ region, 
-                    data = combined_data)
-difference15_combined
-difference16_combined = t.test(no_assistE ~ region, 
-                    data = combined_data)
-difference16_combined
+difference4_combined
+
 
 
 ```
@@ -298,28 +225,44 @@ difference16_combined
 Because region and county are the categorical variables I'm comparing with my high school graduation variable, I've chosen to perform the tests with the combined data. 
 
 ```{r chi-squared 1, class.source = 'fold-show'}
-chi1_combined <- chisq.test(combined_data$region, combined_data$majority_hs_grads)
+chi1_combined <- chisq.test(combined_data$region, combined_data$majority_grads)
 chi1_combined
 chi1_combined$observed
 chi1_combined$expected
+chi2_combined <- chisq.test(combined_data$region, combined_data$majority_college)
+chi2_combined
+chi2_combined$observed
+chi2_combined$expected
+chi3_combined <- chisq.test(combined_data$region, combined_data$majority_bachelors)
+chi3_combined
+chi3_combined$observed
+chi3_combined$expected
 ```
 
 
 ```{r chi-squared 2, class.source = 'fold-show'}
-chi2_combined <- chisq.test(combined_data$county, combined_data$majority_hs_grads)
-chi2_combined
-chi2_combined$observed
-chi2_combined$expected
+chi4_combined <- chisq.test(combined_data$county, combined_data$majority_grads)
+chi4_combined
+chi4_combined$observed
+chi4_combined$expected
+chi5_combined <- chisq.test(combined_data$county, combined_data$majority_college)
+chi5_combined
+chi5_combined$observed
+chi5_combined$expected
+chi6_combined <- chisq.test(combined_data$county, combined_data$majority_bachelors)
+chi6_combined
+chi6_combined$observed
+chi6_combined$expected
 ```
 
 ### Analysis of Variance (ANOVA)
 
 ####  <span style="color: blue;">Bay Area ANOVA Tests</span>  
 
-##### County and Poverty Below 100%
+##### County and Low Income
 
 ```{r anova 1 bay, class.source = 'fold-hide'}
-anova1_bay <- aov (poverty_100E ~ county, data = bay_data)
+anova1_bay <- aov (low_income ~ county, data = bay_data)
 summary(anova1_bay)
 ```
 ```{r differences 1 bay, class.source = 'fold-hide'}
@@ -329,10 +272,10 @@ summary(differences1_bay)
 as_tibble(cbind(pair = row.names(differences1_bay$county),
                 differences1_bay$county))
 ```
-##### County and Poverty Between 100-150%
+##### County and Public Assistance
 
 ```{r anova 2 bay, class.source = 'fold-hide'}
-anova2_bay <- aov (poverty_149E ~ county, data = bay_data)
+anova2_bay <- aov (pub_assist ~ county, data = bay_data)
 summary(anova2_bay)
 ```
 
@@ -343,10 +286,10 @@ summary(differences2_bay)
 as_tibble(cbind(pair = row.names(differences2_bay$county),
                 differences2_bay$county))
 ```
-##### County and Poverty Over 150%
+##### County and Cash Assistance
 
 ```{r anova 3 bay, class.source = 'fold-hide'}
-anova3_bay <- aov (poverty_150E ~ county, data = bay_data)
+anova3_bay <- aov (cash_assist ~ county, data = bay_data)
 summary(anova3_bay)
 ```
 ```{r differences 3 bay, class.source = 'fold-hide'}
@@ -356,51 +299,14 @@ summary(differences3_bay)
 as_tibble(cbind(pair = row.names(differences3_bay$county),
                 differences3_bay$county))
 ```
-##### County and Households Receiving Public Assistance (Includes SSI)
 
-```{r anova 4 bay, class.source = 'fold-hide'}
-anova4_bay <- aov (pub_assistE ~ county, data = bay_data)
-summary(anova4_bay)
-```
-```{r differences 4 bay, class.source = 'fold-hide'}
 
-differences4_bay <- TukeyHSD(anova4_bay)
-summary(differences4_bay)
-as_tibble(cbind(pair = row.names(differences4_bay$county),
-                differences4_bay$county))
-```
-##### County and Households Receiving Cash Assistance (Includes Food Stamps)
-
-```{r anova 5 bay, class.source = 'fold-hide'}
-anova5_bay <- aov (cash_assistE ~ county, data = bay_data)
-summary(anova5_bay)
-```
-```{r differences 5 bay, class.source = 'fold-hide'}
-
-differences5_bay <- TukeyHSD(anova5_bay)
-summary(differences5_bay)
-as_tibble(cbind(pair = row.names(differences5_bay$county),
-                differences5_bay$county))
-```
-#####  County and Households not Receiving Public Assistance
-
-```{r anova 6 bay, class.source = 'fold-hide'}
-anova6_bay <- aov (no_assistE ~ county, data = bay_data)
-summary(anova6_bay)
-```
-```{r differences 6 bay, class.source = 'fold-hide'}
-
-differences6_bay <- TukeyHSD(anova6_bay)
-summary(differences6_bay)
-as_tibble(cbind(pair = row.names(differences6_bay$county),
-                differences6_bay$county))
-```
 ####  <span style="color: green;">Jefferson ANOVA Tests</span>  
 
-##### County and Poverty Below 100%
+##### County and Low Income
 
 ```{r anova 1 jefferson, class.source = 'fold-hide'}
-anova1_jefferson <- aov (poverty_100E ~ county, data = jefferson_data)
+anova1_jefferson <- aov (low_income ~ county, data = jefferson_data)
 summary(anova1_jefferson)
 ```
 ```{r differences 1 jefferson, class.source = 'fold-hide'}
@@ -410,10 +316,10 @@ summary(differences1_jefferson)
 as_tibble(cbind(pair = row.names(differences1_jefferson$county),
                 differences1_jefferson$county))
 ```
-##### County and Poverty Between 100-150%
+##### County and Public Assistance
 
 ```{r anova 2 jefferson, class.source = 'fold-hide'}
-anova2_jefferson <- aov (poverty_149E ~ county, data = jefferson_data)
+anova2_jefferson <- aov (pub_assist ~ county, data = jefferson_data)
 summary(anova2_jefferson)
 ```
 
@@ -424,10 +330,10 @@ summary(differences2_jefferson)
 as_tibble(cbind(pair = row.names(differences2_jefferson$county),
                 differences2_jefferson$county))
 ```
-##### County and Poverty Over 150%
+##### County and Cash Assistance
 
 ```{r anova 3 jefferson, class.source = 'fold-hide'}
-anova3_jefferson <- aov (poverty_150E ~ county, data = jefferson_data)
+anova3_jefferson <- aov (cash_assist ~ county, data = jefferson_data)
 summary(anova3_jefferson)
 ```
 ```{r differences 3 jefferson, class.source = 'fold-hide'}
@@ -437,45 +343,7 @@ summary(differences3_jefferson)
 as_tibble(cbind(pair = row.names(differences3_jefferson$county),
                 differences3_jefferson$county))
 ```
-##### County and Households Receiving Public Assistance (Includes SSI)
 
-```{r anova 4 jefferson, class.source = 'fold-hide'}
-anova4_jefferson <- aov (pub_assistE ~ county, data = jefferson_data)
-summary(anova4_jefferson)
-```
-```{r differences 4 jefferson, class.source = 'fold-hide'}
-
-differences4_jefferson <- TukeyHSD(anova4_jefferson)
-summary(differences4_jefferson)
-as_tibble(cbind(pair = row.names(differences4_jefferson$county),
-                differences4_jefferson$county))
-```
-##### County and Households Receiving Cash Assistance (Includes Food Stamps)
-
-```{r anova 5 jefferson, class.source = 'fold-hide'}
-anova5_jefferson <- aov (cash_assistE ~ county, data = jefferson_data)
-summary(anova5_jefferson)
-```
-```{r differences 5 jefferson, class.source = 'fold-hide'}
-
-differences5_jefferson <- TukeyHSD(anova5_jefferson)
-summary(differences5_jefferson)
-as_tibble(cbind(pair = row.names(differences5_jefferson$county),
-                differences5_jefferson$county))
-```
-#####  County and Households not Receiving Public Assistance
-
-```{r anova 6 jefferson, class.source = 'fold-hide'}
-anova6_jefferson <- aov (no_assistE ~ county, data = jefferson_data)
-summary(anova6_jefferson)
-```
-```{r differences 6 jefferson, class.source = 'fold-hide'}
-
-differences6_jefferson <- TukeyHSD(anova6_jefferson)
-summary(differences6_jefferson)
-as_tibble(cbind(pair = row.names(differences6_jefferson$county),
-                differences6_jefferson$county))
-```
 
 
 ### Relationship Strengths and Statistical Significance   
@@ -486,7 +354,8 @@ as_tibble(cbind(pair = row.names(differences6_jefferson$county),
 
 #### <span style="color: blue;"> Bay Area Correlation Descriptions</span>  
 
-**All of my calculations were statistically significant and all indicated a positive correlation Some correlations were stronger than others, as indicated. All results are at a 95% confidence level. They use the following thresholds that were put forward by J.D.Evans in 1996.**
+
+**Significant relationships are listed below for each region, and defined by the following thresholds:**
 
 .00-.19 = very weak
 .20-.39 = weak
@@ -495,110 +364,66 @@ as_tibble(cbind(pair = row.names(differences6_jefferson$county),
 .80-1.0 = very strong
 
 
-1.	Female and male population: **very strong**, positive, and statistically significant.
-2.	Female population and poverty below 100%: **weak**, positive, and statistically significant.
-3.	Female population and poverty between 100-150%: **moderate**, positive, and statistically significant.
-4.	Female population and poverty over 150%: **strong**, positive, and statistically significant
-5.	Female population and households receiving public assistance (including SSI): **very strong**, positive, and statistically significant
-6.	Female population and households receiving cash assistance (including food stamps): **weak**, positive, and statistically significant
-7.	Female population and households not receiving cash assistance: **very strong**, positive, and statistically significant
-8.	Male population and poverty below 100%: **moderate**, positive, and statistically significant.
-9.	Male population and poverty between 100-150%: **moderate**, positive, and statistically significant.
-10.	Male population and poverty over 150%: **strong**, positive, and statistically significant
-11.	Male population and households receiving public assistance (including SSI): **very strong**, positive, and statistically significant
-12.	Male population and households receiving cash assistance (including food stamps): **weak**, positive, and statistically significant
-13.	Male population and households not receiving public assistance: **very strong**, positive, and statistically significant
-14.	Population below the 100% poverty rate and population between 100-150% poverty: **strong**, positive, and statistically significant
-15.	Population below the 100% poverty rate and population over 150% poverty rate: **weak**, positive, and statistically significant
-16.	Population below the 100% poverty rate and households receiving public assistance (including SSI): **weak**, positive, and statistically significant
-17.	Population below the 100% poverty rate and households receiving cash assistance (including food stamps): **strong**, positive, and statistically significant
-18.	Population below the 100% poverty rate and households not receiving public assistance (including SSI): **weak**, positive, and statistically significant
-19.	Population between 100-149% poverty and population over 150% poverty: a **very weak**** statistically significant, positive correlation
-20.	Population between 100-149% poverty and households receiving public assistance (including SSI): **weak**, positive, and statistically significant
-21.	Population between 100-149% poverty and households receiving cash assistance (including food stamps): **strong**, positive, and statistically significant
-22.	Population between 100-149% poverty households not receiving public assistance: **weak**, positive, and statistically significant
-23.	Population over 150% poverty and households receiving public assistance (including SSI) : **very strong**, positive, and statistically significant
-24.	Population over 150% poverty and households using receiving assistance (including food stamps) : **weak**, positive, and statistically significant
-25.	Population over 150% poverty and households not receiving public assistance (including SSI) : **very strong**, positive, and statistically significant
-26.	Households receiving public assistance and households not receiving public assistance: **very strong**, positive, and statistically significant
-27.	Households not receiving public assistance and households receiving cash assistance: **weak**, positive, and statistically significant
+1. There is a significant, weak, negative correlation (-.2571) between total population and public assistance in the Bay Area tracts in the dataset. 
+2. There is a significant, very strong, positive correlation (.7964) between low income and cash assistance in the Bay Area tracts in the dataset.
+
+
 
 #### <span style="color: green;"> Jefferson Correlation Descriptions</span>  
 
-1.	Female and male population: **moderate**, positive, and statistically significant
-2.	Female population and poverty below 100%: **strong**, positive, and statistically significant
-3.	Female population and poverty between 100-150%: **strong**, positive, and statistically significant
-4.	Female population and poverty over 150%: **very strong**, positive, and statistically significant
-5.	Female population and households receiving public assistance (including SSI): **very strong**, positive, and statistically significant
-6.	Female population and households receiving cash assistance (including food stamps): **strong**, positive, and statistically significant
-7.	Female population and households not receiving cash assistance: **very strong**, positive, and statistically significant
-8.	Male population and poverty below 100%: **weak**, positive, and statistically significant
-9.	Male population and poverty between 100-150%: **weak**, positive, and statistically significant
-10.	Male population and poverty over 150%: **moderate**, positive, and statistically significant.
-11.	Male population and households receiving public assistance (including SSI): **moderate**, positive, and statistically significant.
-12.	Male population and households receiving cash assistance (including food stamps): **weak**, positive, and statistically significant
-13.	Male population and households not receiving public assistance: **moderate**, positive, and statistically significant.l.
-14.	Population below the 100% poverty rate and population between 100-150% poverty: **strong**, positive, and statistically significant
-15.	Population below the 100% poverty rate and population over 150% poverty rate : **moderate**, positive, and statistically significant
-16.	Population below the 100% poverty rate and households receiving public assistance (including SSI): **strong**, statistically significant, positive correlation
-17.	Population below the 100% poverty rate and households receiving cash assistance (including food stamps): **very strong**, positive, and statistically significant
-18.	Population below the 100% poverty rate and households not receiving public assistance (including SSI): **strong**, positive, and statistically significant
-19.	Population between 100-149% poverty and population over 150% poverty: **moderate**, positive, and statistically significant
-20.	Population between 100-149% poverty and households receiving public assistance (including SSI): **strong**, positive, and statistically significant
-21.	Population between 100-149% poverty and households receiving cash assistance (including food stamps): **strong**, positive, and statistically significant
-22.	Population between 100-149% poverty households not receiving public assistance: a strong statistically significant, positive correlation
-23.	Population over 150% poverty and households receiving public assistance (including SSI): **very strong**, positive, and statistically significant
-24.	Population over 150% poverty and households using receiving assistance (including food stamps) : **moderate**, positive, and statistically significant.
-25.	Population over 150% poverty and households not receiving public assistance: **very strong**, positive, and statistically significant
-26.	Households receiving public assistance and households not receiving public assistance: **very strong**, positive, and statistically significant
-27.	Households not receiving public assistance and households receiving cash assistance: **strong**, positive, and statistically significant
+1. There is a significant, moderate, negative correlation (-.4898) between total population and public assistance in the Jefferson Region tracts in the dataset.
+2.There is a significant, weak, positive correlation (.2737) between low income and public assistance in the Jefferson Region tracts in the dataset.
+3.There is a significant, strong, positive correlation (.6569) between low income and cash assistance in the Jefferson Region tracts in the dataset.
+4.There is a significant, weak, positive correlation (.2457) between total population and public assistance in the Jefferson Region tracts in the dataset.
+
 
 
 #### <span style="color: orange;"> Bay and Jefferson T-Test Descriptions</span>  
 
-My tests showed that there are significant associations between region and all other variables and high school graduation rate (above or below statewide average) and all other variables.
+In the Bay Area t-tests, there are significant relationships between the following: 
+1. low income and high school graduation rate
+2. public assistance and high school graduation rate
+3. cash assistance and high school graduation rate
+4. low income and bachelor's degree rates
+5. public assistance and bachelor's degree rates
+6. cash assistance and bachelor's degree rates
+
+In the Jefferson t-tests, there are significant relationships between the following: 
+1. public assistance and some college or associates degree rates
+2. cash assistance and bachelor's degree rates
 
 #### <span style="color: orange;"> Bay and Jefferson Chi-Square Test Descriptions</span>  
 
-My tests showed that there are statistically significant relationships between county and high school graduation rate and region and graduation rate, with the caveat that there are multiple counties where the observed and expected values are less than 5, which compromises the validity of results. 
+My tests showed that there are statistically significant relationships between county and education rates and region and education rates with the caveat that there are multiple counties where the observed and expected values are less than 5, which compromises the validity of results. 
 
 #### <span style="color: orange;"> Bay and Jefferson ANOVA Test Descriptions</span>  
 
-My ANOVA tests between county and continuous variables found significant relationships between county and all other variables in the Bay Area. It did not find any significant relationships for the Jefferson region. 
+My ANOVA tests between county and continuous variables found significant relationships between county and all other variables in both regions (though p-values for the Bay Area were universally smaller than in the Jefferson Region. )
 
 
-### Discussion, Visualizations, and Comparisons
+### Visualizations, and Comparisons
 
-#### Discussion
-
-There are a few problems with my dataset and things I would've done differently in retrospect. 
-
-1. There are so few tracts in the Jefferson region compared to the Bay, that comparing a rural region with a dense urban area is a bit of comparing apples to oranges.
-2. I pulled too many continuous variables that would've been better presented as categorical. My data on poverty levels and public assistance use would've made much more sense as *proportions* of the total population, which I realized in retrospect. It's not effective to visualize these statistics on the same graphs when the Jefferson population is a fraction of the Bay Area. I'm much more interested in seeing proportions of populations within each category. (And as per Sara's advice, I'll be going back to do this.) 
-3. I might have chosen a few different variables in retrospect as well: I would look more closely at education beyond high school, as this was one of the more interesting variables in my analysis. I would look at education proportions for each gender alongside poverty rates and public assistance. One of the problems here for me (a fault of my own) is that I put my dataset together without a great understanding of Census data and how it is gathered and organized. With a better understanding now, I feel more confident that I can assemble a better dataset for analysis in the future. 
-
- I did, however, learn a lot both through this process, and learned a lot from compiling and testing the datset, as well as comparing visualizations. 
  
 #### Visualizations
 
 
-##### <span style="color: orange;"> Bay and Jefferson Poverty Below 100% Comparisons </span>  
+##### <span style="color: orange;"> Bay and Jefferson Low Income </span>  
 
 There is a weaker correlation between population and poverty levels in the Bay Area, where there are more people per county, and a greater diversity of areas and tracts, and their respective incomes.  
 
 
 ```{r female pop and poverty bay}
-ggplot(bay_data, aes(x = female_popE, y = poverty_100E)) + 
+ggplot(bay_data, aes(x = total_popE, y = low_income)) + 
     geom_point(size = 0.5, alpha = 0.25) +
     geom_smooth() +
     theme_bw() +
-    scale_x_continuous(name = "Bay Female Population") +
-    scale_y_continuous(name = "Bay Population Below 100% Poverty",
-                      breaks = seq(0, 3000, by = 500), 
+    scale_x_continuous(name = "Bay  Population") +
+    scale_y_continuous(name = "Percent Low Income",
+                      breaks = seq(0, 1, by = .1), 
                       labels = paste("",
-                                  prettyNum(seq(0, 3000, by = 500),
+                                  prettyNum(seq(0, 100, by = 10),
                                             big.mark = ","))) +
-    annotate(geom = "text", x = 0, y = 3000, 
+    annotate(geom = "text", x = 0, y = .5, 
            label = paste("Correlation (95-percent confidence):",
                          prettyNum(correlation2_bay$conf.int[1], digits = 2), 
                          "to",
@@ -608,17 +433,17 @@ ggplot(bay_data, aes(x = female_popE, y = poverty_100E)) +
 There is a stronger correlation between population and poverty levels in the Jefferson Region, but considerably fewer datapoints. I included the male population and poverty below because it's interesting to see how the prison population so dramatically skewes the data. 
 
 ```{r female pop and poverty jefferson}
-ggplot(jefferson_data, aes(x = female_popE, y = poverty_100E)) + 
+ggplot(jefferson_data, aes(x = total_popE, y = low_income)) + 
     geom_point(size = 0.5, alpha = 0.25) +
     geom_smooth() +
     theme_bw() +
-    scale_x_continuous(name = "Jefferson Female Population") +
-    scale_y_continuous(name = "Jefferson Population Below 100% Poverty",
-                      breaks = seq(0, 3000, by = 500), 
+    scale_x_continuous(name = "Jefferson Population") +
+    scale_y_continuous(name = "Percent Low Income",
+                      breaks = seq(0, 1, by = .1), 
                       labels = paste("",
-                                  prettyNum(seq(0, 3000, by = 500),
+                                  prettyNum(seq(0, 1, by = .1),
                                             big.mark = ","))) +
-    annotate(geom = "text", x = 0, y = 3000, 
+    annotate(geom = "text", x = 0, y = .5, 
            label = paste("Correlation (95-percent confidence):",
                          prettyNum(correlation2_jefferson$conf.int[1], digits = 2), 
                          "to",
@@ -626,106 +451,7 @@ ggplot(jefferson_data, aes(x = female_popE, y = poverty_100E)) +
                          hjust = 0)
 ```
 
-```{r male pop and poverty jefferson}
-ggplot(jefferson_data, aes(x = male_popE, y = poverty_100E)) + 
-    geom_point(size = 0.5, alpha = 0.25) +
-    geom_smooth() +
-    theme_bw() +
-    scale_x_continuous(name = "Jefferson Male Population") +
-    scale_y_continuous(name = "Jefferson Population Below 100% Poverty",
-                      breaks = seq(0, 3000, by = 500), 
-                      labels = paste("",
-                                  prettyNum(seq(0, 3000, by = 500),
-                                            big.mark = ","))) +
-    annotate(geom = "text", x = 0, y = 3000, 
-           label = paste("Correlation (95-percent confidence):",
-                         prettyNum(correlation8_jefferson$conf.int[1], digits = 2), 
-                         "to",
-                         prettyNum(correlation8_jefferson$conf.int[2], digits = 2)),
-                         hjust = 0)
-```
-##### <span style="color: orange;"> Bay and Jefferson Poverty and Public Assistance Comparison </span>  
 
-There's a strong correlation between populations over 150% poverty and those using public assistance (including SSI) and a very weak correlation between populations over 150% and those receiving cash public assistance (including food stamps). This might be because wealthier populations tend to be older people who could be receiving SSI while younger populations are not. 
-
-```{r poverty150 and pub assist bay}
-
-ggplot(bay_data, aes(x = poverty_150E, y = pub_assistE)) + 
-    geom_point(size = 0.5, alpha = 0.25) +
-    geom_smooth() +
-    theme_bw() +
-    scale_x_continuous(name = "Bay Population Over 150% Poverty") +
-    scale_y_continuous(name = "Bay Population Receiving Public Assistance including SSI",
-                      breaks = seq(0, 8000, by = 1000), 
-                      labels = paste("",
-                                  prettyNum(seq(0, 8000, by = 1000),
-                                            big.mark = ","))) +
-    annotate(geom = "text", x = 0, y = 7000, 
-           label = paste("Correlation (95-percent confidence):",
-                         prettyNum(correlation23_bay$conf.int[1], digits = 2), 
-                         "to",
-                         prettyNum(correlation23_bay$conf.int[2], digits = 2)),
-                         hjust = 0)
-```
-
-```{r poverty150 and cash assist bay}
-
-ggplot(bay_data, aes(x = poverty_150E, y = cash_assistE)) + 
-    geom_point(size = 0.5, alpha = 0.25) +
-    geom_smooth() +
-    theme_bw() +
-    scale_x_continuous(name = "Bay Population Over 150% Poverty") +
-    scale_y_continuous(name = "Bay Population Receiving Cash Assistance including Food Stamps",
-                      breaks = seq(0, 1000, by = 100), 
-                      labels = paste("",
-                                  prettyNum(seq(0, 1000, by = 100)))) +
-    annotate(geom = "text", x = 0, y = 900, 
-           label = paste("Correlation (95-percent confidence):",
-                         prettyNum(correlation24_bay$conf.int[1], digits = 2), 
-                         "to",
-                         prettyNum(correlation24_bay$conf.int[2], digits = 2)),
-                         hjust = 0)
-```
-Likewise, in Jefferson, there's a much stronger correlation between wealther populations and receiving SSI rather than Food Stamps. 
-
-```{r poverty150 and pub assist jefferson}
-
-ggplot(jefferson_data, aes(x = poverty_150E, y = pub_assistE)) + 
-    geom_point(size = 0.5, alpha = 0.25) +
-    geom_smooth() +
-    theme_bw() +
-    scale_x_continuous(name = "Jefferson Population Over 150% Poverty") +
-    scale_y_continuous(name = "JeffersonPopulation Receiving Public Assistance including SSI",
-                      breaks = seq(0, 4000, by = 1000), 
-                      labels = paste("",
-                                  prettyNum(seq(0, 4000, by = 1000),
-                                            big.mark = ","))) +
-    annotate(geom = "text", x = 0, y = 4000, 
-           label = paste("Correlation (95-percent confidence):",
-                         prettyNum(correlation23_jefferson$conf.int[1], digits = 2), 
-                         "to",
-                         prettyNum(correlation23_jefferson$conf.int[2], digits = 2)),
-                         hjust = 0)
-```
-```{r poverty150 and cash assist jefferson}
-
-ggplot(jefferson_data, aes(x = poverty_150E, y = cash_assistE)) + 
-    geom_point(size = 0.5, alpha = 0.25) +
-    geom_smooth() +
-    theme_bw() +
-    scale_x_continuous(name = "Jefferson Population Over 150% Poverty") +
-    scale_y_continuous(name = "Jefferson Population Receiving Public Assistance including SSI",
-                      breaks = seq(0, 800, by = 100), 
-                      labels = paste("",
-                                  prettyNum(seq(0, 800, by = 100),
-                                            big.mark = ","))) +
-    annotate(geom = "text", x = 0, y = 700, 
-           label = paste("Correlation (95-percent confidence):",
-                         prettyNum(correlation24_jefferson$conf.int[1], digits = 2), 
-                         "to",
-                         prettyNum(correlation24_jefferson$conf.int[2], digits = 2)),
-                         hjust = 0)
-```
 
 
 ##### <span style="color: orange;"> Region and Poverty </span>  
@@ -733,40 +459,40 @@ ggplot(jefferson_data, aes(x = poverty_150E, y = cash_assistE)) +
 One of the most surprising findings this analysis is that Jefferson region has a higher mean number of people per tract living below the poverty line. While more people overall in the Bay Region live below poverty, proportionally more people in the Jefferson region live in poverty.
 
 ```{r visualizing region and poverty100}
-ggplot(combined_data, aes(x = region, y = poverty_100E)) +
+ggplot(combined_data, aes(x = region, y = low_income)) +
   geom_violin() +
   theme_bw() +
   scale_x_discrete(name = "Region",
                    labels = c("Bay", "Jefferson")) +
-   scale_y_continuous(name = "Population Per Tract Below 100% Poverty", 
-                     breaks = seq(0, 3500, by = 500),
-                     labels = paste(prettyNum(seq(0, 3500, by = 500),
+   scale_y_continuous(name = "Percentage Low Income by Tract", 
+                     breaks = seq(0, 1, by = .1),
+                     labels = paste(prettyNum(seq(0, 100, by = 10),
                                               big.mark = ","))) +
-  annotate(geom = "text", x = 1.5, y = 2500, size = 3,
+  annotate(geom = "text", x = 1.5, y = .5, size = 3,
            label = paste("Difference in means (95% confidence) ",
-                         prettyNum(abs(difference11_combined$conf.int[2]), 
-                                   digits = 0), " to ",
-                         prettyNum(abs(difference11_combined$conf.int[1]), 
-                                   digits = 0),
+                         prettyNum(abs(difference2_combined$conf.int[2]), 
+                                   digits = 3), " to ",
+                         prettyNum(abs(difference2_combined$conf.int[1]), 
+                                   digits = 3),
                          sep = "")) +
-  annotate(geom = "text", x = 1, y = difference11_combined$estimate[1], size = 3,
+  annotate(geom = "text", x = 1, y = difference2_combined$estimate[1], size = 3,
            label = paste("Mean (95% confidence)",
-                         prettyNum(difference11_combined$estimate[1], digits = 0))) +
-  annotate(geom = "text", x = 2, y = difference11_combined$estimate[2], size = 3,
+                         prettyNum(difference2_combined$estimate[1], digits = 3))) +
+  annotate(geom = "text", x = 2, y = difference2_combined$estimate[2], size = 3,
            label = paste("Mean (95% confidence)",
-                         prettyNum(difference11_combined$estimate[2], digits = 0)))
+                         prettyNum(difference2_combined$estimate[2], digits = 3)))
 ```
 
 
 ```{r difference 1 bay plot  }
-ggplot(combined_data, aes(x = county, y = poverty_100E)) +
+ggplot(combined_data, aes(x = county, y = low_income)) +
   geom_boxplot() +
   theme_bw() +
   theme(axis.text.x = element_text(angle = 90)) +
   scale_x_discrete(name = "County") +
   scale_y_continuous(name = "Population Below 100% Poverty Rate",
-                     breaks = seq(0, 3000, by = 500),
-                     labels = paste(prettyNum(seq(0, 3000, by = 500), 
+                     breaks = seq(0, 1, by = .1),
+                     labels = paste(prettyNum(seq(0, 100, by = 10), 
                                               big.mark = ",")))
 ```
 
@@ -775,27 +501,27 @@ ggplot(combined_data, aes(x = county, y = poverty_100E)) +
 
 
 ```{r visualizing hsgrad and poverty100 jefferson}
-ggplot(jefferson_data, aes(x = majority_hs_grads, y = poverty_100E)) +
+ggplot(jefferson_data, aes(x = majority_grads, y =low_income)) +
   geom_violin() +
   theme_bw() +
   scale_x_discrete(name = "Jefferson Tract High School Graduation Rate: Meets or Exceeds 83%",
                    labels = c("Yes", "No")) +
    scale_y_continuous(name = "Jefferson Population Below 100% Poverty by Tract", 
-                     breaks = seq(0, 2000, by = 500),
-                     labels = paste(prettyNum(seq(0, 2000, by = 500),
+                     breaks = seq(0, 1, by = .1),
+                     labels = paste(prettyNum(seq(0, 100, by = 10),
                                               big.mark = ","))) +
-  annotate(geom = "text", x = 1.3,  y = 2000, size = 4,
+  annotate(geom = "text", x = 1.3,  y = .5, size = 4,
            label = paste("Difference in means (95% confidence) ",
-                         prettyNum(abs(difference11_combined$conf.int[2]), 
-                                   digits = 0), " to ",
-                         prettyNum(abs(difference11_combined$conf.int[1]), 
-                                   digits = 0),
+                         prettyNum(abs(difference2_combined$conf.int[2]), 
+                                   digits = 3), " to ",
+                         prettyNum(abs(difference2_combined$conf.int[1]), 
+                                   digits = 3),
                          sep = "")) +
-  annotate(geom = "text", x = 1, y = difference3_jefferson$estimate[1], size = 3,
+  annotate(geom = "text", x = 1, y = difference2_jefferson$estimate[1], size = 3,
            label = paste("Mean (95% confidence)", 
-                         prettyNum(difference3_jefferson$estimate[1], digits = 0))) +
-  annotate(geom = "text", x = 2, y = difference3_jefferson$estimate[2], size = 3,
+                         prettyNum(difference3_jefferson$estimate[1], digits = 3))) +
+  annotate(geom = "text", x = 2, y = difference2_jefferson$estimate[2], size = 3,
            label = paste("Mean (95% confidence)",
-                         prettyNum(difference3_jefferson$estimate[2], digits = 0)))
+                         prettyNum(difference2_jefferson$estimate[2], digits = 3)))
 ```
 

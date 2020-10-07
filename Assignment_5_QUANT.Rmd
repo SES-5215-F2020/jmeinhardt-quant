@@ -1,0 +1,67 @@
+---
+title: "Regression Part 2"
+author: "Julia Meinhardt"
+date: "10/3/2020"
+output: html_document
+---
+
+```{r setup, message=FALSE}
+library(tidyverse)
+library(jtools)
+library(interactions)
+library(knitr)
+```
+
+Estimate at least one more version of the regression you estimated in Assignment 4 by transforming one or more of the independent variables and including at least one interaction term. Which version of the model best explains the observed variation in your dependent variable?
+
+
+### Regression Model: Transforming Variables 
+```{r}
+
+combined_mutated <- Jefferson_Bay <- Jefferson_Bay %>%
+  mutate(low_income = case_when(pub_assist < .36 ~ "1st Quartile",
+                                       pub_assist > .36  ~ "Average"))
+
+combined_mutated <- lm(cash_assist ~ total_popE + pub_assist +low_income + majority_grads + majority_college +  majority_bachelors + region,
+            data = Jefferson_Bay)
+
+summary(combined_mutated)
+```
+What does it mean if my r value goes down but my significance goes up??
+
+TO DO: Add interaction Terms for Region and Visualizw 
+
+
+
+
+
+
+
+
+### Scraps
+
+
+```{r}
+
+summary(Jefferson_Bay$cash_assist)
+summary(Jefferson_Bay$pub_assist)
+
+```
+
+
+
+
+
+```{r}
+Bay_tract_data <- Bay_tract_data %>%
+  mutate(mostly_low_income = case_when(pub_assist < .36 ~ "1st Quartile",
+                                       pub_assist > .36  ~ "Average"))
+
+model_transformed <- lm(low_income ~ total_popE + pub_assist + cash_assist + majority_grads + majority_college +  majority_bachelors,
+            data = Bay_tract_data)
+
+summary(model_transformed)
+```
+
+
+

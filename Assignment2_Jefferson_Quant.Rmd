@@ -1,7 +1,7 @@
 ---
-title: 'Bay Area: Distributions and Proportions'
+title: 'Jefferson Region: Distributions and Proportions'
 author: "Julia Meinhardt"
-date: "10/3/2020"
+date: "9/15/2020"
 output: 
     html_document:
       toc: true
@@ -23,9 +23,9 @@ library(dplyr)
 
 
 ```{r load and attach data for Jefferson, message=FALSE, warning=FALSE}
-Bay_tract_data <- read_csv("jeffersonbay2018.csv") %>%
-  filter(region == "Bay")
-attach(Bay_tract_data)
+Jefferson_tract_data <- read_csv("jeffersonbay2018.csv") %>%
+  filter(region == "Jefferson")
+attach(Jefferson_tract_data)
 ```
 
 
@@ -46,7 +46,7 @@ This document will explore summary statistics of the following variables:
 9. Region (categorical)
 
 
-All calculations are for the  <span style="color: orange;">Bay Area Region</span> of my dataset. The Jefferson Region calculations and distributions are done in a separate file. 
+All calculations are for the  <span style="color: green;">Jefferson Region</span> of my dataset. The Bay Region calculations and distributions are done in a separate file. 
 
 ## Summary Stats and Visualizations{.tabset .tabset-fade .tabset-pills}
 
@@ -54,15 +54,15 @@ All calculations are for the  <span style="color: orange;">Bay Area Region</span
 
 **Population is measured as the number of people per tract.** 
 
-```{r summary stats pop Bay}
+```{r summary stats pop Jefferson}
 
 summary(total_popE)
 sd(total_popE)
 pop_mean1 <- t.test(total_popE)
 pop_mean1
 ```
-```{r histogram  population Bay}
-hist1 <- ggplot(Bay_tract_data, aes(x = total_popE)) +
+```{r histogram  population Jefferson}
+hist1 <- ggplot(Jefferson_tract_data, aes(x = total_popE)) +
   geom_histogram() 
 
 
@@ -73,7 +73,7 @@ hist1+
   theme_solarized() +
   scale_x_continuous(name = "Population Count Per Tract") +
   scale_y_continuous(name = "Total") +
-  annotate("text", x = 8000, y = 160, size = 3, 
+  annotate("text", x = 5000, y = 8, size = 3, 
            label = paste("Population mean (95% confidence):",
                          prettyNum(pop_mean1$conf.int[1], digits = 0),
                          "to",
@@ -93,19 +93,20 @@ hist1+
 
 ```
 
+The outlier population of over 9,000 here is a prison population in Lassen County. 
 
 ### Low Income Summary Stats
 
 **Low-income is measured as the percent of the population that is living below 150% poverty per tract.** 
 
-```{r summary stats below 100pct poverty Bay}
+```{r summary stats below 100pct poverty Jefferson}
 summary(low_income)
 sd(low_income)
 pop_mean3 <- t.test(low_income)
 pop_mean3
 ```
-```{r histogram population below 100pct poverty Bay}
-hist3<- ggplot(Bay_tract_data, aes(x = low_income)) +
+```{r histogram population below 100pct poverty Jefferson}
+hist3<- ggplot(Jefferson_tract_data, aes(x = low_income)) +
   geom_histogram() 
 ```
 
@@ -116,7 +117,7 @@ hist3+
                       breaks = seq(0.0, 0.6, by = 0.1),
                      labels = paste(seq(0, 60, by = 10), "%", sep = ""))+
   scale_y_continuous(name = "Total") +
-  annotate("text", x = .3, y = 150, size = 3, 
+  annotate("text", x = 0, y = 15, size = 3, 
            label = paste("Population mean (95% confidence):",
                          prettyNum(pop_mean3$conf.int[1], digits = 2),
                          "to",
@@ -140,14 +141,14 @@ hist3+
 
 **Public assistance is measured as the percent of the population receiving public assistance (including SSI) per tract.** 
 
-```{r summary population receiving public assistance Bay}
+```{r summary population receiving public assistance Jefferson}
 summary(pub_assist)
 sd(pub_assist)
 pop_mean6 <- t.test(pub_assist)
 pop_mean6
 ```
-```{r histogram population receiving public assistance Bay}
-hist6 <- ggplot(Bay_tract_data, aes(x = pub_assist)) +
+```{r histogram population receiving public assistance Jefferson}
+hist6 <- ggplot(Jefferson_tract_data, aes(x = pub_assist)) +
   geom_histogram() 
 ```
 
@@ -158,7 +159,7 @@ hist6+
                      breaks = seq(0.0, 0.6, by = 0.1),
                      labels = paste(seq(0, 60, by = 10), "%", sep = "")) +
   scale_y_continuous(name = "Total") +
-  annotate("text", x = 0, y = 250, size = 3, 
+  annotate("text", x = 0, y = 13, size = 3, 
            label = paste("Population mean (95% confidence):",
                          prettyNum(pop_mean6$conf.int[1], digits = 2),
                          "to",
@@ -182,14 +183,14 @@ hist6+
 
 **Cash assistance is measured as the percent of the population receiving cash assistance (including food stamps) per tract.** 
 
-```{r summary population receiving cash or food stamps public assistance Bay}
+```{r summary population receiving cash or food stamps public assistance Jefferson}
 summary(cash_assist)
 sd(cash_assist)
 pop_mean7 <- t.test(cash_assist)
 pop_mean7
 ```
-```{r histogram population receiving cash or food stamps public assistance Bay}
-hist7 <- ggplot(Bay_tract_data, aes(x = cash_assist)) +
+```{r histogram population receiving cash or food stamps public assistance Jefferson}
+hist7 <- ggplot(Jefferson_tract_data, aes(x = cash_assist)) +
   geom_histogram() 
 ```
 
@@ -200,7 +201,7 @@ hist7+
                      breaks = seq(0.0, 0.5, by = .05),
                      labels = paste(seq(0, 50, by = 5), "%", sep = "")) +
   scale_y_continuous(name = "Total") +
-  annotate("text", x = .05, y = 300, size = 3, 
+  annotate("text", x = .05, y = 13, size = 3, 
            label = paste("Population mean (95% confidence):",
                          prettyNum(pop_mean7$conf.int[1], digits = 2),
                          "to",
@@ -218,7 +219,7 @@ hist7+
                          prettyNum(quantile(cash_assist)["75%"], digits = 2)),
            hjust = 0, vjust = 1) 
 ```
-
+Again, the outlier here seems to conicde with the male population outlier causing the histogram to skew right. The spike in this dataset is also seen in several of the histograms above. I'm not sure what this is showing. It could be caused by a tract count with a much higher population count than others in the rural region. 
 
 
 ###  T-Test: High- School Graduates 
@@ -226,7 +227,7 @@ hist7+
 **The California statewide high school graduation rate is 83%. High school graduation proportion is categorized as either meeting or exceeding this 83% threshold or being below.**
 
 
-```{r t-test majority hs grads Bay}
+```{r t-test majority hs grads Jefferson}
 meets_hs_grads <- t.test(majority_grads)
 below_hs_grads <- t.test(!majority_grads)
 ```
@@ -247,14 +248,14 @@ grads_shares <- tibble('High School Graduation Rate' = c("Meets Statewide Averag
                                           digits = 3), "% to ",
                                 prettyNum(below_hs_grads$conf.int[2]*100,
                                           digits = 3), "%")))
-knitr::kable(grads_shares, caption = "Census Tracts in Bay Region")
+knitr::kable(grads_shares, caption = "Census Tracts in Jefferson Region")
 ```
 
 ### T-Test: Some College or Associates
 
 **The California statewide rate of population with some college or an associates degree is 29%. 'Some college or associates' proportion is categorized as either meeting or exceeding this 29% threshold or being below.** 
 
-```{r t-test majority college  Bay}
+```{r t-test majority college  Jefferson}
 meets_college <- t.test(majority_college)
 below_college <- t.test(!majority_college)
 ```
@@ -275,14 +276,14 @@ college_shares <- tibble('Some College' = c("Meets Statewide Average",
                                           digits = 3), "% to ",
                                 prettyNum(below_college$conf.int[2]*100,
                                           digits = 3), "%")))
-knitr::kable(college_shares, caption = "Census Tracts in Bay Region")
+knitr::kable(college_shares, caption = "Census Tracts in Jefferson Region")
 ```
 
 ### T-Test: Bachelor's Degree
 
 **The California statewide rate of population with a bachelor's degree is 21%. Bachelor's degree proportions are categorized as either meeting or exceeding this 21% threshold or being below.** 
 
-```{r t-test majority bachelors  Bay}
+```{r t-test majority bachelors  Jefferson}
 meets_bachelors <- t.test(majority_bachelors)
 below_bachelors <- t.test(!majority_bachelors)
 ```
@@ -303,7 +304,7 @@ bachelors_shares <- tibble('Bachelors Degree'  = c("Meets Statewide Average",
                                           digits = 3), "% to ",
                                 prettyNum(below_bachelors$conf.int[2]*100,
                                           digits = 3), "%")))
-knitr::kable(bachelors_shares, caption = "Census Tracts in Bay Region")
+knitr::kable(bachelors_shares, caption = "Census Tracts in Jefferson Region")
 
 
 ```
@@ -318,17 +319,9 @@ knitr::kable(bachelors_shares, caption = "Census Tracts in Bay Region")
 
 ```{r save as .csv,  message=FALSE, warning=FALSE}
 
-write_csv(Bay_tract_data, "Baytractdata2018.csv")
+write_csv(Jefferson_tract_data, "jeffersontractdata2018.csv")
 
 ```
-
-
-
-
-
-
-
-
 
 
 
