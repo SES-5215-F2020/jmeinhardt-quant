@@ -15,53 +15,106 @@ library(knitr)
 Estimate at least one more version of the regression you estimated in Assignment 4 by transforming one or more of the independent variables and including at least one interaction term. Which version of the model best explains the observed variation in your dependent variable?
 
 
-### Regression Model: Transforming Variables 
+#### Loading Data 
+
 ```{r}
+Jefferson_Bay <- read.csv("jeffersonbay2018.csv")
+```
 
-combined_mutated <- Jefferson_Bay <- Jefferson_Bay %>%
-  mutate(low_income = case_when(pub_assist < .36 ~ "1st Quartile",
-                                       pub_assist > .36  ~ "Average"))
 
-combined_mutated <- lm(cash_assist ~ total_popE + pub_assist +low_income + majority_grads + majority_college +  majority_bachelors + region,
+### Initial Model
+
+```{r}
+model_combined <- lm(cash_assist ~ low_income + pub_assist + majority_grads + majority_college +  majority_bachelors + region,
             data = Jefferson_Bay)
 
-summary(combined_mutated)
+summary(model_combined)
 ```
-What does it mean if my r value goes down but my significance goes up??
+### Continuous to Categorical 
 
-TO DO: Add interaction Terms for Region and Visualizw 
+After converting both of my continuous variables to categorical, my R-squared value decreased. However, in both cases the significance increased. I used the summary stats to determine cutoff values. 
 
-
-
-
-
-
-
-
-### Scraps
+```{r}
+summary(Jefferson_Bay)
+```
 
 
 ```{r}
 
-summary(Jefferson_Bay$cash_assist)
-summary(Jefferson_Bay$pub_assist)
+combined_categorical_frame <- Jefferson_Bay  %>%
+  mutate(proportion_income = case_when(low_income < .1568 ~ "Below Average",
+                                       low_income > .1568  ~ "Average"))
+
+combined_categorical_r <- lm(cash_assist ~ proportion_income + pub_assist + majority_grads + majority_college +  majority_bachelors + region + county, 
+            data = combined_categorical_frame)
+
+summary(combined_categorical_r)
+
 
 ```
 
+```{r}
+
+combined_categorical_frame2 <- Jefferson_Bay  %>%
+  mutate(proportion_pub_assist = case_when(pub_assist < .3645 ~ "Below Average",
+                                       pub_assist > .3645  ~ "Average"))
+
+combined_categorical_r2 <- lm(cash_assist ~ proportion_pub_assist + majority_grads + majority_college +  majority_bachelors + region,
+            data = combined_categorical_frame2)
+
+summary(combined_categorical_r2)
+
+
+```
+
+
+### Interaction Term: Region
 
 
 
 
 ```{r}
-Bay_tract_data <- Bay_tract_data %>%
-  mutate(mostly_low_income = case_when(pub_assist < .36 ~ "1st Quartile",
-                                       pub_assist > .36  ~ "Average"))
+model_interaction <- lm(cash_assist ~ low_income + pub_assist + majority_grads + majority_college +  majority_bachelors + region +
+                        low_income:region + pub_assist:region +majority_grads:region + majority_college:region + majority_bachelors:region,
+            data = Jefferson_Bay)
+ 
 
-model_transformed <- lm(low_income ~ total_popE + pub_assist + cash_assist + majority_grads + majority_college +  majority_bachelors,
-            data = Bay_tract_data)
-
-summary(model_transformed)
+summary(model_interaction)
 ```
 
 
+### Interaction Term: County 
+
+```{r}
+
+model_interaction2 <- lm(cash_assist ~ low_income + pub_assist + majority_grads + majority_college +  majority_bachelors + region +
+                        low_income:county + pub_assist:county +majority_grads:county + majority_college:county + majority_bachelors:county,
+            data = Jefferson_Bay)
+ 
+
+summary(model_interaction2)
+```
+
+
+### Comparing Results 
+
+Of all my models, the model with county as an interaction term for my continuous and categorical variables was the best fit with an R-squared value of 0.6878. My R values seem quite high across the board. but with low significance values. When I run my initial regression even without county and region, my r-squared value is still quite high at 0.65.
+
+This might be in part because I've chosen variables that are so obviously related to one another that it is easy to predict proportions of tracts using food stamps based on these other variables. But I think that the fact that region as an interaction term does less to effect my r-squared value than county might mean that region is **not** good at predicting the proportion of people that will be on food stamps, which addresses in part my initial question about the differences between regions. They might not be as different as they seem on the surface in relation to these variables. So perhaps, in fact, this higher r-squared value serves as evidence **against** my original expectation that there would be some significant differences between regions. 
+
+```{r}
+model_fit <- tibble(model = c(1, 2, 3, 4),
+                   R_square = c(summary(combined_categorical_r)$adj.r.squared,
+                                summary(combined_categorical_r2)$adj.r.squared,
+                                summary(model_interaction)$adj.r.squared,
+                                summary(model_interaction2)$adj.r.squared))
+
+ggplot(model_fit, aes(x = model, y = R_square)) +
+  geom_line() +
+  scale_x_continuous(name = "",
+                   breaks = breaks <- seq(1, 7, by = 1),
+                   labels = paste("Model", breaks)) +
+  scale_y_continuous(name = "Adjusted R-squared value") +
+  theme_bw()
+```
 
